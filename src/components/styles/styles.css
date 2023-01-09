@@ -1,0 +1,20 @@
+.downarrow{
+    position: absolute;
+    bottom:20px;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+    background-image: url('../../assets/down-arrow-svgrepo-com.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+}
+
+.section{
+    scroll-snap-align: center;
+    position: relative;
+}
+
+
