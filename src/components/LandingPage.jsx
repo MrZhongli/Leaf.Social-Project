@@ -1,37 +1,62 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Style.css';
+// import React, { useRef } from "react"
+// import MySection from "./MySection";
+// import '../App.css';
+// // import Navbar from "./components/NavBar";
 
+
+// function LandingPage() {
+//   const section1 = useRef();
+//   const section2 = useRef();
+//   const section3 = useRef();
+
+//  const scrollTo=(section)=>{
+//     section.current.scrollIntoView({
+//       behavior:"smooth"});
+//   }
+
+
+
+//   return (
+//     <>
+  
+//     <div className="container">
+//       <div ref={section1}>
+//       <MySection props="esto es un texto"
+//       scrollTo={scrollTo}  
+//       goToSectionRef={section2}
+//       showArrow={true} />
+//       </div>
+//       <div ref={section2}>
+//       <MySection props="eso es otro texto"  
+//       scrollTo={scrollTo} 
+//       goToSectionRef={section3}
+//       showArrow={true} />
+//       </div>
+//       <div ref={section3}>
+//       <MySection props="Lo mismo que arriba pero mas atractivo"
+//        showArrow={false}/>
+//       </div>
+//     </div>
+//     </>
+// );
+// }
+
+// export default LandingPage;
+// // Archivo Css 
+
+import React from 'react';
+import FirstSection from './landingPageComponent/FirstSection';
+import SecondSection from './landingPageComponent/SecondSection';
+import ThirdSection from './landingPageComponent/ThirdSection';
 
 const LandingPage = () => {
   return (
-    <div>
-      <header className='hero-section'>
-      <h1>Bienvenidos a Productos Estéticos</h1>
-      {/* <!-- Logo --> */}
-      <Link className='logo-container'>
-        {/* <img alt='Logo' src="https://olaiamerino.com/wp-content/uploads/2020/02/log o-02.png" /> */}
-        <img alt='Logo' src="../assets/RRRecycle_x300.png" />
-      </Link>
-      </header>
-      <nav className='navbar'> 
-        <Link className='inicio-links' to='/inicio'>Inicio</Link> 
-        <Link className='productos-links' to='/blog'>Blog </Link> 
-        <Link className='acerca-links' to='/prueba'>Prueba </Link> 
-        <Link className='Ubicacion-links' to='/ubicacion'>Ubicación </Link> 
-      </nav>
-      <section className='landing-content'>
-      <h2>Leaf, la moda compatible con el planeta: moda sostenible hecha con materiales reciclables</h2>
-        <p>¡Únete a la ola creciente del reciclaje con moda! Explora la tendencia creciente de la moda respetuosa con el medio ambiente y recicla
-           productos de moda de maneras creativas para crear prendas únicas. Empieza con las camisetas impresas, impulsa tus recursos con jeans reciclados 
-           y den vida nueva a tus diseños con bolsos ecológicos. Incluso divertirte puede ser sostenible con accesorios reciclados. Así que recoge, pinta y 
-           crea tus propias prendas de moda y sé parte de la recomposición de la moda respetuosa con el medio ambiente. </p> 
-      </section>
-    </div> 
+    <>
+    <FirstSection/>
+    <SecondSection/>
+    <ThirdSection/>
+    </>
   )
 }
 
-export default LandingPage;
-
-// Archivo Css 
-
+export default LandingPage
