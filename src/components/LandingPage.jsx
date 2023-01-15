@@ -52,9 +52,11 @@ import ThirdSection from './landingPageComponent/ThirdSection';
 const LandingPage = () => {
   return (
     <>
-    <FirstSection/>
-    <SecondSection/>
-    <ThirdSection/>
+    <div className='snap-y snap-mandatory h-screen w-screen overflow-auto'>
+    <FirstSection className="snap-center h-screen"/>
+    <SecondSection className="snap-center h-screen"/>
+    <ThirdSection className="snap-center h-screen"/> 
+    </div>
     </>
   )
 }

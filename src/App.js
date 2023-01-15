@@ -9,6 +9,7 @@ import Navbar from './components/NavBar';
 import Footer from './components/Footer';
 import GaleryContainer from './components/GaleryContainer';
 import TeamContainer from './components/Equipo Container/TeamContainer';
+import ContactContainer from './components/ContactContainer';
 // import MainContainer from './components/MainContainer';
 
 
@@ -34,8 +35,9 @@ useEffect(() => {
         <Routes>
             <Route path='/' element={<LandingPage />}></Route>
             <Route path='/blog' element={<BlogContainer />}></Route>
-            <Route path='/galeria' element={<GaleryContainer />}></Route>
+            <Route path='/Productos' element={<GaleryContainer />}></Route>
             <Route path='/Quienes_somos' element={<TeamContainer />}></Route>
+            <Route path='/Contactanos' element={<ContactContainer />}></Route>
             {/* <Route path='/prueba' element={<MainContainer />}></Route> */}
             
           </Routes>
