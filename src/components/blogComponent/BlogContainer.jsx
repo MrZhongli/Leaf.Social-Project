@@ -13,8 +13,8 @@ const BlogContainer = () => {
   }, [])
 
   return (
-    <div className='text-5xl  '>
-      <div className='flex flex-wrap m-auto sm:flex-col md:flex-row'>
+    <div className='text-5xl'>
+      <div className='flex flex-wrap flex-col'>
         {product.map(p =>
           <BlogProduct key={p.id} product={p} />
         )}
