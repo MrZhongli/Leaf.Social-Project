@@ -1,14 +1,17 @@
 import React from 'react'
+// import Shoes from '../../assets/Shoes-img.png'
+import '../styles/styles.css'
 
 const FirstSection = () => {
   return (
-    <div className="hero min-h-screen bg-base-200 snap-center">
-      <div className="hero-content flex-col lg:flex-row-reverse">
-        <img src="https://placeimg.com/260/400/arch" className="max-w-sm rounded-lg shadow-2xl" alt="there is a img"/>
+    <div className="hero min-h-screen snap-center bg-hero justify-start align-items-start">
+      <div className="hero-content flex  lg:flex-row-reverse ">
+        {/* <img src={Shoes} className=" " alt="there is a img"/> */}
         <div>
-          <h1 className="text-5xl font-bold">Este es el Home</h1>
-          <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-          <button className="btn btn-primary">Get Started</button>
+          <h1 className="text-5xl font-bold text-black">Productos con propositos</h1>
+          <p className="py-6  text-xl text-slate-500">Vestirse bien puede ser un acto de consciencia social y ambiental</p>
+          <button className="btn bg-orange-600 text-white mx-2">Contactanos</button>
+          <button className="btn bg-orange-600 text-white">Ver productos</button>
         </div>
       </div>
     </div>

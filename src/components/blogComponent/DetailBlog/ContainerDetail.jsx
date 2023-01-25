@@ -21,13 +21,8 @@ const ContainerDetail = () => {
         // console.log
     }, [blogId])
 
-
-
-
-
-
     return (
-        <div className='bg-white'>Este es el container 
+        <div className='bg-white'>
             <ItemDetail className="container mx-auto my-8 max-w-4xl " item={Product} />
         </div>
     )
