@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { getItemData } from './BlogItem';
 import BlogProduct from './BlogProduct';
+import './style.css'
 
 const BlogContainer = () => {
 
@@ -14,7 +15,7 @@ const BlogContainer = () => {
 
   return (
     <div className='text-5xl'>
-      <div className='flex flex-wrap flex-col'>
+      <div className='flex flex-col w-full  product-container'>
         {product.map(p =>
           <BlogProduct key={p.id} product={p} />
         )}

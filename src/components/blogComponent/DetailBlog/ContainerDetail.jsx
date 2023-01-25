@@ -27,8 +27,8 @@ const ContainerDetail = () => {
 
 
     return (
-        <div className='bg-white'>Este es el container 
-            <ItemDetail className="container mx-auto my-8 max-w-4xl " item={Product} />
+        <div className='bg-white'> 
+            <ItemDetail item={Product} />
         </div>
     )
 }

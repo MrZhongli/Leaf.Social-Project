@@ -35,6 +35,6 @@ const task = new Promise ((resp)=>{
     resp(items)
 },2000)
 
-export const  getItemData=()=>{
-    return task
+export const getItemData= () =>{
+    return task;
 }
