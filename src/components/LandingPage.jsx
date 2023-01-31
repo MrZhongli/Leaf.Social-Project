@@ -45,6 +45,8 @@
 // // Archivo Css 
 
 import React from 'react';
+import ContactContainer from './ContactContainer';
+import CountUpContainer from './CountUp/CountUpContainer';
 import FirstSection from './landingPageComponent/FirstSection';
 import SecondSection from './landingPageComponent/SecondSection';
 import ThirdSection from './landingPageComponent/ThirdSection';
@@ -52,11 +54,15 @@ import ThirdSection from './landingPageComponent/ThirdSection';
 const LandingPage = () => {
   return (
     <>
-    <div className='snap-y snap-mandatory h-screen w-screen overflow-auto'>
-    <FirstSection className="snap-center h-screen"/>
-    <SecondSection className="snap-center h-screen"/>
-    <ThirdSection className="snap-center h-screen"/> 
+    <div className='snap-y snap-mandatory h-screen  w-screen overflow-auto'>
+    <FirstSection className="snap-center "/>
+    <SecondSection className="snap-center "/>
+    <ThirdSection className="snap-center "/> 
     </div>
+
+    <CountUpContainer/>
+    <ContactContainer/>
+    
     </>
   )
 }

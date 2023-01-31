@@ -1,5 +1,4 @@
 import React from 'react'
-// import GearCard from '../../assets/Others/gear-card'
 import GearImg from '../../assets/Gear_img.png'
 import TshitImg from '../../assets/Tshirt_card.png'
 import LeafCard from '../../assets/Others/Leaf-card-img'
@@ -9,7 +8,7 @@ const ThirdSection = () => {
   return (
     <div className="hero  bg-white snap-start">
     <div className="hero-content text-center">
-      <div className="flex flex-col ">
+      <div className="flex flex-col">
         <h1 className="text-5xl font-bold text-black">Triple Impacto</h1>
         <p className="py-6 text-slate-400 w-80 m-auto">Somos una empresa de triple impacto basada en el reciclado de silobolsas del campo en desuso para crear accesorios ecológicos.</p>
         <div className='flex m-auto w-screen flex-wrap justify-center'>
@@ -40,7 +39,6 @@ const ThirdSection = () => {
             <div className="card-body items-center text-center">
               <h2 className="card-title">Productos con proposito</h2>
               <p>Con cada compra estás ayudando a todos los involucrados en el proceso de producción y colaborando con diversas ONGs para que puedan cumplir con su misión de erradicar la pobreza.</p>
-              
             </div>
           </div>
         </div>

@@ -18,20 +18,19 @@ import ContainerDetail from './components/blogComponent/DetailBlog/ContainerDeta
 function App() {
   const [loading, setLoading] = useState(true)
     
-useEffect(() => {
-    setTimeout(()=>{
-        setLoading(false)
-    },2000)
+// useEffect(() => {
+//     setTimeout(()=>{
+//         setLoading(false)
+//     },2000)
     
-}, [])
+// }, [])
 
   return (
     <>
-      {loading
-      ?
-        <SvgComponent className="rotate-center"/>
-      :
-        <div className="App">  
+      
+        {/* <SvgComponent className="rotate-center"/> */}
+      
+        <div className="App snap-y snap-mandatory">  
         <BrowserRouter>
         <Navbar/>
         <Routes>
@@ -49,7 +48,7 @@ useEffect(() => {
         </BrowserRouter>
         </div>
       
-      }
+      
     </>
 );
 }

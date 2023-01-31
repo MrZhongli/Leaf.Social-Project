@@ -55,3 +55,14 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+
+
+/* text-color */
+
+.orange{
+    color: #EB595A;
+}
+
+.bg-orange{
+    background-color: #EB595A;
+}

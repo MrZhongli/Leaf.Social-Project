@@ -1,16 +1,5 @@
-body {
-    background-color: rgb(138, 243, 156);
-    color: #000;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: bold;  
-  }
-  
-  header {
-    background-color: #000 ; 
-    height: 8vh;
-    padding: 0 0.5rem;
-  }
+
+
   
   h1 {
     color:#fff;
