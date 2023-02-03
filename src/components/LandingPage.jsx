@@ -45,6 +45,7 @@
 // // Archivo Css 
 
 import React from 'react';
+import HomeBlogCard from './blogComponent/HomeBlog/HomeBlogCard';
 import ContactContainer from './ContactContainer';
 import CountUpContainer from './CountUp/CountUpContainer';
 import FirstSection from './landingPageComponent/FirstSection';
@@ -59,8 +60,8 @@ const LandingPage = () => {
     <SecondSection className="snap-center "/>
     <ThirdSection className="snap-center "/> 
     </div>
-
     <CountUpContainer/>
+    <HomeBlogCard/>
     <ContactContainer/>
     
     </>

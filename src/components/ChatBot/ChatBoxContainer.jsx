@@ -1,11 +1,22 @@
 // import React, { useState } from 'react'
 import ChatBot from "react-simple-chatbot";
+import { ThemeProvider } from 'styled-components';
 
 const ChatBoxContainer = () => {
 
     // const [isOpen, setOpen] = useState(false)
 
-
+    const theme = {
+        background: '#f5f8fb',
+        fontFamily: 'Helvetica Neue',
+        headerBgColor: '#EB595A',
+        headerFontColor: '#fff',
+        headerFontSize: '20px',
+        botBubbleColor: '#EB595A',
+        botFontColor: '#fff',
+        userBubbleColor: '#fff',
+        userFontColor: '#4a4a4a',
+      };
 
 
     const steps = [
@@ -103,12 +114,10 @@ const ChatBoxContainer = () => {
     ];
 
     return (
-
-
-        
-                    <ChatBot className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52" steps={steps} />
-
-            
+        <ThemeProvider theme={theme}>
+        {/* <ChatBot steps={steps} />; */}
+            <ChatBot className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52" steps={steps} />
+      </ThemeProvider>
     )
 }
 
