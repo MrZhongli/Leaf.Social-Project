@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 
 const BlogProduct = (props) => {
-  const { title, id, img, content } = props.product
+  const { title, id, img, content, secondContent } = props.product
   //
   return (
     <>

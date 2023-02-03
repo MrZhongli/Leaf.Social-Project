@@ -3,8 +3,6 @@ import { useParams } from 'react-router'
 import { getItemData } from '../BlogItem'
 import ItemDetail from './ItemDetail'
 
-
-
 const ContainerDetail = () => {
 
     const {blogId} = useParams()
