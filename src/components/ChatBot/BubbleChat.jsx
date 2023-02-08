@@ -9,9 +9,9 @@ const BubbleChat = () => {
               {/* <!-- Page content here --> */}
               <label htmlFor="my-drawer-4" className="drawer-button btn btn-primary">Open drawer</label>
           </div>
-          {/* <div className="drawer-side">
+          <div className="drawer-side ">
               <ChatBoxContainer className="" htmlFor="my-drawer"/>
-          </div> */}
+          </div>
       </div>
   )
 }

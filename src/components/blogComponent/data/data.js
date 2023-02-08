@@ -1,4 +1,4 @@
-export const items = [
+const blogItems = [
     {
     id:1,
     slug: '5-estilos-de-bolsos-de-moda',
@@ -34,10 +34,4 @@ export const items = [
             }
 ]
 
-const task = new Promise ((resp)=>{
-    resp(items)
-},2000)
-
-export const getItemData= () =>{
-    return task;
-}
+export {blogItems};

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Navbar from '../NavBar/NavBarTwo';
 import { getItemData } from './BlogItem';
 import BlogProduct from './BlogProduct';
 import CarouselBlog from './CarouselBlog';
@@ -14,6 +15,8 @@ const BlogContainer = () => {
   }, [])
 
   return (
+    <>
+    <Navbar/>
     <div className='text-5xl bg-white'>
       <CarouselBlog/>
       <div className='flex flex-col '>
@@ -22,6 +25,7 @@ const BlogContainer = () => {
         )}
       </div>
     </div>
+    </>
   )
 }
 

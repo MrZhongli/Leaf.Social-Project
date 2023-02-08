@@ -1,20 +1,22 @@
 import React from 'react'
-import GearImg from '../../assets/Gear_img.png'
-import TshitImg from '../../assets/Tshirt_card.png'
-import LeafCard from '../../assets/Others/Leaf-card-img'
+import GearImg from '../../assets/users.png'
+import TshitImg from '../../assets/Tshirt.png'
+import saveEarth from '../../assets/save-earth.png'
+// import LeafCard from '../../assets/Others/Leaf-card-img'
 import '../styles/styles.css'
 
 const ThirdSection = () => {
   return (
-    <div className="hero  bg-white snap-start">
-    <div className="hero-content text-center">
+    <div className="hero bg-white  ">
+    <div className="hero-content text-center mt-20">
       <div className="flex flex-col">
         <h1 className="text-5xl font-bold text-black">Triple Impacto</h1>
         <p className="py-6 text-slate-400 w-80 m-auto">Somos una empresa de triple impacto basada en el reciclado de silobolsas del campo en desuso para crear accesorios ecológicos.</p>
         <div className='flex m-auto w-screen flex-wrap justify-center'>
           <div className="card w-96 bg-white shadow-xl my-5 mx-5">
             <figure className="px-10 pt-10">
-              <LeafCard/>
+              {/* <LeafCard/> */}
+              <img src={saveEarth} alt="impacto social"/>
             </figure>
             <div className="card-body items-center text-center">
             <h2 className="card-title">Impacto ambiental</h2>

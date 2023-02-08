@@ -4,7 +4,7 @@ import BlogHomeProduct from './BlogHomeProduct'
 
 const HomeBlogCard = () => {
 
-  const [Blog, setBlog] = useState()
+  const [Blog, setBlog] = useState([])
 
   useEffect(() => {
     getItemData().then((props) => {
@@ -13,13 +13,15 @@ const HomeBlogCard = () => {
   }, [])
 
   return (
-    <div className="hero min-h-screen bg-white">
-        <div className="hero-content text-center">
-            <div className="max-w-md">
-            <h1 className="text-5xl font-bold text-black">Nuestro Blog encontraras</h1>
+    <div className="hero  bg-white">
+        <div className="hero-content w-full text-center">
+            <div className='m-10'>
+            <h1 className="text-5xl font-bold text-black mb-10">Nuestro blog</h1>
+            <p className='text-sm font-light text-stone-500  '>Si tiene alguna pregunta o comentario, no dude en comunicarse con nosotros.</p>
+            <p className='text-sm font-light text-stone-500  mb-20'>Siempre estamos disponibles para ayudar.</p>
             <div className='flex h-96 '>
               {Blog.map(p =>
-                <BlogHomeProduct key={p.id} descripction={p}  />
+                <BlogHomeProduct key={p.id} item={p}  />
               )}
             </div>
             </div>

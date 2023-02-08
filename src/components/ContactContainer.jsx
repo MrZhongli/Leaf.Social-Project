@@ -1,4 +1,7 @@
 import React, { useRef, useState } from 'react'
+import Navbar from './NavBar/NavBarTwo'
+import './styles/styles.css'
+
 
 const ContactContainer = () => {
   
@@ -51,6 +54,7 @@ const ContactContainer = () => {
   }
   return (
     <>
+    <Navbar/>
       <div className="hero bg-slate-200 h-screen  ">
         <div className='flex flex-col justify-center align-center'>
           <div>
@@ -64,23 +68,23 @@ const ContactContainer = () => {
                 <span className="label-text">Nombre Completo</span>
                 
               </label>
-              <input type="text" placeholder="Escribe aquí" className="input input-bordered w-full max-w-xs bg-white" />
+              <input type="text" placeholder="Escribe aquí" className="input input-bordered bg-white" />
              
             </div>
-            <div className="form-control w-full max-w-xs">
+            <div className="form-control ">
               <label className="label">
                 <span className="label-text">Correo Electronico</span>
               </label>
-              <input type="text" placeholder="Escribe aquí" className="input input-bordered w-full max-w-xs bg-white" />
+              <input type="text" placeholder="Escribe aquí" className="input input-bordered bg-white" />
             </div>
-            <div className="form-control w-full max-w-xs">
+            <div className="form-control  ">
               <label className="label">
                 <span className="label-text">Deja tu mensaje</span>
               </label>
-              <textarea type="text" placeholder="Escribe aquí" className="input input-bordered w-full bg-white" />
+              <textarea type="text" placeholder="Escribe aquí" className="input input-bordered bg-white" />
             </div>
           </div>
-          <button className='btn btn-primary'>Enviar</button>
+          <button className=' mt-10 btn  bg-orange'>Enviar</button>
         </div>
       </div>
     </>
