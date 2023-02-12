@@ -11,7 +11,7 @@ const Navbar = () => {
     const [NavBar, setNavBar] = useState(false)
 
     const chanceBackground = ()=>{
-        if(window.scrollY >= 500){
+        if(window.scrollY >= 680){
             setNavBar(true)
         }else{
             setNavBar(false)
@@ -27,12 +27,12 @@ const Navbar = () => {
             </div>
             <div className="flex-none  ">
                 <ul className="menu menu-horizontal mx-20">
-                    <li><Link to="/" className="text-black text-sm"> Inicio</Link></li>
-                    <li> <Link to="/Productos" className="text-black text-sm">Productos</Link></li>
-                    <li> <Link to="/Quienes_somos" className="text-black text-sm"> Nosotros</Link></li>
-                    <li> <Link to="/Contactanos" className="text-black text-sm">  Contacto</Link></li>
+                    <li><Link to="/" className={NavBar? 'text-black text-sm' : 'text-white text-sm' }> Inicio</Link></li>
+                    <li> <Link to="/Quienes_somos" className={NavBar? 'text-black text-sm' : 'text-white text-sm' }> Nosotros</Link></li>
+                    <li> <Link to="/Productos" className={NavBar? 'text-black text-sm' : 'text-white text-sm' }>Productos</Link></li>
+                    <li> <Link to="/Contactanos" className={NavBar? 'text-black text-sm' : 'text-white text-sm' }>  Contacto</Link></li>
                     {/* <div className="divider divider-horizontal divide-black"></div> */}
-                    <li> <Link to="/blog" className="text-black text-sm"> Blog</Link></li>
+                    <li> <Link to="/blog" className={NavBar? 'text-black text-sm' : 'text-white text-sm' }> Blog</Link></li>
                 </ul>
             </div>
         </div>

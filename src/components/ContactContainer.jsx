@@ -1,48 +1,50 @@
 import React, { useRef, useState } from 'react'
 import Navbar from './NavBar/NavBarTwo'
 import './styles/styles.css'
+// import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 
 const ContactContainer = () => {
   
   const [Nombre, setNombre] = useState({campo:'', valido: null})
-  const [Numero, setNumero] = useState({campo:'', valido: null})
+  const [Asunto, setAsunto] = useState({campo:'', valido: null})
   const [Email, setEmail] = useState({campo:'', valido: null})
   const [FormularioValido, setFormularioValido ] = useState(null)
   const form = useRef();
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-  //   if(
-  //     Nombre.valido === 'true' &&
-  //     Numero.valido === 'true' &&
-  //     Email.valido === 'true' 
-  //   ){
-  //     setFormularioValido(true)
-  //     emailjs.sendForm(
-  //       'service_68l7gv8',
-  //       'template_ggb6i5g',
-  //       form.current,
-  //       'JM88aFLaBVIWQyB4g')
-  //       .then((result) => {
-  //         console.log(result.text);
-  //       }, (error) => {
-  //         console.log(error.text);
-  //       });
-  //   e.target.reset()
-  //   }else if (
-  //     Nombre.valido === 'null' ||
-  //     Numero.valido === 'null' ||
-  //     Email.valido === 'null' 
-  //   ){
-  //     setFormularioValido(null)
-  //     console.log('No se ha llenado el formulario')
-  //   }else{
-  //     setFormularioValido(false)
-  //   }
+  const sendEmail = (e) => {
+    e.preventDefault();
+    if(
+      Nombre.valido === 'true' &&
+      Asunto.valido === 'true' &&
+      Email.valido === 'true' 
+    ){
+      setFormularioValido(true)
+      emailjs.sendForm(
+        'service_xo8dfke',
+        'template_qpii7sl',
+        form.current,
+        'F3848BbavDZHYILLD')
+        .then((result) => {
+          console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+        });
+    e.target.reset()
+    }else if (
+      Nombre.valido === 'null' ||
+      Asunto.valido === 'null' ||
+      Email.valido === 'null' 
+    ){
+      setFormularioValido(null)
+      console.log('No se ha llenado el formulario')
+    }else{
+      setFormularioValido(false)
+    }
       
     
-  // };
+  };
   
 
   const expresiones = {
@@ -55,6 +57,8 @@ const ContactContainer = () => {
   return (
     <>
     <Navbar/>
+
+
       <div className="hero bg-slate-200 h-screen  ">
         <div className='flex flex-col justify-center align-center'>
           <div>
@@ -63,20 +67,24 @@ const ContactContainer = () => {
           </div>
           <div className='flex flex-col align-center justify-center'>
             {/* input */}
-            <div className="form-control w-full ">
+            <div className="form-control  ">
               <label className="label">
                 <span className="label-text">Nombre Completo</span>
-                
               </label>
               <input type="text" placeholder="Escribe aquí" className="input input-bordered bg-white" />
-             
-            </div>
+             </div>
             <div className="form-control ">
               <label className="label">
                 <span className="label-text">Correo Electronico</span>
               </label>
               <input type="text" placeholder="Escribe aquí" className="input input-bordered bg-white" />
             </div>
+             <div className="form-control  ">
+              <label className="label">
+                <span className="label-text">Asunto</span>
+              </label>
+              <input type="text" placeholder="Escribe aquí" className="input input-bordered bg-white" />
+             </div>
             <div className="form-control  ">
               <label className="label">
                 <span className="label-text">Deja tu mensaje</span>

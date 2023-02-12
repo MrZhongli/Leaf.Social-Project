@@ -29,8 +29,24 @@ height: 720px;
 background-image: url('../../assets/background-home.png');
 background-size: fill;
 background-repeat: no-repeat;
-background-color: black;
-opacity: calc(90%);
+/* opacity: calc(90%); */
+opacity: calc(70%);
+}
+.bg-hero-us{
+height: 720px;
+background-image: url('../../assets/nosotros_section/bg-main.png');
+background-size: fill;
+background-repeat: no-repeat;
+/* opacity: calc(90%); */
+opacity: calc(70%);
+}
+.bg-hero-product{
+height: 720px;
+background-image: url('../../assets/product_section/product-bg-main.png');
+background-size: contain;
+background-repeat: no-repeat;
+/* opacity: calc(90%); */
+/* opacity: calc(70%); */
 }
 
 

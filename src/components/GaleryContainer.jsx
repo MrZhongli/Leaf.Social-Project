@@ -1,22 +1,20 @@
 import React from 'react'
-import Navbar from './NavBar/NavBarTwo'
+import Navbar from './NavBar';
+import MainSection from './Product component/MainSection';
+import ProductContainer from './Product component/ProductContainer';
+import ProductItems from './Product component/ProductItems';
+import './styles/styles.css';
+// import bgProduct from '../assets/product_section/product-bg-main.png'
 
 
 const GaleryContainer = () => {
   return (
     <>
     <Navbar/>
-    <div className="hero min-h-screen " style={{ backgroundImage: `url("https://placeimg.com/1000/800/arch")` }}>
-      <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content text-center text-neutral-content">
-        <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Aqui van las imagenes</h1>
-          <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-          <button className="btn btn-primary">Get Started</button>
-        </div>
-      </div>
-    </div>
+    <MainSection/>
+    <ProductContainer/>
     </>
+  
   )
 }
 

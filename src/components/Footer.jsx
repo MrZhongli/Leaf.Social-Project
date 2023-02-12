@@ -29,10 +29,10 @@ const Footer = () => {
   </div> 
   <div>
       <span className="footer-title">Ayuda</span> 
-    <a className="link link-hover">Contacto</a> 
+    <Link to='/Contactanos' className="link link-hover">Contacto</Link> 
     <a className="link link-hover">Soporte</a> 
     <a className="link link-hover">Terminos & Condiciones</a>
-    <a className="link link-hover">Politicas de Privacidad</a>
+    <a className="link link-hover" href='https://www.shop-leaf.com/preguntas-frecuentes/'>Preguntas Frecuentes</a>
   </div> 
   <div>
     <span className="footer-title">Newsletter</span> 
