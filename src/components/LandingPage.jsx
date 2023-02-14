@@ -59,7 +59,6 @@ const LandingPage = () => {
   return (
     <>
     <Navbar/>
-    
     <FirstSection/>
     <SecondSection/>
     <ThirdSection/> 

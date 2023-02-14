@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { useParams } from 'react-router'
 // import { getItemData } from '../BlogItem'
 import ItemDetail from './ItemDetail'
@@ -9,7 +9,6 @@ const ContainerDetail = () => {
 
     const {slug} = useParams()
     const post = blogItems.find(post=> post.slug === slug )
-   
     
     return (
         <div className='bg-white'>

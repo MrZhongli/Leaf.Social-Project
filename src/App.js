@@ -17,7 +17,7 @@ import BubbleChat from './components/ChatBot/BubbleChat';
 
 
 function App() {
-  const [loading, setLoading] = useState(true)
+  // const [loading, setLoading] = useState(true)
     
 // useEffect(() => {
 //     setTimeout(()=>{
@@ -41,7 +41,7 @@ function App() {
             <Route path='/Quienes_somos' element={<TeamContainer />}></Route>
             <Route path='/Contactanos' element={<ContactContainer />}></Route>
             <Route path='/blog/:slug' element={<ContainerDetail />}></Route>
-            <Route path='/chatbox' element={<BubbleChat />}></Route>
+            {/* <Route path='/chatbox' element={<BubbleChat />}></Route> */}
             {/* <Route path='/prueba' element={<MainContainer />}></Route> */}
           </Routes>
           <Footer/>

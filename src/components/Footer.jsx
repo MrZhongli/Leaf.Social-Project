@@ -20,12 +20,10 @@ const Footer = () => {
   </div> 
   <div>
     <span className="footer-title">Empresa</span> 
-    {/* <a className="link link-hover">Equipo</a>  */}
     <Link to="/Nosotros" className="link link-hover">Equipo</Link>
     <Link to="/Nosotros" className="link link-hover">Nosotros</Link>
     <Link to="/Productos" className="link link-hover">Productos</Link>
     <Link to="/Blog" className="link link-hover">Blog</Link>
-    {/* <a className="link link-hover">blog </a> */}
   </div> 
   <div>
       <span className="footer-title">Ayuda</span> 

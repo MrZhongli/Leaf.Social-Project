@@ -10,20 +10,18 @@ const ProductContainer = () => {
     console.log(item)
    }, [])
    
-
   return (
     <div>
         <h1>ESTAS SON LAS MOCHILAS</h1>
-       {item.filter(p=>p.category == 'Mochilas').map(p=> 
+       {item.filter(p=>p.category === 'Mochilas').map(p=> 
        <p>{p.title} </p>)
        
        // <p>{p.title}</p>
        // <img src={p.img} alt="hola"
     } 
     <h1>ESTAS SON LAS ALPARGATAS</h1>
-         {item.filter(p=>p.category == 'Alpargatas').map(p=> 
+         {item.filter(p=>p.category === 'Alpargatas').map(p=> 
        <p>{p.title} </p>)
-        
         // <p>{p.title}</p>
         // <img src={p.img} alt="hola"
         } 
