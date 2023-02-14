@@ -1,124 +1,124 @@
-// import React, { useState } from 'react'
-import ChatBot from "react-simple-chatbot";
-import { ThemeProvider } from 'styled-components';
+// // import React, { useState } from 'react'
+// import ChatBot from "react-simple-chatbot";
+// import { ThemeProvider } from 'styled-components';
 
-const ChatBoxContainer = () => {
+// const ChatBoxContainer = () => {
 
-    // const [isOpen, setOpen] = useState(false)
+//     // const [isOpen, setOpen] = useState(false)
 
-    const theme = {
-        background: '#f5f8fb',
-        fontFamily: 'Helvetica Neue',
-        headerBgColor: '#EB595A',
-        headerFontColor: '#fff',
-        headerFontSize: '20px',
-        botBubbleColor: '#EB595A',
-        botFontColor: '#fff',
-        userBubbleColor: '#fff',
-        userFontColor: '#4a4a4a',
-      };
+//     const theme = {
+//         background: '#f5f8fb',
+//         fontFamily: 'Helvetica Neue',
+//         headerBgColor: '#EB595A',
+//         headerFontColor: '#fff',
+//         headerFontSize: '20px',
+//         botBubbleColor: '#EB595A',
+//         botFontColor: '#fff',
+//         userBubbleColor: '#fff',
+//         userFontColor: '#4a4a4a',
+//       };
 
 
-    const steps = [
-        {
+//     const steps = [
+//         {
 
-            id: "Greet",
-            message: "Hola, bienvenido a leaf social",
-            trigger: "Done",
-        },
-        {
+//             id: "Greet",
+//             message: "Hola, bienvenido a leaf social",
+//             trigger: "Done",
+//         },
+//         {
 
-            id: "Done",
-            message: "Cuentanos cual es tu nombres",
-            trigger: "waiting1",
-        },
-        {
+//             id: "Done",
+//             message: "Cuentanos cual es tu nombres",
+//             trigger: "waiting1",
+//         },
+//         {
 
-            id: "waiting1",
+//             id: "waiting1",
 
-            user: true,
+//             user: true,
 
-            trigger: "Name",
+//             trigger: "Name",
 
-        },
-        {
+//         },
+//         {
 
-            id: "Name",
+//             id: "Name",
 
-            message: "Es un placer '{previousValue}', Por favor, selecciona cual departamento te gustaria conectarte",
+//             message: "Es un placer '{previousValue}', Por favor, selecciona cual departamento te gustaria conectarte",
 
-            trigger: "issues",
+//             trigger: "issues",
 
-        },
-        {
+//         },
+//         {
 
-            id: "issues",
+//             id: "issues",
 
-            options: [
+//             options: [
 
-                {
-                    value: "React",label: "React", trigger: "React",
-                },
+//                 {
+//                     value: "React",label: "React", trigger: "React",
+//                 },
 
-                { 
-                    value: "Angular", label: "Angular", trigger: "Angular"
-                },
-                { 
-                    value: "ejemplo", label: "ejemplo", trigger: "ejemplo"
-                },
-                { 
-                    value: "Ventas", label: "Ventas", trigger: "Ventas"
-                },
+//                 { 
+//                     value: "Angular", label: "Angular", trigger: "Angular"
+//                 },
+//                 { 
+//                     value: "ejemplo", label: "ejemplo", trigger: "ejemplo"
+//                 },
+//                 { 
+//                     value: "Ventas", label: "Ventas", trigger: "Ventas"
+//                 },
 
-            ],
+//             ],
 
-        },
+//         },
 
-        {
+//         {
 
-            id: "React",
+//             id: "React",
 
-            message:
+//             message:
 
-                "Este es el correo para que puedas comunicarte con {previousValue}, nuestro equipo se pondra en contacto en breves con vos",
+//                 "Este es el correo para que puedas comunicarte con {previousValue}, nuestro equipo se pondra en contacto en breves con vos",
 
-            end: true,
+//             end: true,
 
-        },
+//         },
 
-        {
+//         {
 
-            id: "Angular",
-            message:
-                "Este es el correo para que puedas comunicarte con {previousValue}, nuestro equipo se pondra en contacto en breves con vos",
-            end: true,
+//             id: "Angular",
+//             message:
+//                 "Este es el correo para que puedas comunicarte con {previousValue}, nuestro equipo se pondra en contacto en breves con vos",
+//             end: true,
 
-        },
-        {
+//         },
+//         {
 
-            id: "Ventas",
-            message:
-                "'prueba.gg@gmail.com' Es el correo para que puedas comunicarte con {previousValue}, nuestro equipo se pondra en contacto en breves con vos",
-            end: true,
+//             id: "Ventas",
+//             message:
+//                 "'prueba.gg@gmail.com' Es el correo para que puedas comunicarte con {previousValue}, nuestro equipo se pondra en contacto en breves con vos",
+//             end: true,
 
-        },
-        {
+//         },
+//         {
 
-            id: "ejemplo",
-            message:
-                " 'prueba.gg@gmail.com' Este es el correo para que puedas comunicarte con {previousValue}, nuestro equipo se pondra en contacto en breves con vos",
-            end: true,
+//             id: "ejemplo",
+//             message:
+//                 " 'prueba.gg@gmail.com' Este es el correo para que puedas comunicarte con {previousValue}, nuestro equipo se pondra en contacto en breves con vos",
+//             end: true,
 
-        },
+//         },
 
-    ];
+//     ];
 
-    return (
-        <ThemeProvider theme={theme}>
-        {/* <ChatBot steps={steps} />; */}
-            <ChatBot className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52" steps={steps} />
-      </ThemeProvider>
-    )
-}
+//     return (
+//         <ThemeProvider theme={theme}>
+//         {/* <ChatBot steps={steps} />; */}
+//             <ChatBot className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52" steps={steps} />
+//       </ThemeProvider>
+//     )
+// }
 
-export default ChatBoxContainer
+// export default ChatBoxContainer
