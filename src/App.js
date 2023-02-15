@@ -41,7 +41,7 @@ function App() {
             <Route path='/Quienes_somos' element={<TeamContainer />}></Route>
             <Route path='/Contactanos' element={<ContactContainer />}></Route>
             <Route path='/blog/:slug' element={<ContainerDetail />}></Route>
-            <Route path='/chatbox' element={<BubbleChat />}></Route>
+            {/* <Route path='/chatbox' element={<BubbleChat />}></Route> */}
             
           </Routes>
           <Footer/>
