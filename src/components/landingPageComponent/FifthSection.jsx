@@ -7,7 +7,7 @@ const FifthSection = () => {
   return (
       <div className="hero min-h-screen bg-white">
           <div className="hero-content flex-col lg:flex-row-reverse">
-              <img src={rectangle} className="relative left-44 " alt="figura"/>
+              <img src={rectangle} className=" relative md:left-36 " alt="figura"  />
               <img src={Alpargauchas} className="absolute md:right-10 mt-20 max-sm:mb-96 " alt="Alpargauchas" />
               <div>
                   <h1 className="text-5xl font-bold text-black">Productos solidarios</h1>

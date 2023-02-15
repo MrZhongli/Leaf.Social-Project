@@ -29,8 +29,8 @@ height: 720px;
 background-image: url('../../assets/background-home.png');
 background-size: fill;
 background-repeat: no-repeat;
-/* opacity: calc(90%); */
 opacity: 0.4;
+/* opacity: calc(90%); */
 /* opacity: calc(70%); */
 }
 .bg-hero-us{
@@ -38,7 +38,7 @@ opacity: 0.4;
   background-image: url('../../assets/nosotros_section/bg-main.png');
   background-size: fill;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.5;
 /* opacity: calc(90%); */
 /* opacity: calc(70%); */
 }

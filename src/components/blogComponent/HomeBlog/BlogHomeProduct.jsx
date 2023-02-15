@@ -5,7 +5,7 @@ const BlogHomeProduct = (props) => {
   return (
 
 
-<div className="card w-96 bg-base-100 shadow-xl">
+<div className="card w-72 h-96 bg-base-100 shadow-xl p-2 m-2">
   <figure><img src={img} alt="blog-img-content"  /></figure>
   <div className="card-body">
     <h2 className="card-title">{title}</h2>

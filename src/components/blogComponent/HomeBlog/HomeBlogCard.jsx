@@ -19,7 +19,7 @@ const HomeBlogCard = () => {
             <h1 className="text-5xl font-bold text-black mb-10">Nuestro blog</h1>
             <p className='text-sm font-light text-stone-500  '>Si tiene alguna pregunta o comentario, no dude en comunicarse con nosotros.</p>
             <p className='text-sm font-light text-stone-500  mb-20'>Siempre estamos disponibles para ayudar.</p>
-            <div className='flex h-96 '>
+            <div className='flex flex-wrap'>
               {Blog.map(p =>
                 <BlogHomeProduct key={p.id} item={p}  />
               )}
