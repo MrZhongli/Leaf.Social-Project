@@ -13,6 +13,7 @@ import ContactContainer from './components/ContactContainer';
 // import ChatBoxContainer from './components/ChatBot/ChatBoxContainer';
 import ContainerDetail from './components/blogComponent/DetailBlog/ContainerDetail';
 import BubbleChat from './components/ChatBot/BubbleChat';
+import { ContainerProductDetail } from './components/Product component/Detail products/ContainerProductDetail';
 // import MainContainer from './components/MainContainer';
 
 
@@ -41,6 +42,7 @@ function App() {
             <Route path='/Quienes_somos' element={<TeamContainer />}></Route>
             <Route path='/Contactanos' element={<ContactContainer />}></Route>
             <Route path='/blog/:slug' element={<ContainerDetail />}></Route>
+            <Route path='/Productos/:slug' element={<ContainerProductDetail/>}></Route>
             {/* <Route path='/chatbox' element={<BubbleChat />}></Route> */}
             
           </Routes>

@@ -26,9 +26,6 @@ const BlogProduct = (props) => {
           <div className="card-actions justify-end">
             <Link to={`/blog/${slug}`} className='btn  btn-primary  hover:bg-blue-600 btn-success my-4'> Ver mas</Link>
           </div>
-          {/* <FacebookShareButton url={currentUrl} quote={title}>
-            <FacebookIcon logoFillColor="white" round="true"/>
-          </FacebookShareButton> */}
           <div>
           <ul className=" bg-slate-400 w-72 p-2 rounded-box flex ">
 

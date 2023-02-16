@@ -62,9 +62,9 @@ const LandingPage = () => {
     <FirstSection/>
     <SecondSection/>
     <ThirdSection/> 
-    <ForthSection/>
-    <FifthSection/>
     <CountUpContainer/>
+    {/* <ForthSection/> */}
+    <FifthSection/>
     <HomeBlogCard/>
     {/* <ContactContainer/> */}
     </>
