@@ -1,5 +1,5 @@
 import React from 'react'
-import { FacebookShareButton, FacebookIcon, FacebookMessengerShareButton, FacebookMessengerIcon, LinkedinShareButton, WhatsappShareButton, PinterestShareButton, TelegramShareButton, TwitterShareButton, TwitterIcon, TelegramIcon, PinterestIcon, WhatsappIcon} from "react-share";
+import { FacebookShareButton, FacebookIcon, FacebookMessengerShareButton, FacebookMessengerIcon, LinkedinShareButton, WhatsappShareButton, PinterestShareButton, TelegramShareButton, TwitterShareButton, TwitterIcon, TelegramIcon, PinterestIcon, WhatsappIcon, EmailShareButton, EmailIcon} from "react-share";
 
 const ItemDetail = ({item}) => {
 
@@ -50,7 +50,10 @@ const ItemDetail = ({item}) => {
               <TwitterShareButton title={item.title}>
                 <TwitterIcon logoFillColor="white" round="true" size={36} />
               </TwitterShareButton>
-              <li><a>Item 3</a></li>
+
+              <EmailShareButton subject="Consulta" body="Comuniquese a este url" url="kaka@leaf.com">
+                <EmailIcon logoFillColor="white" round="true" size={36}/>
+              </EmailShareButton>
           </ul>
         </div>
          

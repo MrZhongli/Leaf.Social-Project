@@ -9,8 +9,8 @@ export const FifthSection = () => {
       <div className="hero min-h-screen bg-white">
           <div className="hero-content text-center flex flex-col ">
               <div className="">
-                  <h1 className="text-5xl font-bold text-black">Materiales que reciclamos</h1>
-                  <p className="py-6">Recolectamos una amplia cantidad de distintos tipos de materiales que luego transformamos en productos.</p>
+                  <h1 className="text-5xl font-bold text-black" style={{color:`#1D2433`}}>Materiales que reciclamos</h1>
+                  <p className="py-6" style={{color:`#4A505C`}}>Recolectamos una amplia cantidad de distintos tipos de materiales que luego transformamos en productos.</p>
                   {/* <button className="btn btn-primary">Get Started</button> */}
               </div>
               <div className='flex flex-wrap justify-center'>

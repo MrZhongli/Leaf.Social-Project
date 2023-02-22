@@ -8,8 +8,8 @@ export const ThirdSection = () => {
       <div className="hero min-h-screen bg-white">
           <div className="hero-content text-center flex flex-col ">
               <div className="">
-                  <h1 className="text-5xl font-bold text-black">¿Por que reciclamos?</h1>
-                  <p className="py-6">Reciclamos por que toda materia prima virgen causa un gran impacto sobre la tierra, el agua y el aire.</p>
+                  <h1 className="text-5xl font-bold " style={{color:`#111827`}}>¿Por que reciclamos?</h1>
+                  <p className="py-6" style={{color:`#4A505C`}}>Reciclamos por que toda materia prima virgen causa un gran impacto sobre la tierra, el agua y el aire.</p>
                   {/* <button className="btn btn-primary">Get Started</button> */}
               </div>
               <div className='flex flex-wrap justify-center'>
@@ -21,7 +21,7 @@ export const ThirdSection = () => {
                           La industria de la moda es una de las mas contaminantes del mundo
                               
                           </h2>
-                          <p className='text-justify'>Es la segunda después del petróleo y contamina mas que las aerolíneas.</p>
+                          <p className='text-justify' style={{color:`#4A505C`}}>Es la segunda después del petróleo y contamina mas que las aerolíneas.</p>
                       </div>
                   </div>
 
@@ -32,7 +32,7 @@ export const ThirdSection = () => {
                           La industria de la moda es una de las mas contaminantes del mundo
                               
                           </h2>
-                          <p className='text-justify'>Lo que equivale a la cantidad que una persona bebe en promedio 3 años.</p>
+                          <p className='text-justify' style={{color:`#4A505C`}}>Lo que equivale a la cantidad que una persona bebe en promedio 3 años.</p>
                           {/* <div className="card-actions justify-end">
                               <div className="badge badge-outline">Fashion</div>
                               <div className="badge badge-outline">Products</div>
@@ -47,7 +47,7 @@ export const ThirdSection = () => {
                           <h2 className="font-bold text-left text-black ">
                           Produce 1.5 toneladas de monóxido de carbono por hogar al año                              
                           </h2>
-                          <p className='text-justify'>Lo que equivale a 6000 autos en marcha y representa el 10% de emisiones globales de C02.</p>
+                          <p className='text-justify' style={{color:`#4A505C`}}>Lo que equivale a 6000 autos en marcha y representa el 10% de emisiones globales de C02.</p>
                           {/* <div className="card-actions justify-end">
                               <div className="badge badge-outline">Fashion</div>
                               <div className="badge badge-outline">Products</div>

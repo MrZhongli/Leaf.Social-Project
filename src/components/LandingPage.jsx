@@ -58,6 +58,8 @@ import FifthSection from './landingPageComponent/FifthSection';
 const LandingPage = () => {
   return (
     <>
+    <div className='overflow-x-hidden'>
+
     <Navbar/>
     <FirstSection/>
     <SecondSection/>
@@ -67,6 +69,7 @@ const LandingPage = () => {
     <FifthSection/>
     <HomeBlogCard/>
     {/* <ContactContainer/> */}
+    </div>
     </>
   )
 }

@@ -11,9 +11,9 @@ const FifthSection = () => {
               <img src={Alpargauchas} className="absolute md:right-10 mt-20 max-sm:mb-96 " alt="Alpargauchas" />
               <div>
                   <h1 className="text-5xl font-bold text-black">Productos solidarios</h1>
-                  <p className="py-6 text-justify" style={{ color: `#6D7280` }}>Con cada compra estás ayudando a todos los involucrados en el proceso de producción y colaborando con TECHO para que puedan cumplir con su misión de superar la pobreza, educando a niños, capacitando a adultos y construyendo casa en los asentamientos, generando una mejor calidad de vida.</p>
-                  <button className="btn bg-orange text-white mx-5">Conseguilas</button>
-                  <button className="btn bg-transparent text-black">Ver más</button>
+                  <p className="py-6 text-justify mt-10" style={{ color: `#6D7280` }}>Con cada compra estás ayudando a todos los involucrados en el proceso de producción y colaborando con TECHO para que puedan cumplir con su misión de superar la pobreza, educando a niños, capacitando a adultos y construyendo casa en los asentamientos, generando una mejor calidad de vida.</p>
+                  <button className="btn bg-orange hover:bg-red-600 text-white mx-5">Conseguilas</button>
+                  <button className="btn btn-ghost text-black">Ver más</button>
               </div>
           </div>
       </div>

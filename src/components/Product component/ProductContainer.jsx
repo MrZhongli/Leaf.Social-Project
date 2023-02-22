@@ -16,7 +16,7 @@ const ProductContainer = () => {
     <div className='bg-white'>
       <div className='flex flex-col justify-start w-full'>
     {/* Echomochila */}
-        <h1 className='text-black text-4xl text-left mx-44 mt-20'>Ecomochilas</h1>
+        <h1 className=' text-4xl text-left max-sm:mx-10 mx-44 mt-20  color_primary'>Ecomochilas</h1>
     <div className='flex flex-wrap justify-center'>
         {item.filter(p => p.category === 'Mochilas').map(p =>
           <ProductItems item={p} />
@@ -24,7 +24,7 @@ const ProductContainer = () => {
         }
     </div>
           {/* Alpargatas */}
-        <h1 className='text-black text-4xl text-left mx-44 mt-20'>Alpargatas</h1>
+        <h1 className='text-black text-4xl text-left max-sm:mx-10 mx-44 mt-20 color_primary'>Alpargatas</h1>
         <div className='flex flex-wrap justify-center'>
         {item.filter(p => p.category === 'Alpargatas').map(p =>
           <ProductItems item={p} />)
@@ -32,7 +32,7 @@ const ProductContainer = () => {
         </div>
         
         {/* zapatillas */}
-        <h1 className='text-black text-4xl text-left mx-44 mt-20 '>Zapatillas</h1>
+        <h1 className='text-black text-4xl text-left max-sm:mx-10 mx-44 mt-20 color_primary'>Zapatillas</h1>
         <div className='flex flex-wrap justify-center'>
         {item.filter(p => p.category === 'Zapatillas').map(p =>
           <ProductItems item={p} />)

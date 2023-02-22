@@ -1,3 +1,11 @@
+.color_primary{
+ color:#1D2433;
+;
+}
+.color_secontady{
+  color:#4A505C;
+}
+
 .downarrow{
     position: absolute;
     bottom:20px;
@@ -45,7 +53,7 @@ opacity: 0.4;
 .bg-hero-product{
 height: 720px;
 background-image: url('../../assets/product_section/product-bg-main.png');
-background-size: contain;
+background-size: fill;
 background-repeat: no-repeat;
 /* opacity: calc(90%); */
 /* opacity: calc(70%); */
@@ -153,4 +161,23 @@ flex-grow: 0;
     -webkit-transform: translateX(-100px);
             transform: translateX(-100px);
   }
+}
+
+
+/* hover underline navbar decoration */
+.navbar_link:after{
+  content: "";
+  position: absolute;
+  background-color: #EB595A;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 5px;
+  transition: 0.3s;
+}
+/* .navbar_link_h:hover{
+  color: #ffffff  ;
+} */
+.navbar_link:hover:after{
+  width: 100%;
 }

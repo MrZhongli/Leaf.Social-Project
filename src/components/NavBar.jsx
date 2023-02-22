@@ -6,6 +6,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/Others/Logo';
 import { ResponsiveNavbar } from './NavBar/ResponsiveNavbar';
+import './styles/styles.css'
 
 const Navbar = () => {
    
@@ -26,14 +27,14 @@ const Navbar = () => {
             <div className="flex-1">
                 <Link to='/' className="btn btn-ghost  "><Logo /></Link>
             </div>
-            <div className="flex-none  ">
+            <div className="flex-none">
                 <ul className=" max-sm:hidden menu menu-horizontal mx-20">
-                    <li><Link to="/" className={NavBar? 'text-black text-sm' : 'text-white text-sm' }> Inicio</Link></li>
-                    <li> <Link to="/Quienes_somos" className={NavBar? 'text-black text-sm' : 'text-white text-sm' }> Nosotros</Link></li>
-                    <li> <Link to="/Productos" className={NavBar? 'text-black text-sm' : 'text-white text-sm' }>Productos</Link></li>
-                    <li> <Link to="/Contactanos" className={NavBar? 'text-black text-sm' : 'text-white text-sm' }>  Contacto</Link></li>
+                    <li><Link to="/" className={NavBar? 'text-black text-sm navbar_link btn-ghost ' : 'text-white text-sm navbar_link btn-ghost' }> Inicio</Link></li>
+                    <li> <Link to="/Quienes_somos" className={NavBar? 'text-black text-sm navbar_link btn-ghost' : 'text-white text-sm navbar_link btn-ghost' }> Nosotros</Link></li>
+                    <li> <Link to="/Productos" className={NavBar? 'text-black text-sm navbar_link btn-ghost' : 'text-white text-sm navbar_link btn-ghost' }>Productos</Link></li>
+                    <li> <Link to="/Contactanos" className={NavBar? 'text-black text-sm navbar_link btn-ghost' : 'text-white text-sm navbar_link btn-ghost' }>  Contacto</Link></li>
                     {/* <div className="divider divider-horizontal divide-black"></div> */}
-                    <li> <Link to="/blog" className={NavBar? 'text-black text-sm' : 'text-white text-sm' }> Blog</Link></li>
+                    <li> <Link to="/blog" className={NavBar? 'text-black text-sm navbar_link btn-ghost' : 'text-white text-sm navbar_link btn-ghost' }> Blog</Link></li>
                 </ul>
                 <ResponsiveNavbar/>
             </div>

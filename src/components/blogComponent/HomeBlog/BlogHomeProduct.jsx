@@ -1,20 +1,23 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const BlogHomeProduct = (props) => {
-    const { title, img } = props.item     
+    const { title, img, slug, secondContent  } = props.item     
   return (
 
 
-<div className="card w-72 h-96 bg-base-100 shadow-xl p-2 m-2">
+
+<div className="card w-72 h-96 bg-white mx-10 shadow-xl p-2 m-2">
   <figure><img src={img} alt="blog-img-content"  /></figure>
   <div className="card-body">
-    <h2 className="card-title">{title}</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
+    <h2 className="card-title text-left text-sm" style={{color:`#1D2433`}}>{title}</h2>
+    <p className='text-sm text-justify' style={{color:`#4A505C`}}> {secondContent}</p>
+    <div className="card-actions justify-start">
+    <Link to={`/blog/${slug}`} className="text-black mt-2">Leer mas</Link>
     </div>
   </div>
 </div>
+
 
   //   <div className="card bg-white shadow-xl">
   //   <figure><img src={img} alt="blog-img-content" className='w-72 h-72'/></figure>

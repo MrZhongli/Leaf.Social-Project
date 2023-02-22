@@ -6,6 +6,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/Others/Logo';
 import { ResponsiveNavbar } from './ResponsiveNavbar';
+import '../styles/styles.css'
 
 const Navbar = () => {
    
@@ -16,12 +17,12 @@ const Navbar = () => {
             </div>
             <div className="flex-none  ">
                 <ul className="max-sm:hidden menu menu-horizontal mx-20">
-                    <li><Link to="/" className="text-black text-sm"> Inicio</Link></li>
-                    <li> <Link to="/Quienes_somos" className="text-black text-sm"> Nosotros</Link></li>
-                    <li> <Link to="/Productos" className="text-black text-sm">Productos</Link></li>
-                    <li> <Link to="/Contactanos" className="text-black text-sm">  Contacto</Link></li>
+                    <li><Link to="/" className="text-black text-sm btn-ghost navbar_link"> Inicio</Link></li>
+                    <li> <Link to="/Quienes_somos" className="text-black text-sm btn-ghost navbar_link"> Nosotros</Link></li>
+                    <li> <Link to="/Productos" className="text-black text-sm btn-ghost navbar_link">Productos</Link></li>
+                    <li> <Link to="/Contactanos" className="text-black text-sm btn-ghost navbar_link">  Contacto</Link></li>
                     {/* <div className="divider divider-horizontal divide-black"></div> */}
-                    <li> <Link to="/blog" className="text-black text-sm"> Blog</Link></li>
+                    <li> <Link to="/blog" className="text-black text-sm btn-ghost navbar_link"> Blog</Link></li>
                 </ul>
                 <ResponsiveNavbar/>
             </div>

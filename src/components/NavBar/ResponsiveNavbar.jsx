@@ -27,19 +27,19 @@ export const ResponsiveNavbar = () => {
         { Active ?
         <ul className='fixed  gap-3 flex flex-col align-center justify-center inset-0 left-1/2 bg-black/40 h-screen  duration-75 slide-left w-full '>
         <li>
-            <Link to="/" className='text-white'>Inicio</Link>
+            <Link to="/" className='btn  text-white btn-ghost'>inicio</Link>
         </li>
         <li>
-            <Link to="/Quienes_somos" className='text-white'>Nosotros</Link>
+            <Link to="/Quienes_somos" className='btn text-white btn-ghost'>Nosotros</Link>
         </li>
         <li>
-            <Link to="/Productos" className='text-white'>Productos</Link>
+            <Link to="/Productos" className='btn text-white btn-ghost'>Productos</Link>
         </li>
         <li>
-            <Link to="/Contactanos" className='text-white'>Contacto</Link>
+            <Link to="/Contactanos" className=' btn btn-ghost text-white'>Contacto</Link>
         </li>
         <li>
-            <Link to="/Blog" className='text-white'>Blog </Link>
+            <Link to="/Blog" className='btn btn-ghost text-white'>Blog </Link>
         </li>
     </ul>
         : 
