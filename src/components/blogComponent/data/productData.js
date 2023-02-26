@@ -16,7 +16,6 @@ const Product = [
         img:alpargata,
         slug:'free_feel_cherry',
         principal_description:'Suela de goma de alta densidad con textura para evitar el deslizamiento, super duraderas y no se deforman con el uso. La tela externa es una lona confeccionada con hilos finos de alta calidad con combinaciones brindando diferentes diseños. La plantilla es goma de alta densidad forrada en lienzo de algodón, antitranspirante. Cuenta con forro interno para mayor comodidad del pie y evitar ampollas en el talón.',
-
         detallesUno:'#Eco shoes Nuestros productos son elaborados con materiales sustentables y reciclados. Estamos reutilizando telas de diversas procedencias, creando objetos reutilizables.',
         detallesDos:'#Vegan shoes Desarrollamos nuestros productos sin materia prima proveniente de animales, mostrando que las decisiones de consumo son una herramienta simple y poderosa para cambiar el mundo y proteger al planeta y sus habitantes. ',
         detallesTres:'#Made in Argentina 100% Argentina! Potenciamos la economía regional e incentivamos la inclusión social trabajando con personas en situación de vulnerabilidad.',
@@ -60,7 +59,7 @@ const Product = [
         title:'Pocket by Vic Amor 33',
         img: mochila_amor_33,
         slug:'pocket_by_vic_amor_33',
-        principal_description:'',
+        principal_description:'Suela de goma de alta densidad con textura para evitar el deslizamiento, super duraderas y no se deforman con el uso. La tela externa es una lona confeccionada con hilos finos de alta calidad con combinaciones brindando diferentes diseños. La plantilla es goma de alta densidad forrada en lienzo de algodón, antitranspirante. Cuenta con forro interno para mayor comodidad del pie y evitar ampollas en el talón.',
         detallesUno:'#Eco shoes Nuestros productos son elaborados con materiales sustentables y reciclados. Estamos reutilizando telas de diversas procedencias, creando objetos reutilizables.',
         detallesDos:'#Vegan shoes Desarrollamos nuestros productos sin materia prima proveniente de animales, mostrando que las decisiones de consumo son una herramienta simple y poderosa para cambiar el mundo y proteger al planeta y sus habitantes. ',
         detallesTres:'#Made in Argentina 100% Argentina! Potenciamos la economía regional e incentivamos la inclusión social trabajando con personas en situación de vulnerabilidad.'

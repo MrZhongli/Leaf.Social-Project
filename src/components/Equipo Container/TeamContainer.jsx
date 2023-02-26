@@ -12,6 +12,7 @@ import { ThirdSection } from './ThirdSection'
 const TeamContainer = () => {
   return (
     <>
+    <div className='overflow-x-hidden'>
     <Navbar/>
     <FirstSection/>
     <ThirdSection/>
@@ -19,6 +20,7 @@ const TeamContainer = () => {
     <FifthSection/>
     <ForthSection/>
     <SixSection/>
+    </div>
     </>
   )
 }

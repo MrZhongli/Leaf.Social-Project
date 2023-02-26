@@ -10,7 +10,7 @@ export const ForthSection = () => {
           <div className="hero-content text-center flex flex-col ">
               <div className="">
                   <h1 className="text-5xl font-bold "  style={{color:`#1D2433`}}>Nuestro equipo</h1>
-                  <p className="py-6"  style={{color:`#4A505C`}}>Conoce a los miembros de nuestro equipo.</p>
+                  <p className="py-6"  style={{color:`#4A505C`}}>Juntos somo una gran fuerza y podemos fomentar el futuro que queremos para las nuevas generaciones.</p>
               </div>
               <div className='flex flex-wrap justify-center'>
                 

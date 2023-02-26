@@ -7,7 +7,7 @@ const BlogHomeProduct = (props) => {
 
 
 
-<div className="card w-72 h-96 bg-white mx-10 shadow-xl p-2 m-2">
+<div className="card w-72 h-96 bg-white mx-10 shadow-xl p-2 m-auto">
   <figure><img src={img} alt="blog-img-content"  /></figure>
   <div className="card-body">
     <h2 className="card-title text-left text-sm" style={{color:`#1D2433`}}>{title}</h2>

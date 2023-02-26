@@ -1,5 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { FacebookShareButton, FacebookIcon, FacebookMessengerShareButton, FacebookMessengerIcon, LinkedinShareButton, WhatsappShareButton, PinterestShareButton, TelegramShareButton, TwitterShareButton, TwitterIcon, TelegramIcon, PinterestIcon, WhatsappIcon, EmailShareButton, EmailIcon} from "react-share";
+import Arrow_leaf from '../../../assets/Others/Arrow_leaf';
+import '../../styles/styles.css'
 
 const ItemDetail = ({item}) => {
 
@@ -9,6 +12,11 @@ const ItemDetail = ({item}) => {
     
     <div className="hero min-h-screen bg-white ">
       <div className=" flex-col lg:flex-row  ">
+      <Link to="/Productos">
+      <div className='btn-ghost bg-white absolute mt-10 max-sm:mx-10 mx-20  w-14 h-14 border-2  flex justify-center rounded-full z-10' >
+      <Arrow_leaf className=" mt-4 " />
+      </div>
+      </Link>
         <img src={item.img} alt="blog-imagen" className="rounded mb-20 h-96 w-screen"/>   
         <div className="lg:mx-20 xl:mx-20 m-10">
           <h1 className="text-5xl font-bold text-stone-900 my-10 text-left">{item.title}</h1>

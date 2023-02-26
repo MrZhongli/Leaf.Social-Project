@@ -9,7 +9,9 @@ export const ThirdSection = () => {
           <div className="hero-content text-center flex flex-col ">
               <div className="">
                   <h1 className="text-5xl font-bold " style={{color:`#111827`}}>¿Por que reciclamos?</h1>
-                  <p className="py-6" style={{color:`#4A505C`}}>Reciclamos por que toda materia prima virgen causa un gran impacto sobre la tierra, el agua y el aire.</p>
+                  <p className="py-6" style={{ color: `#4A505C` }}>Reciclamos porque creemos en las segundas oportunidades, porque cada acción genera un
+                      impacto sobre el medio ambiente y queremos demostrar que se pueden hacer las cosas de
+                      otra manera</p>
                   {/* <button className="btn btn-primary">Get Started</button> */}
               </div>
               <div className='flex flex-wrap justify-center'>
@@ -18,10 +20,10 @@ export const ThirdSection = () => {
                       <figure><img src={ropa} alt="Ropas" /></figure>
                       <div className="card-body">
                           <h2 className="font-bold text-left text-black ">
-                          La industria de la moda es una de las mas contaminantes del mundo
-                              
+                              La industria de la moda es una de las mas contaminantes del mundo
                           </h2>
-                          <p className='text-justify' style={{color:`#4A505C`}}>Es la segunda después del petróleo y contamina mas que las aerolíneas.</p>
+                          <p className='text-justify' style={{ color: `#4A505C` }}>La industria de la moda es la sexta industria más grande del mundo y además es la
+                              segunda industria más contaminante del mundo.</p>
                       </div>
                   </div>
 
@@ -32,11 +34,8 @@ export const ThirdSection = () => {
                           La industria de la moda es una de las mas contaminantes del mundo
                               
                           </h2>
-                          <p className='text-justify' style={{color:`#4A505C`}}>Lo que equivale a la cantidad que una persona bebe en promedio 3 años.</p>
-                          {/* <div className="card-actions justify-end">
-                              <div className="badge badge-outline">Fashion</div>
-                              <div className="badge badge-outline">Products</div>
-                          </div> */}
+                          <p className='text-justify' style={{ color: `#4A505C` }}>Se necesitan 17.000 litros de agua para hacer una mochila de tela o cuero. Lo que equivale
+                              a la cantidad de agua que bebe una persona en 18 años.</p>
                       </div>
                   </div>
 
@@ -45,7 +44,8 @@ export const ThirdSection = () => {
                       <figure><img src={contaminacion} alt="Barriles de aguas" /></figure>
                       <div className="card-body">
                           <h2 className="font-bold text-left text-black ">
-                          Produce 1.5 toneladas de monóxido de carbono por hogar al año                              
+                              Produce 1.5 toneladas de monóxido de carbono por hogar al año. Lo equivalente a 6.000
+                              autos en marcha y representa el 10% de emisiones de gases de CO2
                           </h2>
                           <p className='text-justify' style={{color:`#4A505C`}}>Lo que equivale a 6000 autos en marcha y representa el 10% de emisiones globales de C02.</p>
                           {/* <div className="card-actions justify-end">
