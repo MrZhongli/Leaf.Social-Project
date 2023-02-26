@@ -12,7 +12,7 @@ const ItemDetail = ({item}) => {
     
     <div className="hero min-h-screen bg-white ">
       <div className=" flex-col lg:flex-row  ">
-      <Link to="/Productos">
+      <Link to="/blog">
       <div className='btn-ghost bg-white absolute mt-10 max-sm:mx-10 mx-20  w-14 h-14 border-2  flex justify-center rounded-full z-10' >
       <Arrow_leaf className=" mt-4 " />
       </div>

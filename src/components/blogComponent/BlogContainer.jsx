@@ -9,27 +9,36 @@ import { blogItems } from './data/data';
 
 const BlogContainer = () => {
 
-  const [product, setProduct] = useState([]);
+  const [product, setProduct] = useState(blogItems);
   
-  useEffect(() => {
-    getItemData().then((props) => {
-      setProduct(props)
-    })
-  }, [])
+  // useEffect(() => {
+
+  //   // getItemData().then((props) => {
+  //   //   setProduct(props)
+
+  //   // })
+  //   setProduct(blogItems)
+    
+  // }, [])
   
   const allCategories = [ "todos",...new Object(blogItems.map(article => article.category))]
   
   console.log("allcategories",allCategories)
   const [categories, setCategories] = useState(allCategories)
   
-  useEffect(() => {
-     
-    
-  }, [allCategories])
   
 
   const filterCategory = (category) =>{
-    console.log("filtercategory",category)
+    console.log(category)
+    if(category === "todos"){
+      setProduct(blogItems)
+      console.log(category)
+    }else{
+      const filteredData = blogItems.filter(article => article.category === category)
+    console.log(filteredData)
+    setProduct(filteredData)
+    }
+    
   }
   
   return (
@@ -44,7 +53,6 @@ const BlogContainer = () => {
     {
       product.map(p=>
         <BlogProduct key={p.id}  product={p}/>
-        
         )
     }
         
