@@ -14,17 +14,17 @@ const Footer = () => {
   <div>
     <span className="footer-title" style={{color:`#BEBEBE`}}>Seguinos en nuestras redes</span>
     <div className='flex '>
-    <a href='https://www.facebook.com'><FacebookIcon className="ms-2"/></a> 
-    <a href='https://www.facebook.com'><IgIcon className="mx-2"/></a> 
-    <a href='https://www.facebook.com'><LinkedinIcon className="mx-2"/></a> 
-    <a href='https://www.facebook.com'><TwitterIcon className="mx-2"/></a> 
-    <a href='https://www.facebook.com'><img src={pinterest}></img></a> 
+    <a href='https://www.facebook.com/Leaf.social/' target="_blank"><FacebookIcon className="ms-2"/></a> 
+    <a href='https://www.instagram.com/leaf.social/?hl=es' target="_blank"><IgIcon className="mx-2"/></a> 
+    <a href='https://ar.linkedin.com/company/leafsocial?original_referer=https%3A%2F%2Fwww.google.com%2F' target="_blank"><LinkedinIcon className="mx-2"/></a> 
+    <a href='https://twitter.com/Leaf_Social' target="_blank"><TwitterIcon className="mx-2"/></a> 
+    <a href='https://ar.pinterest.com/leafsocial/' target="_blank"><img src={pinterest}></img></a> 
     </div> 
   </div> 
   <div>
     <span className="footer-title " style={{color:`#BEBEBE`}}>Empresa</span> 
-    <Link to="/Nosotros" className="link link-hover text-white">Equipo</Link>
-    <Link to="/Nosotros" className="link link-hover text-white">Nosotros</Link>
+    <Link to="/Quienes_somos" className="link link-hover text-white">Equipo</Link>
+    <Link to="/Quienes_somos" className="link link-hover text-white">Nosotros</Link>
     <Link to="/Productos" className="link link-hover text-white">Productos</Link>
     <Link to="/Blog" className="link link-hover text-white">Blog</Link>
   </div> 

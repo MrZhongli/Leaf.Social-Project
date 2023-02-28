@@ -52,7 +52,7 @@ import FirstSection from './landingPageComponent/FirstSection';
 import SecondSection from './landingPageComponent/SecondSection';
 import ThirdSection from './landingPageComponent/ThirdSection';
 import Navbar from '../components/NavBar.jsx';
-import { ForthSection } from './landingPageComponent/ForthSection';
+// import { ForthSection } from './landingPageComponent/ForthSection';
 import FifthSection from './landingPageComponent/FifthSection';
 
 const LandingPage = () => {

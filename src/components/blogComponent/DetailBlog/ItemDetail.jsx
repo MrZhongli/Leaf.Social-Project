@@ -29,7 +29,7 @@ const ItemDetail = ({item}) => {
           {/* <span className="py-6 text-stone-900">cantidad disponible: {item.stock} </span> */}
           {/* <h2 className='m-20 text-stone-900'>Precio {item.price} </h2> */}
         <div>
-          <ul className=" bg-slate-400 w-72 p-2 rounded-box flex ">
+          <ul className=" bg-white mt-20 w-72 p-2 rounded-box flex ">
 
               <FacebookShareButton url={currentUrl} quote={item.slug} >
                 <FacebookIcon logoFillColor="white" round="true" size={36} />

@@ -8,7 +8,7 @@ import Sygenta from '../../assets/marcas/Sygenta.png'
 import Renault from '../../assets/marcas/Renault.png'
 import Fate from '../../assets/marcas/Fate_O.png'
 
-export const ForthSection = () => {
+export const ForthSectionLanding = () => {
   return (
       <div className="hero min-h-screen bg-white"  >
           <div className="hero-content text-center">

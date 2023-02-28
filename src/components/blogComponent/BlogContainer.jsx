@@ -32,10 +32,10 @@ const BlogContainer = () => {
     console.log(category)
     if(category === "todos"){
       setProduct(blogItems)
-      console.log(category)
+      // console.log(category)
     }else{
       const filteredData = blogItems.filter(article => article.category === category)
-    console.log(filteredData)
+    // console.log(filteredData)
     setProduct(filteredData)
     }
     
@@ -43,21 +43,18 @@ const BlogContainer = () => {
   
   return (
     <>
-    <Navbar/>
-    <div className='text-5xl bg-white '>
-      <CarouselBlog/>
-      
-      <div className='flex flex-row flex-wrap justify-center p-10'>
-        <ButtonList  categories={categories} filterCategory={filterCategory} />
-
-    {
-      product.map(p=>
-        <BlogProduct key={p.id}  product={p}/>
-        )
-    }
-        
+      <Navbar />
+      <div className='text-5xl  ' style={{ backgroundColor: `#F1F3F9` }}>
+        <CarouselBlog />
+        <div className='flex flex-row flex-wrap justify-start max-sm:justify-center  p-5'>
+          <ButtonList categories={categories} filterCategory={filterCategory} />
+          {
+            product.map(p =>
+              <BlogProduct key={p.id} product={p} />
+            )
+          }
+        </div>
       </div>
-    </div>
     </>
   )
 }

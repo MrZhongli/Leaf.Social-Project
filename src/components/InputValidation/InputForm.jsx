@@ -26,7 +26,7 @@ const InputForm = ({ estado, setEstado, Label, tipo, placeholder, name, classNam
       <Input
         type={tipo}
         placeholder={placeholder}
-        className={`input input-bordered bg-white `}
+        className={`input  bg-white `}
         name={name}
         value={estado.campo}
         onChange={onChangeInput}

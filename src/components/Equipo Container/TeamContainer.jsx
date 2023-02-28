@@ -1,4 +1,5 @@
 import React from 'react'
+import { ForthSectionLanding } from '../landingPageComponent/ForthSectionLanding'
 // import { ForthSection } from '../landingPageComponent/ForthSection'
 import Navbar from '../NavBar'
 import { FifthSection } from './FifthSection'
