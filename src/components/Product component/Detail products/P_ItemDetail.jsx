@@ -16,8 +16,6 @@ const P_ItemDetail = ({props}) => {
     const handleTap =(index)=>{
       setIndex(index)
       const images = value.current.children;
-      console.log(images);
-
       for(let i=0; i<images.length; i++){
         images[i].className = images[i].className.replace("active" ,"");
       }
