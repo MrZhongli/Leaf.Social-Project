@@ -181,3 +181,31 @@ flex-grow: 0;
 .navbar_link:hover:after{
   width: 100%;
 }
+
+
+/* thumb img */
+
+.thumb {
+  width: 100%;
+  height: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  margin: 16px 0;
+}
+
+.thumb img{
+  width: 90px;
+  height: 100%;
+  object-fit: contain;
+  border: 1px solid #ddd;
+  margin-right:5px;
+  opacity: 0.6;
+  border-radius: 5px;
+
+}
+
+.thumb img .active{
+  opacity: 1;
+  border: 1px solid lightblue;
+}

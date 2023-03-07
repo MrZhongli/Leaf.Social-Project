@@ -8,7 +8,7 @@ const ProductItems = (props) => {
     <>
     <Link to={`/Productos/${slug}`} className="btn-ghost">
     <div className="card card-compact bg-white mx-10 my-10 ">
-      <figure><img src={img} alt="Shoes" /></figure>
+      <figure><img src={img[0]} alt="Shoes" /></figure>
       <div className="card-body">
         <h2 className="card-title text-black">{title}</h2>
         <p></p>

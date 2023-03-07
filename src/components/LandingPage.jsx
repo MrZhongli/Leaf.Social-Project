@@ -46,7 +46,6 @@
 
 import React from 'react';
 import HomeBlogCard from './blogComponent/HomeBlog/HomeBlogCard';
-import ContactContainer from './ContactContainer';
 import CountUpContainer from './CountUp/CountUpContainer';
 import FirstSection from './landingPageComponent/FirstSection';
 import SecondSection from './landingPageComponent/SecondSection';
@@ -67,7 +66,7 @@ const LandingPage = () => {
     <CountUpContainer/>
     {/* <ForthSection/> */}
     <FifthSection/>
-    <HomeBlogCard/>
+    {/* <HomeBlogCard/> */}
     {/* <ContactContainer/> */}
     </div>
     </>

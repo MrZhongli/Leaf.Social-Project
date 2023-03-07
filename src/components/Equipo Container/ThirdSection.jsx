@@ -5,7 +5,7 @@ import contaminacion from '../../assets/nosotros_section/contaminacion.png'
 
 export const ThirdSection = () => {
   return (
-      <div className="hero min-h-screen bg-white">
+      <div className="lg:hero xl:hero md:hero min-h-screen bg-white">
           <div className="hero-content text-center flex flex-col ">
               <div className="">
                   <h1 className="text-5xl font-bold " style={{color:`#111827`}}>¿Por que reciclamos?</h1>

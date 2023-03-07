@@ -6,9 +6,14 @@ import '../../styles/styles.css'
 const P_ItemDetail = ({props}) => {
 
     const [ToggleState, setToggleState] = useState(1)
+    const [Index, setIndex] = useState(0)
 
     const toggleTab = (index) =>{
       setToggleState(index)
+    }
+
+    const handleTap =(index)=>{
+      setIndex(index)
     }
     
   return (
@@ -20,28 +25,31 @@ const P_ItemDetail = ({props}) => {
       </Link>
       <div className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row m-10 ">
-          <img src={props.img} className="rounded-lg mb-20  slide-fwd-rightItem  mt-20" />
+          <img src={props.img[Index]} className="rounded-lg mb-20  slide-fwd-rightItem  mt-20" />
           <div className="lg:mx-20 xl:mx-20 slide-fwd-leftItem ">
             <h1 className="text-5xl font-bold my-10 color_primary"  style={{color:`#1D2433`}}>{props.title}</h1>
             {/* <p className="py-6 text-orange text-left orange text-6xl font-bold">$ 3420</p> */}
             <div className="flex-col justify-self-start justify-items-start" >
               <div className="tabs ">
-                <a className= {ToggleState === 1 ? "tab tab-lifted tab-active" : "tab tab-lifted"} 
+                <p className={ToggleState === 1 ? "tab tab-lifted tab-active" : "tab tab-lifted"}
                   onClick={() => toggleTab(1)}
-                >Descripción</a>
-                <a className={ToggleState === 2 ? "tab tab-lifted tab-active" : "tab tab-lifted"}
+                >Descripción</p>
+                <p className={ToggleState === 2 ? "tab tab-lifted tab-active" : "tab tab-lifted"}
                   onClick={() => toggleTab(2)}
-                >Detalles</a>
-                <a className={ToggleState === 3 ? "tab tab-lifted tab-active" : "tab tab-lifted"}
-                  onClick={() => toggleTab(3)}
-                >Sobre envio</a>
+                >Detalles</p>
               </div>
 
             <div className='h-100'>
-            <p className={ToggleState === 1 ? "py-6 text-stone-900 text-left color_secondary " : "hidden"} style={{color:`#6D7280`}}>{props.principal_description}</p>
-            <p className={ToggleState === 2 ? "mt-6 text-stone-900 text-left color_secondary " : "hidden"} style={{color:`#6D7280`}}>{props.detallesUno}</p>
-            <p className={ToggleState === 2 ? " text-stone-900 text-left color_secondary " : "hidden"} style={{color:`#6D7280`}}>{props.detallesDos}</p>
-            <p className={ToggleState === 2 ? " text-stone-900 text-left color_secondary " : "hidden"} style={{color:`#6D7280`}}>{props.detallesTres}</p>
+            <p className={ToggleState === 1 ? "py-6 text-left color_secondary " : "hidden"} style={{color:`#6D7280`}}>{props.principal_description}</p>
+            <p className={ToggleState === 2 ? "mt-6 text-left color_secondary " : "hidden"} style={{color:`#6D7280`}}>{props.detallesUno}</p>
+            <p className={ToggleState === 2 ? "text-left color_secondary" : "hidden"} style={{color:`#6D7280`}}>{props.detallesDos}</p>
+            <p className={ToggleState === 2 ? "text-left color_secondary" : "hidden"} style={{color:`#6D7280`}}>{props.detallesTres}</p>
+            </div>
+            <div className="thumb ">
+              {props.img.map((img, index)=>
+                <img src={img} alt="productos" key={index}
+                  onClick={()=> handleTap(index)} />
+              )}
             </div>
             </div>
             <div className="mt-10">

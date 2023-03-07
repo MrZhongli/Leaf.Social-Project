@@ -35,12 +35,14 @@ function App() {
           <ScrollToTop />
           <Routes>
             <Route path='/' element={<LandingPage />}></Route>
-            <Route path='/blog' element={<BlogContainer />}></Route>
-            <Route path='/Productos' element={<GaleryContainer />}></Route>
             <Route path='/Quienes_somos' element={<TeamContainer />}></Route>
-            <Route path='/Contactanos' element={<ContactContainer />}></Route>
-            <Route path='/blog/:slug' element={<ContainerDetail />}></Route>
             <Route path='/Productos/:slug' element={<ContainerProductDetail />}></Route>
+            <Route path='/Productos' element={<GaleryContainer />}></Route>
+            <Route path='/Contactanos' element={<ContactContainer />}></Route>
+            {/* <Route path='/blog' element={<BlogContainer />}></Route> */}
+            {/* <Route path='/blog/:slug' element={<ContainerDetail />}></Route> */}
+            <Route path='*' element={<h1>ERROR 401</h1>}></Route>
+            
           </Routes>
           <Footer />
         </BrowserRouter>

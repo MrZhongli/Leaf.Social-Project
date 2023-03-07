@@ -10,7 +10,7 @@ const SecondSection = () => {
             <div className="text-center mt-20">
                 <div className="flex flex-col">
                     <h1 className="text-5xl font-bold " style={{color:`#111827`}}>Cómo lo hacemos</h1>
-                    <p className="py-6 text-slate-400  m-auto" style={{color:`#4A505C`}}>Somos una empresa de triple impacto que crea productos solidarios hechos con materiales reciclados, potenciando la inclusión social en Argentina.</p>
+                    <p className="py-6 text-slate-400  m-5" style={{color:`#4A505C`}}>Somos una empresa de triple impacto que crea productos solidarios hechos con materiales reciclados, potenciando la inclusión social en Argentina.</p>
                     <div className='flex m-auto w-screen flex-wrap justify-center'>
                         <div className="card w-96 bg-white my-5 mx-5">
                             <figure className="px-10 pt-10">

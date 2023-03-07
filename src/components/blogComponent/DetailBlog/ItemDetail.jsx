@@ -21,10 +21,10 @@ const ItemDetail = ({item}) => {
         <div className="lg:mx-20 xl:mx-20 m-10">
           <h1 className="text-5xl font-bold text-stone-900 my-10 text-left">{item.title}</h1>
 
-          <p className="py-6 text-stone-900 text-left montserrat text-justify">{item.content}</p>
-          <p className="py-2 text-stone-900 text-left montserrat">{item.secondContent}</p>
-          <p className="py-2 text-stone-900 text-left montserrat">{item.thirdContent}</p>
-          <p className="py-2 text-stone-900 text-left montserrat">{item.forthContent}</p>
+          <p className="py-6 text-stone-900 text-left   text-justify">{item.content}</p>
+          <p className="py-2 text-stone-900 text-left  ">{item.secondContent}</p>
+          <p className="py-2 text-stone-900 text-left  ">{item.thirdContent}</p>
+          <p className="py-2 text-stone-900 text-left  ">{item.forthContent}</p>
 
           {/* <span className="py-6 text-stone-900">cantidad disponible: {item.stock} </span> */}
           {/* <h2 className='m-20 text-stone-900'>Precio {item.price} </h2> */}
