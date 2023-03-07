@@ -202,10 +202,10 @@ flex-grow: 0;
   margin-right:5px;
   opacity: 0.6;
   border-radius: 5px;
-
+  
 }
 
-.thumb img .active{
-  opacity: 1;
-  border: 1px solid lightblue;
+.active{
+  opacity: 1  !important; 
+  border:  solid 2px orangered !important;
 }

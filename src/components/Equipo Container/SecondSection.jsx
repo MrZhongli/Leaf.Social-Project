@@ -47,18 +47,13 @@ const SecondSection = () => {
                             </div>
                         </div>
                         {/* 4 */}
-                        <div className="card w-96 bg-white my-5 mx-5 ">
-                            <figure className="px-10 pt-10">
-                                <img src={number3} alt="Producto con proposito" />
-                            </figure>
-                            <div className="card-body items-center text-center">
-                                <h2 className="card-title" style={{color:`#1D2433`}}>Paso 4</h2>
-                              <p style={{ color: `#4A505C` }}>Con cada compra se potencia el trabajo nacional y se colabora con diversas ONGs
-                                  para que puedan cumplir con su misión de erradicar la pobreza.</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
+                      
+                            <div className="card-body items-center text-center">
+                               <button className='btn bg-orange hover:bg-red-500 text-white'>Ver más</button>
+                            </div>
+                  
             </div>
         </div>
     )

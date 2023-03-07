@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import Arrow_leaf from '../../../assets/Others/Arrow_leaf'
 import '../../styles/styles.css'
@@ -11,9 +11,18 @@ const P_ItemDetail = ({props}) => {
     const toggleTab = (index) =>{
       setToggleState(index)
     }
+    const value = useRef()
 
     const handleTap =(index)=>{
       setIndex(index)
+      const images = value.current.children;
+      console.log(images);
+
+      for(let i=0; i<images.length; i++){
+        images[i].className = images[i].className.replace("active" ,"");
+      }
+      images[index].className= "active";
+      
     }
     
   return (
@@ -45,10 +54,11 @@ const P_ItemDetail = ({props}) => {
             <p className={ToggleState === 2 ? "text-left color_secondary" : "hidden"} style={{color:`#6D7280`}}>{props.detallesDos}</p>
             <p className={ToggleState === 2 ? "text-left color_secondary" : "hidden"} style={{color:`#6D7280`}}>{props.detallesTres}</p>
             </div>
-            <div className="thumb ">
+            <div className="thumb " ref={value}>
               {props.img.map((img, index)=>
-                <img src={img} alt="productos" key={index}
-                  onClick={()=> handleTap(index)} />
+                <img src={img}  alt="productos" key={index} 
+                  onClick={()=> handleTap(index)}
+                   />
               )}
             </div>
             </div>
