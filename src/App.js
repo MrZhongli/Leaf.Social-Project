@@ -10,6 +10,7 @@ import ContactContainer from './components/ContactContainer';
 import ContainerDetail from './components/blogComponent/DetailBlog/ContainerDetail';
 import { ContainerProductDetail } from './components/Product component/Detail products/ContainerProductDetail';
 import ScrollToTop from './Hooks/ScrollToTop';
+import { ErrorPage } from './components/ErrorPage';
 // import SvgComponent from './assets/icon/SvgComponent';
 // import logoLoader from './assets/icon/SvgComponent';
 // import Navbar from './components/NavBar';
@@ -41,7 +42,7 @@ function App() {
             <Route path='/Contactanos' element={<ContactContainer />}></Route>
             {/* <Route path='/blog' element={<BlogContainer />}></Route> */}
             {/* <Route path='/blog/:slug' element={<ContainerDetail />}></Route> */}
-            <Route path='*' element={<h1>ERROR 401</h1>}></Route>
+            <Route path='*' element={<ErrorPage/>}></Route>
             
           </Routes>
           <Footer />

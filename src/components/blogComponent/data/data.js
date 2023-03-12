@@ -1,3 +1,7 @@
+import paragua from '../../../assets/nosotros_section/paraguas.png'
+import velas from '../../../assets/nosotros_section/velas_kitsurf.png'
+import arpillera from '../../../assets/nosotros_section/arpillera.png'
+
 const blogItems = [
     {
     id:1,
@@ -39,3 +43,29 @@ const blogItems = [
 ]
 
 export {blogItems};
+
+
+const Material = [
+    {
+        name:"Paragua",
+        img:{paragua},
+        hoverImg:'',
+    },
+    {
+        name:"Velas",
+        img:{velas},
+        hoverImg:'',
+    },
+    {
+        name:"arpillera",
+        img:{arpillera},
+        hoverImg:'',
+    },
+    {
+        name:"Paragua",
+        img:'',
+        hoverImg:'',
+    },
+]
+
+export {Material}

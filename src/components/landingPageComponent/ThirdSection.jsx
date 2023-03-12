@@ -11,7 +11,7 @@ const ThirdSection = () => {
     <div className="  text-center mt-20">
       <div className="flex flex-col">
         <h1 className="text-6xl font-bold text-black max-sm:text-5xl max-sm:mx-1">Triple Impacto</h1>
-          <p className="py-6  mt-16 max-sm:mx-5 text-justify " style={{ color: `#4A505C` }}>Somos una empresa de triple impacto que crea productos solidarios hechos con materiales
+          <p className="py-6  mt-16 max-sm:mx-5 text-center " style={{ color: `#4A505C` }}>Somos una empresa de triple impacto que crea productos solidarios hechos con materiales
             reciclados, potenciando la inclusión social en Argentina.</p>
         <div className='flex  w-screen flex-wrap justify-center'>
           <div className="card w-96 max-sm:w-72 bg-white shadow-xl my-5 mx-5 ">

@@ -8,16 +8,13 @@ const ProductContainer = () => {
     
    useEffect(() => {
     setItem(Product)
-    // console.log(item)
+    console.log(item)
    }, [])
    
 
   return (
     <div className='bg-white'>
       <div className='flex flex-wrap justify-start w-full'>
-
-
-    
     {
       item.map(p=>
         <ProductItems item={p} />
@@ -30,15 +27,12 @@ const ProductContainer = () => {
           )
           }
         </div>
-
         <h1 className='text-black text-4xl text-left max-sm:mx-10 mx-44 mt-20 color_primary'>Alpargatas</h1>
         <div className='flex flex-wrap justify-center'>
           {item.filter(p => p.category === 'Alpargatas').map(p =>
             <ProductItems item={p} />)
           }
         </div>
-
-
         <h1 className='text-black text-4xl text-left max-sm:mx-10 mx-44 mt-20 color_primary'>Zapatillas</h1>
         <div className='flex flex-wrap justify-center'>
           {item.filter(p => p.category === 'Zapatillas').map(p =>

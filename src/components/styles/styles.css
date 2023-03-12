@@ -191,7 +191,8 @@ flex-grow: 0;
   display:flex;
   flex-wrap: wrap;
   cursor: pointer;
-  margin: 16px 0;
+  
+
 }
 
 .thumb img{

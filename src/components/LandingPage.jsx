@@ -53,6 +53,8 @@ import ThirdSection from './landingPageComponent/ThirdSection';
 import Navbar from '../components/NavBar.jsx';
 // import { ForthSection } from './landingPageComponent/ForthSection';
 import FifthSection from './landingPageComponent/FifthSection';
+import VideoSection from './landingPageComponent/VideoSection';
+import SixSection from './Equipo Container/SixSection';
 
 const LandingPage = () => {
   return (
@@ -66,8 +68,10 @@ const LandingPage = () => {
     <CountUpContainer/>
     {/* <ForthSection/> */}
     <FifthSection/>
+    <SixSection/>
     {/* <HomeBlogCard/> */}
     {/* <ContactContainer/> */}
+    <VideoSection/>
     </div>
     </>
   )

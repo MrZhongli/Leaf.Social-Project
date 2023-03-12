@@ -1,44 +1,54 @@
 import React from 'react'
-import newsan from '../../assets/marcas/Newsan.png'
-import MeLi from '../../assets/marcas/MeLi.png'
-import TiendaNube from '../../assets/marcas/Tiendanube.png'
-import Wolsvagen from '../../assets/marcas/Wolsvagen.png'
-import Herzt from '../../assets/marcas/Hertz.png'
-import Sygenta from '../../assets/marcas/Sygenta.png'
-import Renault from '../../assets/marcas/Renault.png'
-import Fate from '../../assets/marcas/Fate_O.png'
+import techo from '../../assets/marcas/marcas_landpage/techo.png'
+import potrero from '../../assets/marcas/marcas_landpage/el_potrero.png'
+import cac from '../../assets/marcas/marcas_landpage/Asociacion-Civil-Comprometidas.png'
+import idel from '../../assets/marcas/marcas_landpage/IDEL.png'
+import mediapila from '../../assets/marcas/marcas_landpage/Mediapila.png'
+import hampatu from '../../assets/marcas/marcas_landpage/Hampatu.png'
+import jr from '../../assets/marcas/marcas_landpage/Justicia-Restaurativa.png'
+import barca from '../../assets/marcas/marcas_landpage/La-Barca.png'
+import amigos from '../../assets/marcas/marcas_landpage/amigos-en-el-camino.png'
+// import TiendaNube from '../../assets/marcas/Tiendanube.png'
+// import Wolsvagen from '../../assets/marcas/Wolsvagen.png'
+// import Herzt from '../../assets/marcas/Hertz.png'
+// import Sygenta from '../../assets/marcas/Sygenta.png'
+// import Renault from '../../assets/marcas/Renault.png'
+// import Fate from '../../assets/marcas/Fate_O.png'
 
 const SixSection = () => {
   return (
     <div className="hero min-h-screen bg-white"  >
-    <div className="hero-content text-center">
+    <div className="hero-content mt-10 text-center">
         <div className="">
-            <h1 className="text-5xl font-bold   text-center" style={{color:`#1D2433`}}>Reconocimientos y premios</h1>
+            <h1 className="text-5xl font-bold   text-center" style={{color:`#1D2433`}}>Juntos podemos fomentar el futuro que queremos</h1>
             <p className="py-6" style={{ color: `#6D7280` }}>Algunas de las mejores marcas trabajan con nosotros</p>
           <div className='flex flex-row flex-wrap mt-20 justify-center'>
               <div className='max-sm:m-10 m-5'>
-              <img src={newsan} alt="Newsan" /> 
+              <img src={techo} alt="techo" /> 
               </div>                      
               <div className='max-sm:m-10 m-5'>
-              <img src={MeLi} alt="Mercado Libre" /> 
+              <img src={potrero} alt="el potrero" /> 
               </div>                      
               <div className='max-sm:m-10 m-5'>
-              <img src={TiendaNube} alt="tienda nube" /> 
+              <img src={cac} alt="Acosiacion Civil Comprometidas" /> 
               </div>                      
               <div className='max-sm:m-10 m-5'>
-              <img src={Wolsvagen} alt="wolsvagen" /> 
+              <img src={idel} alt="idel" /> 
               </div>                      
               <div className='max-sm:m-10 m-5'>
-              <img src={Herzt} alt="Hertz" /> 
+              <img src={mediapila} alt="mediapila" /> 
               </div>                      
               <div className='max-sm:m-10 m-5'>
-              <img src={Sygenta} alt="Sygenta" /> 
+              <img src={hampatu} alt="Hampatu" /> 
               </div>                      
               <div className='max-sm:m-10 m-5 '>
-              <img src={Renault} alt="Renault" /> 
+              <img src={jr} alt="justicia restaurativa" /> 
               </div>                      
               <div className='max-sm:m-10 m-5'>
-              <img src={Fate} alt="fate o " /> 
+              <img src={barca} alt="La barca " /> 
+              </div>                      
+              <div className='max-sm:m-10 m-5'>
+              <img src={amigos} alt="Amigos en el camino " /> 
               </div>                      
           </div>
         </div>

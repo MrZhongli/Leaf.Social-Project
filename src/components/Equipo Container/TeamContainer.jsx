@@ -7,9 +7,11 @@ import { FifthSection } from './FifthSection'
 
 import FirstSection from './FirstSection'
 import { ForthSection } from './ForthSection'
+import NineSection from './NineSection'
 import SecondSection from './SecondSection'
 import SevenSection from './SevenSection'
 import SixSection from './SixSection'
+import TeenSection from './TeenSection'
 import { ThirdSection } from './ThirdSection'
 
 const TeamContainer = () => {
@@ -24,7 +26,8 @@ const TeamContainer = () => {
     <SecondSection/>
     <FifthSection/>
     <ForthSection/>
-    <SixSection/>
+    <TeenSection/>
+    <NineSection/>
     </div>
     </>
   )

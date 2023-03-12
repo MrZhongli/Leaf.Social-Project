@@ -24,44 +24,46 @@ const P_ItemDetail = ({props}) => {
     }
     
   return (
-    <div className='' style={{backgroundColor:`#F9FAFB`}}>
+    <div style={{backgroundColor:`#F9FAFB`}}>
       <Link to="/Productos">
       <div className='btn-ghost absolute mt-32 max-sm:mx-10 mx-20  w-14 h-14 border-2  flex justify-center rounded-full z-10' >
-      <Arrow_leaf className=" mt-4 " />
+          <Arrow_leaf className="mt-4 " />
       </div>
       </Link>
       <div className="hero min-h-screen ">
-        <div className="hero-content flex-col lg:flex-row m-10 ">
-          <img src={props.img[Index]} className="rounded-lg mb-20  slide-fwd-rightItem  mt-20" />
-          <div className="lg:mx-20 xl:mx-20 slide-fwd-leftItem ">
+        <div className=" flex flex-col lg:flex-row m-10 ">
+          <div className='flex flex-col w-2/5 max-sm:w-full max-sm:mt-20 justify-center'>
+              <img src={props.img[Index]} className="rounded-lg w-full mt-20" />
+              <div className="thumb my-5 max-sm:mx-0 mx-16 flex-row flex-wrap" ref={value}>
+              {props.img.map((img, index) =>
+                <img src={img} alt="productos" key={index}
+                  onClick={() => handleTap(index)} />
+              )}
+            </div>
+          </div>
+          {/* left side */}
+          <div className="lg:mx-20 xl:mx-20 w-3/5 max-sm:w-full mt-20 max-sm:mt-5 slide-fwd-leftItem ">
             <h1 className="text-5xl font-bold my-10 color_primary"  style={{color:`#1D2433`}}>{props.title}</h1>
             {/* <p className="py-6 text-orange text-left orange text-6xl font-bold">$ 3420</p> */}
             <div className="flex-col justify-self-start justify-items-start" >
               <div className="tabs ">
-                <p className={ToggleState === 1 ? "tab tab-lifted tab-active" : "tab tab-lifted"}
+                <p style={{color:`#1D2433`}} className={ToggleState === 1 ? "tab tab-lifted text-xl font-bold tab_active" : "tab font-bold text-xl"}
                   onClick={() => toggleTab(1)}
                 >Descripción</p>
-                <p className={ToggleState === 2 ? "tab tab-lifted tab-active" : "tab tab-lifted"}
+                <p style={{color:`#1D2433`}} className={ToggleState === 2 ? "tab tab-lifted text-xl font-bold tab_active" : "tab font-bold text-xl"}
                   onClick={() => toggleTab(2)}
                 >Detalles</p>
               </div>
-
             <div className='h-100'>
             <p className={ToggleState === 1 ? "py-6 text-left color_secondary " : "hidden"} style={{color:`#6D7280`}}>{props.principal_description}</p>
             <p className={ToggleState === 2 ? "mt-6 text-left color_secondary " : "hidden"} style={{color:`#6D7280`}}>{props.detallesUno}</p>
             <p className={ToggleState === 2 ? "text-left color_secondary" : "hidden"} style={{color:`#6D7280`}}>{props.detallesDos}</p>
             <p className={ToggleState === 2 ? "text-left color_secondary" : "hidden"} style={{color:`#6D7280`}}>{props.detallesTres}</p>
             </div>
-            <div className="thumb " ref={value}>
-              {props.img.map((img, index)=>
-                <img src={img}  alt="productos" key={index} 
-                  onClick={()=> handleTap(index)}
-                   />
-              )}
+            
             </div>
-            </div>
-            <div className="mt-10">
-            <a href='https://www.leafsocial.shop/' target="_blank" className="btn bg-orange hover:bg-red-500 text-white">conseguilas</a>
+            <div className="mt-10 flex justify-end">
+            <a href='https://www.leafsocial.shop/' target="_blank" className="btn bg-orange hover:bg-red-500 text-white ">conseguilas</a>
             </div>
           </div>
         </div>
