@@ -8,12 +8,7 @@ import hampatu from '../../assets/marcas/marcas_landpage/Hampatu.png'
 import jr from '../../assets/marcas/marcas_landpage/Justicia-Restaurativa.png'
 import barca from '../../assets/marcas/marcas_landpage/La-Barca.png'
 import amigos from '../../assets/marcas/marcas_landpage/amigos-en-el-camino.png'
-// import TiendaNube from '../../assets/marcas/Tiendanube.png'
-// import Wolsvagen from '../../assets/marcas/Wolsvagen.png'
-// import Herzt from '../../assets/marcas/Hertz.png'
-// import Sygenta from '../../assets/marcas/Sygenta.png'
-// import Renault from '../../assets/marcas/Renault.png'
-// import Fate from '../../assets/marcas/Fate_O.png'
+
 
 const SixSection = () => {
   return (

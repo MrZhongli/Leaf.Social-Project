@@ -56,11 +56,11 @@ const ContactContainer = () => {
       <Navbar />
       <form ref={form} onSubmit={sendEmail} className="flex-col">
 
-        <div className="hero h-screen " style={{ backgroundColor: `#F1F3F9`, height:`844px` }}>
-          <div className='flex flex-col justify-center align-center'>
+        <div className="md:hero lg:hero xl:hero h-screen  py-20 " style={{ backgroundColor: `#F1F3F9`, height:`844px` }}>
+          <div className='flex flex-col justify-center align-center m-4'>
             <div>
               <h1 className='text-black text-4xl mb-3 '>Contactanos</h1>
-              <p className='w-96 text-md font-light'>Si tiene alguna pregunta o comentario, no dude en comunicarte con nosotros. Siempre estamos disponible para ayudar</p>
+              <p className='md:w-96 lg:w-96 xl:w-96 text-left text-md font-light'>Si tiene alguna pregunta o comentario, no dude en comunicarte con nosotros. Siempre estamos disponible para ayudar</p>
             </div>
             <div className='flex flex-col align-center justify-center'>
               {/* input */}

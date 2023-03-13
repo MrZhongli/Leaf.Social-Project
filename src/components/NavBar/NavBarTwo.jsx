@@ -22,7 +22,7 @@ const Navbar = () => {
                     <li> <Link to="/Productos" className="text-black text-sm btn-ghost navbar_link">Productos</Link></li>
                     <li> <Link to="/Contactanos" className="text-black text-sm btn-ghost navbar_link">  Contacto</Link></li>
                     {/* <div className="divider divider-horizontal divide-black"></div> */}
-                    <li> <Link to="/blog" className="text-black text-sm btn-ghost navbar_link"> Blog</Link></li>
+                    {/* <li> <Link to="/blog" className="text-black text-sm btn-ghost navbar_link"> Blog</Link></li> */}
                 </ul>
                 <ResponsiveNavbar/>
             </div>

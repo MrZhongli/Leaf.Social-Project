@@ -19,7 +19,7 @@ export const ForthSection = () => {
                 
                   <div className="carousel carousel-center  p-4 space-x-4 bg-white rounded-box">
                       <div className="carousel-item flex flex-col align-start">
-                          <img src={Santos} className="rounded-box" alt="autor" />
+                          <img src={Santos} className="rounded-box " alt="autor" />
                       <h1 className='font-bold text-lg text-left mt-7 text-black'  style={{color:`#1D2433`}}>
                       Santo Parsons
                           </h1>

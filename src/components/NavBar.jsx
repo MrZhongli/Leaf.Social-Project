@@ -34,7 +34,7 @@ const Navbar = () => {
                     <li> <Link to="/Productos" className={NavBar? 'text-black text-sm navbar_link btn-ghost' : 'text-white text-sm navbar_link btn-ghost' }>Productos</Link></li>
                     <li> <Link to="/Contactanos" className={NavBar? 'text-black text-sm navbar_link btn-ghost' : 'text-white text-sm navbar_link btn-ghost' }>  Contacto</Link></li>
                     {/* <div className="divider divider-horizontal divide-black"></div> */}
-                    <li> <Link to="/blog" className={NavBar? 'text-black text-sm navbar_link btn-ghost' : 'text-white text-sm navbar_link btn-ghost' }> Blog</Link></li>
+                    {/* <li> <Link to="/blog" className={NavBar? 'text-black text-sm navbar_link btn-ghost' : 'text-white text-sm navbar_link btn-ghost' }> Blog</Link></li> */}
                 </ul>
                 <ResponsiveNavbar/>
             </div>

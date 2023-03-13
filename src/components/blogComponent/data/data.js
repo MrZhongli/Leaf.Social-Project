@@ -48,24 +48,24 @@ export {blogItems};
 const Material = [
     {
         name:"Paragua",
-        img:{paragua},
-        hoverImg:'',
+        imagen:{paragua},
+        // hoverImg:'',
     },
     {
         name:"Velas",
-        img:{velas},
-        hoverImg:'',
+        imagen:{velas},
+        // hoverImg:'',
     },
     {
         name:"arpillera",
-        img:{arpillera},
-        hoverImg:'',
+        imagen:{arpillera},
+        // hoverImg:'',
     },
-    {
-        name:"Paragua",
-        img:'',
-        hoverImg:'',
-    },
+    // {
+    //     name:"Paragua",
+    //     img:'',
+    //     hoverImg:'',
+    // },
 ]
 
 export {Material}

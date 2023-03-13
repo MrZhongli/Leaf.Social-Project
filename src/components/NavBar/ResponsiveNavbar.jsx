@@ -7,10 +7,8 @@ import '../styles/styles.css'
 export const ResponsiveNavbar = () => {
 
     const [Active, setActive] = useState(false)
-
     const showMenu = () =>{
         setActive(!Active)
-        console.log(Active)
     }
 
   return (
@@ -38,9 +36,9 @@ export const ResponsiveNavbar = () => {
         <li>
             <Link to="/Contactanos" className=' btn btn-ghost text-white'>Contacto</Link>
         </li>
-        <li>
+        {/* <li>
             <Link to="/Blog" className='btn btn-ghost text-white'>Blog </Link>
-        </li>
+        </li> */}
     </ul>
         : 
             <div></div>

@@ -5,6 +5,17 @@ import bg from '../../assets/background-home.png'
 import bg2 from '../../assets/background-home2.png'
 import bg3 from '../../assets/background-home3(1).png'
 
+// import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+// const MyImage = ({ image }) => (
+//   <div>
+//     <LazyLoadImage
+//       alt={image.alt}
+//       height={image.height}
+//       src={image.src} // use normal <img> attributes as props
+//       width={image.width} />
+//     <span>{image.caption}</span>
+//   </div>
 
 const FirstSection = () => {
   return (
@@ -16,7 +27,7 @@ const FirstSection = () => {
       <div className='bg-black'>
         <div className="carousel w-full ">
           <div id="slide1" className="carousel-item relative w-full ">
-            <img src={bg} className="w-full bg-hero" style={{height:`100vh`}} />
+            <img src={bg} className="w-full bg-hero " style={{height:`100vh`}} />
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide3" className="btn btn-circle btn-ghost ">❮</a>
               <a href="#slide2" className="btn btn-circle btn-ghost  ">❯</a>
