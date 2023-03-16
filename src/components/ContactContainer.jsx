@@ -20,12 +20,23 @@ const ContactContainer = () => {
       Asunto.valido === 'true' &&
       Email.valido === 'true' 
     ){
-      setFormularioValido(true)
+      // setFormularioValido(true)
+      // emailjs.sendForm(
+      //   'service_xo8dfke',
+      //   'template_qpii7sl',
+      //   form.current,
+      //   'F3848BbavDZHYILLD')
+      //   .then((result) => {
+      //     console.log(result.text);
+      //   }, (error) => {
+      //     console.log(error.text);
+      //   });
+        setFormularioValido(true)
       emailjs.sendForm(
-        'service_xo8dfke',
-        'template_qpii7sl',
+        'service_iyte547',
+        'template_l06jpxc',
         form.current,
-        'F3848BbavDZHYILLD')
+        'nAJbQ3CPOe-bJYjS2')
         .then((result) => {
           console.log(result.text);
         }, (error) => {
