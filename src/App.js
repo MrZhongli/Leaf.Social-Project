@@ -1,53 +1,70 @@
 // import { useState } from 'react';
 import { BrowserRouter ,Route, Routes } from 'react-router-dom';
 import './App.css';
-import LandingPage from './components/LandingPage';
-import BlogContainer from './components/blogComponent/BlogContainer';
-import Footer from './components/Footer';
-import GaleryContainer from './components/GaleryContainer';
+// import LandingPage from './components/LandingPage';
 import TeamContainer from './components/Equipo Container/TeamContainer';
-import ContactContainer from './components/ContactContainer';
-import ContainerDetail from './components/blogComponent/DetailBlog/ContainerDetail';
+import GaleryContainer from './components/GaleryContainer';
+import ContactContainer from './components/ContactContainer'
 import { ContainerProductDetail } from './components/Product component/Detail products/ContainerProductDetail';
+import Footer from './components/Footer';
 import ScrollToTop from './Hooks/ScrollToTop';
 import { ErrorPage } from './components/ErrorPage';
-// import SvgComponent from './assets/icon/SvgComponent';
-// import logoLoader from './assets/icon/SvgComponent';
-// import Navbar from './components/NavBar';
-// import ChatBoxContainer from './components/ChatBot/ChatBoxContainer';
-// import BubbleChat from './components/ChatBot/BubbleChat';
-// import MainContainer from './components/MainContainer';
+import { useEffect, useState, lazy, Suspense } from 'react';
+import cover from './assets/Others/LEAF_Cover.png'
+import logo from './assets/Others/LEAF.png'
+
+// 
+const LandingPage = lazy(() => import("./components/LandingPage"));
+// const TeamContainer = lazy(() => import("./components/Equipo Container/TeamContainer"));
+// const GaleryContainer = lazy(() => import("./components/GaleryContainer"));
+// const ContactContainer = lazy(() => import("./components/ContactContainer"));
 
 
 function App() {
-  // const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(true)
     
-// useEffect(() => {
-//     setTimeout(()=>{
-//         setLoading(false)
-//     },2000)
-    
-// }, [])
+useEffect(() => {
+    setTimeout(()=>{
+        setLoading(false)
+    },2000)
+}, [])
+
+
   return (
     <>
-      {/* <SvgComponent className="rotate-center"/> */}
+    {
+      loading ?
+      <div className='bg-white h-screen flex justify-center items-center' style={{backgroundImage:`url(${cover})`}}>
+        <img src={logo} alt='cover' className='scale-up-center w-52 h-52 '/>
+        </div>
+      :
       <div className="App">
-        <BrowserRouter>
-          <ScrollToTop />
-          <Routes>
-            <Route path='/' element={<LandingPage />}></Route>
-            <Route path='/Quienes_somos' element={<TeamContainer />}></Route>
-            <Route path='/Productos/:slug' element={<ContainerProductDetail />}></Route>
-            <Route path='/Productos' element={<GaleryContainer />}></Route>
-            <Route path='/Contactanos' element={<ContactContainer />}></Route>
-            {/* <Route path='/blog' element={<BlogContainer />}></Route> */}
-            {/* <Route path='/blog/:slug' element={<ContainerDetail />}></Route> */}
-            <Route path='*' element={<ErrorPage/>}></Route>
-            
-          </Routes>
-          <Footer />
-        </BrowserRouter>
-      </div>
+        <Suspense fallback={
+        <div className='bg-white h-screen flex justify-center items-center' style={{backgroundImage:`url(${cover})`}}>
+        <img src={logo} alt='cover' className='scale-up-center w-52 h-52 '/>
+        </div>
+      }>
+      <BrowserRouter>
+        <ScrollToTop />
+        <Routes>
+        {/* <Suspense> */}
+          <Route path='/' element={<LandingPage/>}></Route>
+          <Route path='/Quienes_somos' element={<TeamContainer />}></Route>
+          <Route path='/Productos/:slug' element={<ContainerProductDetail />}></Route>
+          <Route path='/Productos' element={<GaleryContainer />}></Route>
+          <Route path='/Contactanos' element={<ContactContainer />}></Route>
+          {/* <Route path='/blog' element={<BlogContainer />}></Route> */}
+          {/* <Route path='/blog/:slug' element={<ContainerDetail />}></Route> */}
+      {/* </Suspense> */}
+          <Route path='*' element={<ErrorPage/>}></Route>
+          
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+        
+        </Suspense>
+    </div>
+     }
     </>
 );
 }

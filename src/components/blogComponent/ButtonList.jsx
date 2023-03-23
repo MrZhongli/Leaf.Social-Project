@@ -4,7 +4,6 @@ const ButtonList = ({categories, filterCategory}) => {
 
   return (
     <div>
-        
         <div>
             <p className='text-black m-2 text-lg font-bold'>Categorias</p>
               <ul className="menu bg-white w-56 mx-2 ">

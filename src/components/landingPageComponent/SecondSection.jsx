@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Tshirt from '../../assets/LEAF-Social_Mediapila.png'
+import Tshirt from '../../assets/landing/LEAF-Social_Mediapila.jpg'
 import '../styles/styles.css'
 import LazyLoad from 'react-lazy-load';
 

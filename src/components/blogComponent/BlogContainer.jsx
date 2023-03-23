@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom';
 import Navbar from '../NavBar/NavBarTwo';
-import { getItemData } from './BlogItem';
 import BlogProduct from './BlogProduct';
 import ButtonList from './ButtonList';
 import CarouselBlog from './CarouselBlog';
@@ -11,22 +9,10 @@ const BlogContainer = () => {
 
   const [product, setProduct] = useState(blogItems);
   
-  // useEffect(() => {
-
-  //   // getItemData().then((props) => {
-  //   //   setProduct(props)
-
-  //   // })
-  //   setProduct(blogItems)
-    
-  // }, [])
-  
   const allCategories = [ "todos",...new Object(blogItems.map(article => article.category))]
   
   console.log("allcategories",allCategories)
   const [categories, setCategories] = useState(allCategories)
-  
-  
 
   const filterCategory = (category) =>{
     console.log(category)

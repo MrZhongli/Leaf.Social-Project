@@ -25,9 +25,6 @@ const ItemDetail = ({item}) => {
           <p className="py-2 text-stone-900 text-left  ">{item.secondContent}</p>
           <p className="py-2 text-stone-900 text-left  ">{item.thirdContent}</p>
           <p className="py-2 text-stone-900 text-left  ">{item.forthContent}</p>
-
-          {/* <span className="py-6 text-stone-900">cantidad disponible: {item.stock} </span> */}
-          {/* <h2 className='m-20 text-stone-900'>Precio {item.price} </h2> */}
         <div>
           <ul className=" bg-white mt-20 w-72 p-2 rounded-box flex ">
 

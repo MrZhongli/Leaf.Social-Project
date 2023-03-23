@@ -14,7 +14,8 @@ const ProductContainer = () => {
 
   return (
     <div className='bg-white'>
-      <div className='flex flex-wrap justify-start w-full'>
+      <h2 className='font-bold text-5xl text-start md:mx-14 lg:mx-14 xl:mx-14  pt-20 text-black'>Categorias</h2>
+      <div className='flex flex-wrap justify-center w-full py-20'>
     {
       item.map(p=>
         <ProductItems item={p} />

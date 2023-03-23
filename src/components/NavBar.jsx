@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { useState } from 'react';
-// import { Link } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import Logo from '../assets/Others/Logo';
 import { ResponsiveNavbar } from './NavBar/ResponsiveNavbar';
@@ -33,8 +32,6 @@ const Navbar = () => {
                     <li> <Link to="/Quienes_somos" className={NavBar? 'text-black text-sm navbar_link btn-ghost' : 'text-white text-sm navbar_link btn-ghost' }> Nosotros</Link></li>
                     <li> <Link to="/Productos" className={NavBar? 'text-black text-sm navbar_link btn-ghost' : 'text-white text-sm navbar_link btn-ghost' }>Productos</Link></li>
                     <li> <Link to="/Contactanos" className={NavBar? 'text-black text-sm navbar_link btn-ghost' : 'text-white text-sm navbar_link btn-ghost' }>  Contacto</Link></li>
-                    {/* <div className="divider divider-horizontal divide-black"></div> */}
-                    {/* <li> <Link to="/blog" className={NavBar? 'text-black text-sm navbar_link btn-ghost' : 'text-white text-sm navbar_link btn-ghost' }> Blog</Link></li> */}
                 </ul>
                 <ResponsiveNavbar/>
             </div>

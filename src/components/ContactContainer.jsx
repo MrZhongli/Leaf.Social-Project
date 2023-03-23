@@ -31,12 +31,13 @@ const ContactContainer = () => {
       //   }, (error) => {
       //     console.log(error.text);
       //   });
-        setFormularioValido(true)
+      // datos de leaf
+      setFormularioValido(true)
       emailjs.sendForm(
-        'service_iyte547',
-        'template_l06jpxc',
+        'service_28mvv8p',
+        "template_7gggj1c",
         form.current,
-        'nAJbQ3CPOe-bJYjS2')
+        '45rMnPbZS5c5NRePz')
         .then((result) => {
           console.log(result.text);
         }, (error) => {

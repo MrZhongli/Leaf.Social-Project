@@ -6,6 +6,7 @@ import IgIcon from './social-icons/Ig-icon'
 import LinkedinIcon from './social-icons/Linkedin-icon'
 import TwitterIcon from './social-icons/Twitter-icon'
 import pinterest from '../assets/icon/Pinterest.png'
+import leaf_logo_footer from '../assets/icon/leaf_logo_footer.png'
 import './styles/styles.css'
 
 const Footer = () => {
@@ -14,6 +15,10 @@ const Footer = () => {
     <>
       <footer className="footer p-10 bg-footer " style={{ backgroundColor: `#1B1F27` }}>
         <div>
+          <div className='py-10'>
+            <img src={leaf_logo_footer} alt="logo" />
+            <p className='pt-5'>Juntos podemos lograr el futuro que queremos!</p>
+          </div>
           <span className="footer-title" style={{ color: `#BEBEBE` }}>Seguinos en nuestras redes</span>
           <div className='flex '>
             <a href='https://www.facebook.com/Leaf.social/' target="_blank"><FacebookIcon className="md:m-2 max-sm:m-1 " /></a>
@@ -38,7 +43,7 @@ const Footer = () => {
           <a className="link link-hover text-white" href='https://www.shop-leaf.com/preguntas-frecuentes/'>Preguntas Frecuentes</a>
         </div>
       </footer>
-      <div className="footer footer-center p-4 bg-base-300 text-base-content">
+      <div className="footer footer-center p-4  text-base-content" style={{ backgroundColor: `#1B1F27` }} >
         <div>
           <p>©2023 LEAF - Todos los derechos reservados.</p>
         </div>

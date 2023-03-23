@@ -20,7 +20,7 @@ export const ThirdSection = () => {
                       <figure><img src={ropa} alt="Ropas" /></figure>
                       <div className="card-body">
                           <h2 className="font-bold text-left text-black ">
-                              La industria de la moda es una de las mas contaminantes del mundo
+                          La industria de la moda es una de las mas contaminantes del mundo.
                           </h2>
                           <p className='text-justify' style={{ color: `#4A505C` }}>La industria de la moda es la sexta industria más grande del mundo y además es la
                               segunda industria más contaminante del mundo.</p>
@@ -31,11 +31,9 @@ export const ThirdSection = () => {
                       <figure><img src={agua} alt="Barriles de aguas" /></figure>
                       <div className="card-body">
                           <h2 className="font-bold text-left text-black ">
-                          La industria de la moda es una de las mas contaminantes del mundo
-                              
+                          Se necesitan 2.720 litros de agua para hacer una remera                  
                           </h2>
-                          <p className='text-justify' style={{ color: `#4A505C` }}>Se necesitan 17.000 litros de agua para hacer una mochila de tela o cuero. Lo que equivale
-                              a la cantidad de agua que bebe una persona en 18 años.</p>
+                          <p className='text-justify' style={{ color: `#4A505C` }}>Lo que equivale a la cantidad que una persona bebe en promedio 3 años.</p>
                       </div>
                   </div>
 
@@ -44,8 +42,7 @@ export const ThirdSection = () => {
                       <figure><img src={contaminacion} alt="Barriles de aguas" /></figure>
                       <div className="card-body">
                           <h2 className="font-bold text-left text-black ">
-                              Produce 1.5 toneladas de monóxido de carbono por hogar al año. Lo equivalente a 6.000
-                              autos en marcha y representa el 10% de emisiones de gases de CO2
+                          Produce 1.5 toneladas de monóxido de carbono por hogar al año
                           </h2>
                           <p className='text-justify' style={{color:`#4A505C`}}>Lo que equivale a 6000 autos en marcha y representa el 10% de emisiones globales de C02.</p>
                           {/* <div className="card-actions justify-end">

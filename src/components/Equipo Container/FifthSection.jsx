@@ -15,17 +15,13 @@ export const FifthSection = () => {
     useEffect(() => {
         setItem(Material)
     })
-    
-
-    
-
 
   return (
       <div className="hero py-52 bg-white">
           <div className="hero-content text-center flex flex-col ">
               <div>
                   <h1 className="text-5xl font-bold text-black" style={{color:`#1D2433`}}>Materiales que reciclamos</h1>
-                  <p className="py-6" style={{color:`#4A505C`}}>Recolectamos una amplia cantidad de distintos tipos de materiales que luego transformamos en productos.</p>
+                  <p className="py-6" style={{color:`#4A505C`}}>Trabajamos con una amplia cantidad de distintos tipos de materiales que luego transformamos en productos.</p>
               </div>
                   <div className="  flex flex-wrap justify-center space-x-4 bg-white rounded-box">
                       {

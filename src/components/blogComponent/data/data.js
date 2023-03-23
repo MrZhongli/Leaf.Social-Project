@@ -1,6 +1,9 @@
-import paragua from '../../../assets/nosotros_section/paraguas.png'
-import velas from '../../../assets/nosotros_section/velas_kitsurf.png'
-import arpillera from '../../../assets/nosotros_section/arpillera.png'
+import paragua from '../../../assets/nosotros_section/materiales/Paraguas.jpg'
+import velas from '../../../assets/nosotros_section/materiales/Vela_kitesurf.jpg'
+import arpillera from '../../../assets/nosotros_section/materiales/bolsa_plastillera.jpg'
+import neumaticos from '../../../assets/nosotros_section/materiales/neumaticos.jpg'
+import Cinturones_de_seguridad from '../../../assets/nosotros_section/materiales/Cinturones_de_seguridad.jpg'
+import Vela_nautica_wind from '../../../assets/nosotros_section/materiales/Vela_nautica_wind.jpg'
 
 const blogItems = [
     {
@@ -57,8 +60,23 @@ const Material = [
         // hoverImg:'',
     },
     {
-        name:"arpillera",
+        name:"bolsa plastillera",
         imagen:{arpillera},
+        // hoverImg:'',
+    },
+    {
+        name:"neumáticos",
+        imagen:{neumaticos},
+        // hoverImg:'',
+    },
+    {
+        name:"Cinturones de seguridad",
+        imagen:{Cinturones_de_seguridad},
+        // hoverImg:'',
+    },
+    {
+        name:"Vela nautica wind",
+        imagen:{Vela_nautica_wind},
         // hoverImg:'',
     },
     // {
