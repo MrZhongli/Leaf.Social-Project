@@ -6,8 +6,6 @@ import P_ItemDetail from './P_ItemDetail'
 
 export const ContainerProductDetail = () => {
 
-  // const {slug} = useParams()
-    
   const {slug} = useParams()  
   const item = Product.find(item=> item.slug === slug )
 

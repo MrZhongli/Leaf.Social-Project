@@ -31,7 +31,9 @@ const ThirdSection = () => {
             </figure> 
             <div className="card-body items-center text-center">
               <h2 className="card-title text-black">Impacto social</h2>
-              <p className='text-justify mt-2' style={{color:`#4A505C`}}>Generamos oportunidades laborales y de inclusión social a personas con discapacidad, mujeres en situación de vulnerabilidad, así como de reinserción social para personas que fueron liberadas luego de haber cumplido su condena.</p>
+                <p className='text-justify mt-2' style={{ color: `#4A505C` }}>Generamos oportunidades laborales y de inclusión social a personas con
+                  discapacidad, mujeres en situación de vulnerabilidad, así como de reinserción social para
+                  personas que fueron liberadas luego de haber cumplido su condena.</p>
             </div>
           </div>
           {/* card 3 */}
@@ -40,14 +42,15 @@ const ThirdSection = () => {
               <img src={TshitImg} alt="Producto con proposito"/>
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title text-black">Impacto económico</h2>
+              <h2 className="card-title text-black">Productos solidarios</h2>
                 <p className='text-justify mt-2' style={{ color: `#4A505C` }}>Con cada compra estás ayudando a que los otros dos impactos sean
                   sostenibles en el tiempo, colaborando con el proceso de producción y con diversas ONGs
-                  para que cumplan su misión</p>
+                  para que cumplan su misión.</p>
             </div>
           </div>
         </div>
       </div>
+          <button className="btn bg-orange hover:bg-red-500  text-white mt-20">Conocé más</button>
     </div>
   </div>
   )

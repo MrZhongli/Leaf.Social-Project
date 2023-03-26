@@ -4,6 +4,7 @@ import arpillera from '../../../assets/nosotros_section/materiales/bolsa_plastil
 import neumaticos from '../../../assets/nosotros_section/materiales/neumaticos.jpg'
 import Cinturones_de_seguridad from '../../../assets/nosotros_section/materiales/Cinturones_de_seguridad.jpg'
 import Vela_nautica_wind from '../../../assets/nosotros_section/materiales/Vela_nautica_wind.jpg'
+import Lona_de_banners from '../../../assets/nosotros_section/materiales/Lona_de_banners.jpg'
 
 const blogItems = [
     {
@@ -75,8 +76,13 @@ const Material = [
         // hoverImg:'',
     },
     {
-        name:"Vela nautica wind",
+        name:"Vela náutica wind",
         imagen:{Vela_nautica_wind},
+        // hoverImg:'',
+    },
+    {
+        name:"Lona de banners",
+        imagen:{Lona_de_banners},
         // hoverImg:'',
     },
     // {

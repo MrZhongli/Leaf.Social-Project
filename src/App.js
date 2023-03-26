@@ -8,16 +8,17 @@ import ContactContainer from './components/ContactContainer'
 import { ContainerProductDetail } from './components/Product component/Detail products/ContainerProductDetail';
 import Footer from './components/Footer';
 import ScrollToTop from './Hooks/ScrollToTop';
-import { ErrorPage } from './components/ErrorPage';
+import ErrorPage from './components/ErrorPage';
 import { useEffect, useState, lazy, Suspense } from 'react';
 import cover from './assets/Others/LEAF_Cover.png'
-import logo from './assets/Others/LEAF.png'
+import logo from './assets/Others/isotipo_prueba(1).png'
 
 // 
 const LandingPage = lazy(() => import("./components/LandingPage"));
 // const TeamContainer = lazy(() => import("./components/Equipo Container/TeamContainer"));
 // const GaleryContainer = lazy(() => import("./components/GaleryContainer"));
 // const ContactContainer = lazy(() => import("./components/ContactContainer"));
+// const ErrorPage = lazy(() => import("./components/ErrorPage"));
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
 useEffect(() => {
     setTimeout(()=>{
         setLoading(false)
-    },2000)
+    },1500)
 }, [])
 
 
@@ -34,37 +35,35 @@ useEffect(() => {
     <>
     {
       loading ?
-      <div className='bg-white h-screen flex justify-center items-center' style={{backgroundImage:`url(${cover})`}}>
-        <img src={logo} alt='cover' className='scale-up-center w-52 h-52 '/>
+      <div className='bg-white h-screen flex flex-col justify-center items-center' style={{backgroundColor:`#EB595A`}}>
+        <img src={logo} alt='cover' className='scale-up-center'/>
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
         </div>
       :
-      <div className="App">
-        <Suspense fallback={
-        <div className='bg-white h-screen flex justify-center items-center' style={{backgroundImage:`url(${cover})`}}>
-        <img src={logo} alt='cover' className='scale-up-center w-52 h-52 '/>
-        </div>
-      }>
-      <BrowserRouter>
-        <ScrollToTop />
-        <Routes>
-        {/* <Suspense> */}
-          <Route path='/' element={<LandingPage/>}></Route>
-          <Route path='/Quienes_somos' element={<TeamContainer />}></Route>
-          <Route path='/Productos/:slug' element={<ContainerProductDetail />}></Route>
-          <Route path='/Productos' element={<GaleryContainer />}></Route>
-          <Route path='/Contactanos' element={<ContactContainer />}></Route>
-          {/* <Route path='/blog' element={<BlogContainer />}></Route> */}
-          {/* <Route path='/blog/:slug' element={<ContainerDetail />}></Route> */}
-      {/* </Suspense> */}
-          <Route path='*' element={<ErrorPage/>}></Route>
-          
-        </Routes>
-        <Footer />
-      </BrowserRouter>
-        
-        </Suspense>
+          <div className="App">
+            <Suspense fallback={
+               <div className='bg-white h-screen flex flex-col justify-center items-center' style={{backgroundColor:`#EB595A`}}>
+               <img src={logo} alt='cover' className='scale-up-center'/>
+               <div class="lds-facebook"><div></div><div></div><div></div></div>
+               </div>
+            }>
+              <BrowserRouter>
+                <ScrollToTop />
+                <Routes>
+                  <Route path='/' element={<LandingPage />}></Route>
+                  <Route path='/Quienes_somos' element={<TeamContainer />}></Route>
+                  <Route path='/Productos/:slug' element={<ContainerProductDetail />}></Route>
+                  <Route path='/Productos' element={<GaleryContainer />}></Route>
+                  <Route path='/Contactanos' element={<ContactContainer />}></Route>
+                  {/* <Route path='/blog' element={<BlogContainer />}></Route> */}
+                  {/* <Route path='/blog/:slug' element={<ContainerDetail />}></Route> */}
+                  <Route path='*' element={<ErrorPage />}></Route>
+                </Routes>
+                <Footer />
+              </BrowserRouter>
+            </Suspense>
     </div>
-     }
+      }
     </>
 );
 }

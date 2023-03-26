@@ -5,7 +5,7 @@ import damian from '../../assets/nosotros_section/nine_section/Damian.png'
 
 const NineSection = () => {
   return (
-      <div className="md:hero lg:hero xl:hero min-h-screen bg-white">
+      <div className="md:hero lg:hero xl:hero min-h-screen " style={{backgroundColor:`#f6f7fb`}}>
           <div className="text-center flex flex-col">
               <div className="">
                   <h1 className="text-5xl font-bold" style={{color:`#1D2433`}}>Conectando talentos con oportunidades</h1>

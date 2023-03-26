@@ -1,15 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/styles.css'
-import shadow from '../../assets/landing/Sombra.png'
+import rectangle from '../../assets/Rectangle.png'
 import Alpargauchas from '../../assets/landing/EveryDay-Pink.png'
 import { Link } from 'react-router-dom'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const FifthSection = () => {
-  return (
+    useEffect(() => {
+      Aos.init();
+     })
+    return (
       <div className="hero min-h-screen bg-white">
           <div className="hero-content flex-col lg:flex-row-reverse">
-              <img src={shadow} className=" relative" alt="sombra"  />
-              <img src={Alpargauchas} className="absolute md:right-10 max-sm:mt-0  mt-48 max-sm:mb-96 md:mb-52" alt="Alpargauchas" />
+              <img src={rectangle} className=" relative lg:left-52 md:left-52 max-sm:left-20" alt="sombra"  />
+              <img src={Alpargauchas} className="absolute md:right-10 mt-56 max-sm:mb-96 max-sm:pb-96 md:mb-52" alt="Alpargauchas" data-aos = "fade-left" />
               <div>
                   <h1 className="text-5xl font-bold text-black max-sm:mt-20">Productos solidarios</h1>
                   <p className="py-6 text-justify mt-10 mb-10" style={{ color: `#6D7280` }}>Transformando descartes en productos innovadores.

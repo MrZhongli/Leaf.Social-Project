@@ -52,7 +52,7 @@ opacity: 0.4;
 }
 .bg-hero-product{
 height: 720px;
-background-image: url('../../assets/product_section/product-bg-main.png');
+background-image: url('../../assets/product_section/product-bg-main.jpg');
 background-size: fill;
 background-repeat: no-repeat;
 /* opacity: calc(90%); */
@@ -196,8 +196,8 @@ flex-grow: 0;
 }
 
 .thumb img{
-  width: 90px;
-  height: 100%;
+  width: 80px;
+  /* height: 100%; */
   object-fit: contain;
   border: 1px solid #ddd;
   margin-right:5px;
@@ -211,11 +211,32 @@ flex-grow: 0;
   border:  solid 2px orangered !important;
 }
 
-.glass_effect{
-background: rgba(255, 255, 255, 0.24);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-/* backdrop-filter: blur(9px) !important; */
-/* backdrop-filter: blur(9px); */
-border: 1px solid rgba(255, 255, 255, 0.3);
+.text-focus-in {
+	-webkit-animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+ @-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
 }

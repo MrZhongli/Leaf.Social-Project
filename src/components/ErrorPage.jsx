@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './styles/styles.css'
 
-export const ErrorPage = () => {
+const ErrorPage = () => {
   return (
     <div className="hero min-h-screen" style={{ backgroundImage: `url("https://www.cucinare.tv/wp-content/uploads/2020/08/Silobolsas.jpg")` }}>
     <div className="hero-overlay bg-opacity-60"></div>
@@ -16,3 +16,5 @@ export const ErrorPage = () => {
   </div>
   )
 }
+
+export default ErrorPage;

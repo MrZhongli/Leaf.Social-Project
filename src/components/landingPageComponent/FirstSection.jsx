@@ -4,12 +4,13 @@ import bg2 from '../../assets/landing/background-home2.jpg'
 import bg3 from '../../assets/landing/background-home3.jpg'
 import '../styles/styles.css'
 
+
 const FirstSection = () => {
   return (
     <>
-      <div className='absolute top-1/3 mt-24 flex flex-col left-32 max-sm:left-0 max-sm:top-72'>
-        <h1 className="text-6xl font-bold text-white text-left  max-sm:text-5xl max-sm:mx-5 " >Productos con propositos</h1>
-        <p className="py-6 text-xl text-white  text-left   max-sm:mx-5">Vestirse bien puede ser un acto de consciencia social y ambiental</p>
+      <div className='absolute top-1/3 mt-24 flex flex-col left-32 max-sm:left-0 max-sm:top-72 '>
+        <h1 className="text-6xl font-bold text-white text-left  max-sm:text-5xl max-sm:mx-5 text-focus-in  fade" >Productos con propositos</h1>
+        <p className="py-6 text-xl text-white  text-left   max-sm:mx-5 text-focus-in">Vestirse bien puede ser un acto de consciencia social y ambiental</p>
       </div>
       <div className='bg-black'>
         <div className="carousel w-full ">

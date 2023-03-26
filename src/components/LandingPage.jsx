@@ -1,11 +1,9 @@
 import React from 'react';
-// import HomeBlogCard from './blogComponent/HomeBlog/HomeBlogCard';
 import CountUpContainer from './CountUp/CountUpContainer';
 import FirstSection from './landingPageComponent/FirstSection';
 import SecondSection from './landingPageComponent/SecondSection';
 import ThirdSection from './landingPageComponent/ThirdSection';
 import Navbar from '../components/NavBar.jsx';
-// import { ForthSection } from './landingPageComponent/ForthSection';
 import FifthSection from './landingPageComponent/FifthSection';
 import VideoSection from './landingPageComponent/VideoSection';
 import SixSection from './Equipo Container/SixSection';

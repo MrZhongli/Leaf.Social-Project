@@ -1,11 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { PinterestIcon } from 'react-share';
-import FacebookIcon from './social-icons/Facebook-icon'
-import IgIcon from './social-icons/Ig-icon'
-import LinkedinIcon from './social-icons/Linkedin-icon'
-import TwitterIcon from './social-icons/Twitter-icon'
-import pinterest from '../assets/icon/Pinterest.png'
+import facebook from '../assets/icon/redes/facebook.svg'
+import Ig from '../assets/icon/redes/ig.svg'
+// import Ig from '../assets/logo_loader.svg'
+import linkedin from '../assets/icon/redes/linkedin.svg'
+import youtube from '../assets/icon/redes/youtube.svg'
+import pinterest from '../assets/icon/redes/pinterest.svg'
+// import TwitterIcon from './social-icons/Twitter-icon'
+// import pinterest from '../assets/icon/Pinterest.png'
 import leaf_logo_footer from '../assets/icon/leaf_logo_footer.png'
 import './styles/styles.css'
 
@@ -17,15 +20,15 @@ const Footer = () => {
         <div>
           <div className='py-10'>
             <img src={leaf_logo_footer} alt="logo" />
-            <p className='pt-5'>Juntos podemos lograr el futuro que queremos!</p>
+            <p className='pt-5 w-52 text-left'>¿Te gustaron nuestros productos y querés ser cliente mayorista? Comunicate con nosotros a <span className='text-red-500'>mayorista@leaf.social</span></p>
           </div>
           <span className="footer-title" style={{ color: `#BEBEBE` }}>Seguinos en nuestras redes</span>
-          <div className='flex '>
-            <a href='https://www.facebook.com/Leaf.social/' target="_blank"><FacebookIcon className="md:m-2 max-sm:m-1 " /></a>
-            <a href='https://www.instagram.com/leaf.social/?hl=es' target="_blank"><IgIcon className="md:m-2 max-sm:m-1" /></a>
-            <a href='https://ar.linkedin.com/company/leafsocial?original_referer=https%3A%2F%2Fwww.google.com%2F' target="_blank"><LinkedinIcon className="md:m-2 max-sm:m-1" /></a>
-            <a href='https://twitter.com/Leaf_Social' target="_blank"><TwitterIcon className="md:m-2 max-sm:m-1" /></a>
-            <a href='https://ar.pinterest.com/leafsocial/' target="_blank"><img src={pinterest} className="md:m-2 max-sm:m-1"></img></a>
+          <div className='flex flex-wrap'>
+            <a href='https://www.facebook.com/Leaf.social/' target="_blank" className='hover:scale-75 duration-150'><img className="w-9 h-9 m-4" src={facebook} alt="facebook" /></a>
+            <a href='https://www.instagram.com/leaf.social/?hl=es' target="_blank" className='hover:scale-75 duration-150'><img className="w-9 h-9 m-4" src={Ig} alt="instagram" /></a>
+            <a href='https://ar.linkedin.com/company/leafsocial?original_referer=https%3A%2F%2Fwww.google.com%2F' target="_blank" className='hover:scale-75 duration-150'><img className="w-9 h-9 m-4" src={linkedin} alt="linkedin" /></a>
+            <a href='https://twitter.com/Leaf_Social' target="_blank" className='hover:scale-75 duration-150'><img className="w-9 h-9 m-4" src={youtube} alt="youtube" /></a>
+            <a href='https://ar.pinterest.com/leafsocial/' target="_blank" className='hover:scale-75 duration-150 '><img src={pinterest} className="w-9 h-9 m-4"></img></a>
           </div>
         </div>
         <div>
