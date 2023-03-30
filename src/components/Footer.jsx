@@ -1,54 +1,73 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import { PinterestIcon } from 'react-share';
 import facebook from '../assets/icon/redes/facebook.svg'
 import Ig from '../assets/icon/redes/ig.svg'
-// import Ig from '../assets/logo_loader.svg'
 import linkedin from '../assets/icon/redes/linkedin.svg'
 import youtube from '../assets/icon/redes/youtube.svg'
 import pinterest from '../assets/icon/redes/pinterest.svg'
-// import TwitterIcon from './social-icons/Twitter-icon'
-// import pinterest from '../assets/icon/Pinterest.png'
-import leaf_logo_footer from '../assets/icon/leaf_logo_footer.png'
+import leaf_logo_footer from '../assets/Others/isotipo_blanco.svg'
 import './styles/styles.css'
 
 const Footer = () => {
-  return (
 
+  const [Input, setInput] = useState('Email')
+
+  function handleClick(){
+    setInput(" ")
+    console.log(Input)
+  }
+
+  return (
     <>
-      <footer className="footer p-10 bg-footer " style={{ backgroundColor: `#1B1F27` }}>
+      <footer className="footer p-5 bg-footer " style={{ backgroundColor: `#1B1F27` }}>
         <div>
-          <div className='py-10'>
-            <img src={leaf_logo_footer} alt="logo" />
-            <p className='pt-5 w-52 text-left'>¿Te gustaron nuestros productos y querés ser cliente mayorista? Comunicate con nosotros a <span className='text-red-500'>mayorista@leaf.social</span></p>
+          <div className=''>
+            <img src={leaf_logo_footer} alt="logo" className='w-32 h-32' />
+            <p className='pt-5 max-sm:w-32 md:w-72 text-justify'>¡Juntos podemos lograr el futuro que queremos! Sumate al cambio que el mundo necesita.</p>
           </div>
-          <span className="footer-title" style={{ color: `#BEBEBE` }}>Seguinos en nuestras redes</span>
-          <div className='flex flex-wrap'>
-            <a href='https://www.facebook.com/Leaf.social/' target="_blank" className='hover:scale-75 duration-150'><img className="w-9 h-9 m-4" src={facebook} alt="facebook" /></a>
-            <a href='https://www.instagram.com/leaf.social/?hl=es' target="_blank" className='hover:scale-75 duration-150'><img className="w-9 h-9 m-4" src={Ig} alt="instagram" /></a>
-            <a href='https://ar.linkedin.com/company/leafsocial?original_referer=https%3A%2F%2Fwww.google.com%2F' target="_blank" className='hover:scale-75 duration-150'><img className="w-9 h-9 m-4" src={linkedin} alt="linkedin" /></a>
-            <a href='https://twitter.com/Leaf_Social' target="_blank" className='hover:scale-75 duration-150'><img className="w-9 h-9 m-4" src={youtube} alt="youtube" /></a>
-            <a href='https://ar.pinterest.com/leafsocial/' target="_blank" className='hover:scale-75 duration-150 '><img src={pinterest} className="w-9 h-9 m-4"></img></a>
-          </div>
+          
         </div>
-        <div>
-          <span className="footer-title " style={{ color: `#BEBEBE` }}>Empresa</span>
-          <Link to="/Quienes_somos" className="link link-hover text-white">Equipo</Link>
+        <div className='py-10'>
+          <span className="footer-title " style={{ color: `#9D9EA1` }}>Conocenos</span>
           <Link to="/Quienes_somos" className="link link-hover text-white">Nosotros</Link>
           <Link to="/Productos" className="link link-hover text-white">Productos</Link>
+          <a href='?' rel='noreferrer' className="link link-hover text-white">Prensa</a>
           <Link to="/Blog" className="link link-hover text-white">Blog</Link>
         </div>
-        <div>
-          <span className="footer-title" style={{ color: `#BEBEBE` }}>Ayuda</span>
-          <Link to='/Contactanos' className="link link-hover  text-white">Contacto</Link>
-          <a className="link link-hover text-white">Soporte</a>
-          <a className="link link-hover text-white">Terminos & Condiciones</a>
+        <div className='sm:py-0 md:py-10'>
+          <span className="footer-title " style={{ color: `#9D9EA1` }}>Hablemos</span>
+          <Link to='/Contactanos' className="link link-hover  text-white">Escribinos</Link>
           <a className="link link-hover text-white" href='https://www.shop-leaf.com/preguntas-frecuentes/'>Preguntas Frecuentes</a>
+          <a className="link link-hover text-white" href='https://www.shop-leaf.com/preguntas-frecuentes/'>Dónde comprar</a>
+        </div>
+        <div className='sm:py-0 md:py-10'>
+          <span className="footer-title " style={{ color: `#9D9EA1` }}>¡No te pierdas de nada!</span>
+              <span className="label-text" style={{ color: `#9D9EA1` }}>Suscribite a nuestro NewsLetter.</span>
+          <div className="form-control ">
+            <div className="relative right-2">
+              <input type="text" placeholder={Input}  className="input input-bordered md:w-full " />
+              <button className="btn bg-orange hover:bg-red-500 rounded-l my-5 duration-200 text-white md:w-full" onClick={handleClick}>Quiero sumarme</button>
+            </div>
+          </div>
         </div>
       </footer>
+      <div className='flex justify-start flex-wrap' style={{ backgroundColor: `#1B1F27` }} >
+        <div className='flex flex-col flex-wrap mx-5'>
+        <span className="footer-title   text-left" style={{ color: `#9D9EA1` }}>Encontranos en</span>
+          <div className='flex flex-wrap relative right-5'>
+            <a href='https://www.facebook.com/Leaf.social/' target="_blank" rel='noreferrer'  className='hover:scale-75 duration-150'><img className="w-6 h-6 m-4" src={facebook} alt="facebook" /></a>
+            <a href='https://www.instagram.com/leaf.social/?hl=es' target="_blank" rel='noreferrer' className='hover:scale-75 duration-150'><img className="w-6 h-6 m-4 " src={Ig} alt="instagram" /></a>
+            <a href='https://ar.linkedin.com/company/leafsocial?original_referer=https%3A%2F%2Fwww.google.com%2F' rel='noreferrer' target="_blank" className='hover:scale-75 duration-150'><img className="w-6 h-6 m-4" src={linkedin} alt="linkedin" /></a>
+            <a href='https://twitter.com/Leaf_Social' target="_blank" rel='noreferrer' className='hover:scale-75 duration-150'><img className="w-6 h-6 m-4" src={youtube} alt="youtube" /></a>
+            <a href='https://ar.pinterest.com/leafsocial/' target="_blank" rel='noreferrer' className='hover:scale-75 duration-150 '><img src={pinterest} className="w-6 h-6 m-4" alt='pinterest'></img></a>
+          </div>
+
+        </div>
+      <p className='w-96 text-left md:mx-36' style={{ backgroundColor: `#1B1F27` }}>¿Querés ser cliente mayorista? Comunicate con nosotros a <span className='text-red-500'>mayorista@leaf.social</span></p>
+      </div>
       <div className="footer footer-center p-4  text-base-content" style={{ backgroundColor: `#1B1F27` }} >
         <div>
-          <p>©2023 LEAF - Todos los derechos reservados.</p>
+          <p className='text-base-600' style={{ color: `#9D9EA1` }}>©2023 LEAF - Todos los derechos reservados.</p>
         </div>
       </div>
     </>

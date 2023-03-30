@@ -10,8 +10,7 @@ import Footer from './components/Footer';
 import ScrollToTop from './Hooks/ScrollToTop';
 import ErrorPage from './components/ErrorPage';
 import { useEffect, useState, lazy, Suspense } from 'react';
-import cover from './assets/Others/LEAF_Cover.png'
-import logo from './assets/Others/isotipo_prueba(1).png'
+import logo from './assets/Others/isotipo_blanco.svg'
 
 // 
 const LandingPage = lazy(() => import("./components/LandingPage"));
@@ -36,16 +35,16 @@ useEffect(() => {
     {
       loading ?
       <div className='bg-white h-screen flex flex-col justify-center items-center' style={{backgroundColor:`#EB595A`}}>
-        <img src={logo} alt='cover' className='scale-up-center'/>
-        <div class="lds-facebook"><div></div><div></div><div></div></div>
+        <img src={logo} alt='cover' className='scale-up-center w-32'/>
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
         </div>
       :
           <div className="App">
             <Suspense fallback={
-               <div className='bg-white h-screen flex flex-col justify-center items-center' style={{backgroundColor:`#EB595A`}}>
-               <img src={logo} alt='cover' className='scale-up-center'/>
-               <div class="lds-facebook"><div></div><div></div><div></div></div>
-               </div>
+                <div className='bg-white h-screen flex flex-col justify-center items-center' style={{backgroundColor:`#EB595A`}}>
+                <img src={logo} alt='cover' className='scale-up-center w-32'/>
+                <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+                </div>
             }>
               <BrowserRouter>
                 <ScrollToTop />

@@ -5,6 +5,7 @@ import neumaticos from '../../../assets/nosotros_section/materiales/neumaticos.j
 import Cinturones_de_seguridad from '../../../assets/nosotros_section/materiales/Cinturones_de_seguridad.jpg'
 import Vela_nautica_wind from '../../../assets/nosotros_section/materiales/Vela_nautica_wind.jpg'
 import Lona_de_banners from '../../../assets/nosotros_section/materiales/Lona_de_banners.jpg'
+import Reciclados_textiles from '../../../assets/nosotros_section/materiales/Reciclados_textiles.jpg'
 
 const blogItems = [
     {
@@ -51,18 +52,8 @@ export {blogItems};
 
 const Material = [
     {
-        name:"Paragua",
+        name:"Silobolsa",
         imagen:{paragua},
-        // hoverImg:'',
-    },
-    {
-        name:"Velas",
-        imagen:{velas},
-        // hoverImg:'',
-    },
-    {
-        name:"bolsa plastillera",
-        imagen:{arpillera},
         // hoverImg:'',
     },
     {
@@ -71,18 +62,34 @@ const Material = [
         // hoverImg:'',
     },
     {
+        name:"Velas",
+        imagen:{velas},
+        // hoverImg:'',
+    },
+    {
+        name:"Banners publicitarios",
+        imagen:{Lona_de_banners},
+        // hoverImg:'',
+    },
+    {
         name:"Cinturones de seguridad",
         imagen:{Cinturones_de_seguridad},
         // hoverImg:'',
     },
     {
-        name:"Vela náutica wind",
-        imagen:{Vela_nautica_wind},
+        name:"bolsa plastillera",
+        imagen:{arpillera},
         // hoverImg:'',
     },
     {
-        name:"Lona de banners",
-        imagen:{Lona_de_banners},
+        name:"Reciclados textiles",
+        imagen:{Reciclados_textiles},
+        // hoverImg:'',
+    },
+    
+    {
+        name:"Vela náutica wind",
+        imagen:{Vela_nautica_wind},
         // hoverImg:'',
     },
     // {

@@ -12,9 +12,19 @@ const NineSection = () => {
                   <p className="py-6" style={{color:`#4A505C`}}>Generamos nuevas oportunidades</p>
               </div>
               <div className='flex flex-wrap'>
-                <img src={marcelo} className='md:m-5 mt-2' alt="personas talentosas" />
+               <div className='flex flex-col text-start'>
+              <img src={marcelo} className='md:m-5 mt-2' alt="personas talentosas" />
+              <button className='btn mx-10 relative bottom-20  opacity-70 w-20'>Marcelo </button>
+               </div>
+               <div className='flex flex-col text-start'>
                 <img src={carolina} className='md:m-5 mt-2' alt="personas talentosas" />
+                <button className='btn mx-10 relative bottom-20 opacity-70 w-20'>Carolina </button>
+               </div>
+               <div className='flex flex-col text-start'>
                 <img src={damian} className='md:m-5 mt-2' alt="personas talentosas" />
+                <button className='btn mx-10 relative bottom-20  opacity-70 w-20'>Damián </button>
+                
+               </div>
               </div>
           </div>
           <div>

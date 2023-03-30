@@ -1,7 +1,10 @@
 import React from 'react'
 import CountUpItem from './CountUpItem'
 import recicleImg from '../../assets/Recycle_img.png'
-import recycle_count from '../../assets/Recycle_count.png'
+import recycle_count from '../../assets/landing/counterIcon/Silobolsa_Icon.svg'
+import Neumatic_Icon from '../../assets/landing/counterIcon/Neumatic_Icon.svg'
+import plastillera_Icon from '../../assets/landing/counterIcon/plastillera_Icon.svg'
+import otros_Icon from '../../assets/landing/counterIcon/otros_Icon.svg'
 
 const CountUpContainer = () => {
     return (
@@ -11,7 +14,7 @@ const CountUpContainer = () => {
                 <h2 className='text-5xl max-sm:text-3xl font-bold text-black' style={{color:`#1D2433`}}>YA RECICLAMOS</h2>
             </div>
             <div className='flex justify-center items-center flex-wrap  gap-16'>
-                <div className='flex flex-col m-5 '>
+                <div className='flex flex-col '>
                     <figure className="px-10 mb-8 flex justify-center m">
                         <img src={recycle_count} alt="recycle" />
                     </figure>
@@ -19,22 +22,22 @@ const CountUpContainer = () => {
                     <p style={{color:`#4A505C`}} className="mt-10">Kg de silobolsa</p>
                 </div>
                 <div className='flex flex-col '>
-                    <figure className="px-10 mb-8 flex justify-center m">
-                        <img src={recycle_count} alt="recycle" />
+                    <figure className="px-2 mb-8 flex justify-center m">
+                        <img src={Neumatic_Icon} alt="recycle" />
                     </figure>
                     <CountUpItem number={8742} />
                     <p style={{color:`#4A505C`}} className="mt-10">Kg de caucho de neumáticos</p>
                 </div>
-                <div className='flex flex-col m-5 '>
-                    <figure className="px-10 mb-8 flex justify-center m">
-                        <img src={recycle_count} alt="recycle" />
+                <div className='flex flex-col '>
+                    <figure className="px-2 mb-8 flex justify-center ">
+                        <img src={plastillera_Icon} alt="recycle" />
                     </figure>
                     <CountUpItem number={3186} />
                     <p style={{color:`#4A505C`}} className="mt-10">Kg bolsas plastilleras</p>
                 </div>
-                <div className='flex flex-col m-5 '>
-                    <figure className="px-10 mb-8 flex justify-center m">
-                        <img src={recycle_count} alt="recycle" />
+                <div className='flex flex-col  '>
+                    <figure className="px-2 mb-8 flex justify-center m">
+                        <img src={otros_Icon} alt="recycle" />
                     </figure>
                     <CountUpItem number={1849} />
                     <p style={{color:`#4A505C`}} className="mt-10">Kg de otros tipos de descartes</p>

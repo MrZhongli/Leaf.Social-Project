@@ -50,17 +50,37 @@ const P_ItemDetail = ({props}) => {
                 <p style={{color:`#1D2433`}} className={ToggleState === 1 ? "tab tab-lifted text-xl font-bold tab_active" : "tab font-bold text-xl"}
                   onClick={() => toggleTab(1)}
                 >Descripción</p>
-                <p style={{color:`#1D2433`}} className={ToggleState === 2 ? "tab tab-lifted text-xl font-bold tab_active" : "tab font-bold text-xl"}
+                {/* <p style={{color:`#1D2433`}} className={ToggleState === 2 ? "tab tab-lifted text-xl font-bold tab_active" : "tab font-bold text-xl"}
                   onClick={() => toggleTab(2)}
-                >Detalles</p>
+                >Detalles</p> */}
               </div>
-            <div className='h-100'>
+            <div>
             <p className={ToggleState === 1 ? "py-6 text-left color_secondary " : "hidden"} style={{color:`#6D7280`}}>{props.principal_description}</p>
-            <p className={ToggleState === 2 ? "mt-6 text-left color_secondary " : "hidden"} style={{color:`#6D7280`}}>{props.detallesUno}</p>
+            <ul className='flex '>
+              <div>
+              {props.img_popups.map((img)=>
+              <img src={img} alt='icon' className='w-16 h-14 '></img>
+              )}
+                
+              </div>
+              <div>
+              {props.text.map((text)=>
+              <li className='text-left my-4 p-2' style={{color:`#1D2433`}}>{text} </li>
+              )}
+              </div>
+              
+              {/* <li className=' flex'><img  src={props.compensacion_img} alt="" className='w-5 h-5 mx-5 my-3' /> {props.compensacion_text} </li>
+              <li className=' flex '><img src={props.economia_circular_img} alt="" className='w-5 h-5 mx-5 my-4' /> {props.economia_circular_text} </li>
+              <li className=' flex '><img src={props.Industria_nacional_img} alt="" className='w-5 h-5 mx-5 my-4' /> {props.Industria_nacional_text} </li>
+              <li className=' flex '><img src={props.Industria_nacional_img} alt="" className='w-5 h-5 mx-5 my-4' /> {props.produccion_nacional_text} </li>
+              <li className=' flex '><img src={props.Hecho_en_talleres_img} alt="" className='w-5 h-5 mx-5 my-4' /> {props.Hecho_en_talleres_text} </li>
+              <li className=' flex '><img src={props.Vegan_frendly_img} alt="" className='w-5 h-5 mx-5 my-4' /> {props.Vegan_frendly_text} </li>
+              <li className=' flex '><img src={props.colabora_ong_img} alt="" className='w-5 h-5 mx-5 my-4' /> {props.colabora_ong_text} </li> */}
+            </ul>
+            {/* <p className={ToggleState === 2 ? "mt-6 text-left color_secondary " : "hidden"} style={{color:`#6D7280`}}>{props.detallesUno}</p>
             <p className={ToggleState === 2 ? "text-left color_secondary" : "hidden"} style={{color:`#6D7280`}}>{props.detallesDos}</p>
-            <p className={ToggleState === 2 ? "text-left color_secondary" : "hidden"} style={{color:`#6D7280`}}>{props.detallesTres}</p>
+            <p className={ToggleState === 2 ? "text-left color_secondary" : "hidden"} style={{color:`#6D7280`}}>{props.detallesTres}</p> */}
             </div>
-            
             </div>
             <div className="mt-10 flex justify-end">
             <a href='https://www.leafsocial.shop/' target="_blank" className="btn bg-orange hover:bg-red-500 text-white ">conseguilas</a>

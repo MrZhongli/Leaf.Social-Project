@@ -1,16 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './styles/styles.css'
+import ErrorImg from '../assets/Others/ErrorImg.jpg'
 
 const ErrorPage = () => {
   return (
-    <div className="hero min-h-screen" style={{ backgroundImage: `url("https://www.cucinare.tv/wp-content/uploads/2020/08/Silobolsas.jpg")` }}>
-    <div className="hero-overlay bg-opacity-60"></div>
+    <div className="hero min-h-screen bg-white" >
+    <div className="hero "></div>
     <div className="hero-content text-center text-neutral-content">
-      <div className="max-w-md">
-        <h1 className="mb-5 text-6xl font-bold">Error 404</h1>
-        <p className="mb-5">Estamos trabajando para una mejor experiencia</p>
-        <Link to='/' className="btn bg-orange hover:bg-red-500 text-white">Ir al inicio</Link>
+      <div className="max-w-md flex flex-col justify-center">
+        <img src={ErrorImg} alt="Error imagen" />
+        <h1 className="mb-5 text-6xl font-bold text-black">404: Page Not Found</h1>
+        <p className="mb-5 text-stone-500">I'm sorry, it looks like the resource you were trying to access is not available or does not exist. Please try again with a different URL or contact the website administrator for further assistance.</p>
+        <Link to='/' className="btn bg-orange hover:bg-red-500 w-48 text-white">Continuar</Link>
       </div>
     </div>
   </div>

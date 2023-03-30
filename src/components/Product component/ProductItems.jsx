@@ -4,7 +4,8 @@ import '../styles/styles.css'
 
 const ProductItems = (props) => {
   const { title, img , slug} = props.item
-
+    
+  
   return (
     <>
     <Link to={`/Productos/${slug}`} >

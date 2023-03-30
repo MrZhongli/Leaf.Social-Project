@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import paraguas from '../../assets/nosotros_section/paraguas.png'
-import velas from '../../assets/nosotros_section/velas_kitsurf.png'
-import sachets from '../../assets/nosotros_section/sachets_leche.png'
-import arpillera from '../../assets/nosotros_section/arpillera.png'
+// import paraguas from '../../assets/nosotros_section/paraguas.png'
+// import velas from '../../assets/nosotros_section/velas_kitsurf.png'
+// import sachets from '../../assets/nosotros_section/sachets_leche.png'
+// import arpillera from '../../assets/nosotros_section/arpillera.png'
 import  {Material}  from '../blogComponent/data/data'
 import '../styles/styles.css'
 import MaterialItems from './MaterialItems'
+// import Carousel from '../CarouselComponent/Carousel.jsx'
 
 export const FifthSection = () => {
 
@@ -31,6 +32,7 @@ export const FifthSection = () => {
                       }
                   </div>
           </div>
+          {/* <Carousel/> */}
       </div>
   )
 }

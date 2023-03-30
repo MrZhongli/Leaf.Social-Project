@@ -65,6 +65,13 @@ import cartuchera_3 from '../../../assets/product_section/product/cartuchera/car
 import cartuchera_4 from '../../../assets/product_section/product/cartuchera/cartuchera_4.jpg'
 
 
+// icon PopUps
+import compensacion from '../../../assets/product_section/popups/compensacion.png'
+import economia_circular from '../../../assets/product_section/popups/economia_circular.png'
+import produccion_nacional from '../../../assets/product_section/popups/produccion_nacional.svg'
+import hecho_en_talleres_sociales from '../../../assets/product_section/popups/hecho_en_talleres_sociales.svg'
+import colabora_con_ongs from '../../../assets/product_section/popups/colabora_con_ongs.svg'
+import eco_friendly from '../../../assets/product_section/popups/eco_friendly.png'
 
 const Product = [
     {
@@ -73,10 +80,15 @@ const Product = [
         title:'Alpargatas',
         img:[feelfree_fruit ,alpargata,EveryDay_Blueberry_0,EveryDay_Lemon_0,Free_Spring_Turquoise_II],
         slug:'Alpargatas',
-        principal_description:'Suela de goma de alta densidad con textura para evitar el deslizamiento, super duraderas y no se deforman con el uso. La tela externa es una lona confeccionada con hilos finos de alta calidad con combinaciones brindando diferentes diseños. La plantilla es goma de alta densidad forrada en lienzo de algodón, antitranspirante. Cuenta con forro interno para mayor comodidad del pie y evitar ampollas en el talón.',
-        detallesUno:'#Eco shoes Nuestros productos son elaborados con materiales sustentables y reciclados. Estamos reutilizando telas de diversas procedencias, creando objetos reutilizables.',
-        detallesDos:'#Vegan shoes Desarrollamos nuestros productos sin materia prima proveniente de animales, mostrando que las decisiones de consumo son una herramienta simple y poderosa para cambiar el mundo y proteger al planeta y sus habitantes. ',
-        detallesTres:'#Made in Argentina 100% Argentina! Potenciamos la economía regional e incentivamos la inclusión social trabajando con personas en situación de vulnerabilidad.',
+        principal_description:`Desarrollamos alpargatas de excelente calidad y muy cómodas. Nuestros modelos están 
+        confeccionados en diferentes telas y son perfectos para acompañarte en cada ocasión. Nuestro  calzado  cumple 
+        con  un  doble  compromiso:  social  y  ambiental.  Las  alpargatas  Leaf  son confeccionadas  en  talleres  sociales
+        de  diversos  puntos  del  país.  Además,  por  cada  compra  no  sólo estás ayudando a diferentes ONGs, sino que también 
+        plantamos árboles para compensar la huella de carbono. ¡El planeta te lo va a agradecer! Cada par de alpargatas Leaf viene 
+        en una caja reutilizable, que también podés usar como maceta para darle vida a tu hogar
+        `,
+        img_popups:[compensacion,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
+        text:["Compensación de la huella de carbono","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
     },
     {
         id:2,
@@ -84,21 +96,37 @@ const Product = [
         title:'Mochilas',
         img:[Mochila,mochila, mochila_amor_33,wall_11,Mochila_elemental],
         slug:'Mochilas',
-        principal_description:'Suela de goma de alta densidad con textura para evitar el deslizamiento, super duraderas y no se deforman con el uso. La tela externa es una lona confeccionada con hilos finos de alta calidad con combinaciones brindando diferentes diseños. La plantilla es goma de alta densidad forrada en lienzo de algodón, antitranspirante. Cuenta con forro interno para mayor comodidad del pie y evitar ampollas en el talón.',
-        detallesUno:'#Eco shoes Nuestros productos son elaborados con materiales sustentables y reciclados. Estamos reutilizando telas de diversas procedencias, creando objetos reutilizables.',
-        detallesDos:'#Vegan shoes Desarrollamos nuestros productos sin materia prima proveniente de animales, mostrando que las decisiones de consumo son una herramienta simple y poderosa para cambiar el mundo y proteger al planeta y sus habitantes. ',
-        detallesTres:'#Made in Argentina 100% Argentina! Potenciamos la economía regional e incentivamos la inclusión social trabajando con personas en situación de vulnerabilidad.',
-    },
+        principal_description:`¡Mochilas  llenas  de  ventajas!  Realizamos  modelos  únicos  en  el  mercado  y  con  diseño  propio. 
+        Nuestras mochilas están hechas a partir de descartes de otras industrias, como silobolsa reciclada y  cinturones  de  seguridad. 
+        La  silobolsa  hace  que  sean  impermeables,  de  alta  calidad  y  tengan mayor  durabilidad. Además,  pueden  personalizarse 
+        con marcadores  indelebles y luego limpiar fácilmente  para  cambiar  su  diseño.  También tenemos modelos elaborados con plastillera 
+        reciclada. 
+        Contamos  con  una  variedad  de  diseños  que  se  ajustan  a  diferentes  necesidades.  ¡Elegí  qué mochila va mejor con vos!`,
+        img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
+        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
+},
     {
         id:3,
         category: 'Zapatillas',
         title:'Zapatillas',
         img: [zapatilla,navy_b,navy_black,NavyChic_turquoise,Navy_Beige],
         slug:'Zapatillas',
-        principal_description:'Suela de goma de alta densidad con textura para evitar el deslizamiento, super duraderas y no se deforman con el uso. La tela externa es una lona confeccionada con hilos finos de alta calidad con combinaciones brindando diferentes diseños. La plantilla es goma de alta densidad forrada en lienzo de algodón, antitranspirante. Cuenta con forro interno para mayor comodidad del pie y evitar ampollas en el talón.',
-        detallesUno:'#Eco shoes Nuestros productos son elaborados con materiales sustentables y reciclados. Estamos reutilizando telas de diversas procedencias, creando objetos reutilizables.',
-        detallesDos:'#Vegan shoes Desarrollamos nuestros productos sin materia prima proveniente de animales, mostrando que las decisiones de consumo son una herramienta simple y poderosa para cambiar el mundo y proteger al planeta y sus habitantes. ',
-        detallesTres:'#Made in Argentina 100% Argentina! Potenciamos la economía regional e incentivamos la inclusión social trabajando con personas en situación de vulnerabilidad.',
+        principal_description:`Primer calzado ecológico con múltiple impacto socioambiental. Prestamos atención a cada detalle, creando productos tanto cómodos como elegantes. 
+ 
+        Las  zapatillas  Leaf  son  elaboradas  con  materiales  sustentables  y  reciclados.  Nuestras  suelas  están 
+        hechas con caucho reciclado de neumáticos. Además, reutilizamos telas de diversas procedencias.  
+         
+        ¡Cada  par  de  LEAF  viene  en  una  bolsa  de  tela  reutilizable!  Con  esta  sencilla  acción  evitamos  la 
+        contaminación que generan las bolsas de plástico. Nuestras cajas también marcan la diferencia, están 
+        elaboradas de cartón reciclado y/o biodegradable. Nos alineamos con proveedores respetuosos de las 
+        normas medioambientales y empleamos papeles etiquetados FSC y PEFC. 
+         
+        Estamos  ampliando  nuestro  portfolio  de  productos,  buscando  rescatar  y  reutilizar  cada  vez  más 
+        materiales  para  el  desarrollo  de  nuestras  creaciones.  El  cuidado  del  medio  ambiente  es  nuestra 
+        prioridad.  
+        `,
+        img_popups:[eco_friendly,compensacion,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
+        text:["Eco friendly","Compensación de la huella de carbono","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
     },
     {
         id:4,
@@ -106,7 +134,23 @@ const Product = [
         title:'Anotadores',
         img: [anotador,DSC_8440,Anotador_VERDE,agenda],
         slug:'Anotadores',
-        principal_description:'Suela de goma de alta densidad con textura para evitar el deslizamiento, super duraderas y no se deforman con el uso. La tela externa es una lona confeccionada con hilos finos de alta calidad con combinaciones brindando diferentes diseños. La plantilla es goma de alta densidad forrada en lienzo de algodón, antitranspirante. Cuenta con forro interno para mayor comodidad del pie y evitar ampollas en el talón.',
+        principal_description:`Nuestros eco cuadernos y eco anotadores son ideales porque te acompañan al momento de trabajar 
+        o estudiar.  
+         
+        Hechos  a  mano,  con  hojas  de  caña  de  azúcar  de  80  gramos  y  tapa  semi  dura  de  papel  kraft  FSC 
+        impresas con tintas de soja, compostable.  
+         
+        Algunos de nuestros modelos de cuadernos incluyen agenda perpetua, por lo que el paso ¡lo marcas 
+        vos!  
+         
+        Todos  los  modelos  son  sustentables  y  funcionales,  con  un anillado  metálico  reciclable  y  reutilizable 
+        que garantizan una experiencia de escritura a 360 grados.  
+         
+        Se presentan en cuatro formatos y diseños: rayados, cuadriculados, lisos y punteados. 
+        ¡Elegí el que más te guste y sé parte del cambio que el mundo necesita! `,
+        img_popups:[eco_friendly,economia_circular,produccion_nacional,colabora_con_ongs],
+        text:["Eco friendly","Economía circular","Producción nacional","Colabora con ongs"],
+    
     },
     {
         id:5,
@@ -114,7 +158,16 @@ const Product = [
         title:'Bolso matero',
         img: [matero,matero_2,matero_22,matero_23,matero_24],
         slug:'Bolsos_materos',
-        principal_description:'Suela de goma de alta densidad con textura para evitar el deslizamiento, super duraderas y no se deforman con el uso. La tela externa es una lona confeccionada con hilos finos de alta calidad con combinaciones brindando diferentes diseños. La plantilla es goma de alta densidad forrada en lienzo de algodón, antitranspirante. Cuenta con forro interno para mayor comodidad del pie y evitar ampollas en el talón.',
+        principal_description:`Tenemos  varios  modelos  que  se  adaptan  a  cada  una  de  tus  necesidades.  Bolsos  deportivos, 
+        materos, entre otros.  
+         
+        Están elaborados con silobolsa reciclada. Esto los vuelve impermeables, resistentes y más duraderos. 
+        Además, gracias a este material, la limpieza interna es mucho más sencilla.  
+        La silobolsa es un material que se puede personalizar e intervenir con diversos dibujos y luego limpiar 
+        fácilmente para cambiar su diseño. `,
+        img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
+        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
+
     },
     {
         id:6,
@@ -122,7 +175,22 @@ const Product = [
         title:'Cuaderno',
         img: [cuaderno,cuaderno_1,cuaderno_2,cuaderno_3,cuaderno_4],
         slug:'Cuadernos',
-        principal_description:'Suela de goma de alta densidad con textura para evitar el deslizamiento, super duraderas y no se deforman con el uso. La tela externa es una lona confeccionada con hilos finos de alta calidad con combinaciones brindando diferentes diseños. La plantilla es goma de alta densidad forrada en lienzo de algodón, antitranspirante. Cuenta con forro interno para mayor comodidad del pie y evitar ampollas en el talón.',
+        principal_description:`Nuestros eco cuadernos y eco anotadores son ideales porque te acompañan al momento de trabajar 
+        o estudiar.  
+         
+        Hechos  a  mano,  con  hojas  de  caña  de  azúcar  de  80  gramos  y  tapa  semi  dura  de  papel  kraft  FSC 
+        impresas con tintas de soja, compostable.  
+         
+        Algunos de nuestros modelos de cuadernos incluyen agenda perpetua, por lo que el paso ¡lo marcas 
+        vos!  
+         
+        Todos  los  modelos  son  sustentables  y  funcionales,  con  un anillado  metálico  reciclable  y  reutilizable 
+        que garantizan una experiencia de escritura a 360 grados.  
+         
+        Se presentan en cuatro formatos y diseños: rayados, cuadriculados, lisos y punteados. 
+        ¡Elegí el que más te guste y sé parte del cambio que el mundo necesita! `,
+        img_popups:[eco_friendly,economia_circular,produccion_nacional,colabora_con_ongs],
+        text:["Eco friendly","Economía circular","Producción nacional","Colabora con ongs"],
     },
     {
         id:7,
@@ -130,7 +198,15 @@ const Product = [
         title:'Riñonera',
         img: [riñonera,riñonera_1,riñonera_2,riñonera_3,riñonera_4],
         slug:'Riñoneras',
-        principal_description:'Suela de goma de alta densidad con textura para evitar el deslizamiento, super duraderas y no se deforman con el uso. La tela externa es una lona confeccionada con hilos finos de alta calidad con combinaciones brindando diferentes diseños. La plantilla es goma de alta densidad forrada en lienzo de algodón, antitranspirante. Cuenta con forro interno para mayor comodidad del pie y evitar ampollas en el talón.',
+        principal_description:`¡Riñoneras  llena  de  ventajas!  Elaboradas  a  partir  de  silobolsa  reciclada  con  cinto  realizado  de 
+        cinturones de seguridad reciclados. Son livianas, impermeables y de alta durabilidad. 
+        La silobolsa es un material que se puede personalizar e intervenir con diversos dibujos y luego limpiar 
+        fácilmente para cambiar su diseño.  
+        Modelos  atemporales,  impermeables  y  resistentes.  Podés  llevar  con  vos  lo  esencial  mientras  estás 
+        cuidando el medio ambiente`,
+        img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
+        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
+
     },
     {
         id:8,
@@ -138,7 +214,16 @@ const Product = [
         title:'Bolso Deportivo',
         img: [b_deportivo,bolso_1,bolso_2,bolso_3],
         slug:'Bolsos_deportivos',
-        principal_description:'Suela de goma de alta densidad con textura para evitar el deslizamiento, super duraderas y no se deforman con el uso. La tela externa es una lona confeccionada con hilos finos de alta calidad con combinaciones brindando diferentes diseños. La plantilla es goma de alta densidad forrada en lienzo de algodón, antitranspirante. Cuenta con forro interno para mayor comodidad del pie y evitar ampollas en el talón.',
+        principal_description:`Tenemos  varios  modelos  que  se  adaptan  a  cada  una  de  tus  necesidades.  Bolsos  deportivos, 
+        materos, entre otros.  
+         
+        Están elaborados con silobolsa reciclada. Esto los vuelve impermeables, resistentes y más duraderos. 
+        Además, gracias a este material, la limpieza interna es mucho más sencilla.  
+        La silobolsa es un material que se puede personalizar e intervenir con diversos dibujos y luego limpiar 
+        fácilmente para cambiar su diseño. `,
+        img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
+        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
+
     },
     {
         id:9,
@@ -146,7 +231,17 @@ const Product = [
         title:'Cartuchera',
         img: [cartuchera,cartuchera_1,cartuchera_2,cartuchera_3,cartuchera_4],
         slug:'Cartuchera',
-        principal_description:'Suela de goma de alta densidad con textura para evitar el deslizamiento, super duraderas y no se deforman con el uso. La tela externa es una lona confeccionada con hilos finos de alta calidad con combinaciones brindando diferentes diseños. La plantilla es goma de alta densidad forrada en lienzo de algodón, antitranspirante. Cuenta con forro interno para mayor comodidad del pie y evitar ampollas en el talón.',
+        principal_description:`Producimos accesorios como cartucheras y neceseres únicos en el mercado, con diseño propio. 
+        Fabricamos nuestros modelos partir de materiales reciclados como silobolsa o bolsas de 
+        plastillera. Contamos con una variedad de diseños que se ajustan a la necesidad de cada uno. 
+         
+        La silobolsa es un material que se puede personalizar e intervenir con diversos dibujos y luego limpiar 
+        fácilmente para cambiar su diseño.  
+        Nuestras  cartucheras  y  neceseres  te  acompañan  todo  el  día,  son  ideales  para  guardar  todos  tus 
+        materiales y objetos personales`,
+        img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
+        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
+
     },
 ]
 
