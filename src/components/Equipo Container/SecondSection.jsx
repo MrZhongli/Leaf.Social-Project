@@ -7,7 +7,7 @@ import '../styles/styles.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-const SecondSection = () => {
+const SecondSectionTeam = () => {
     useEffect(() => {
         Aos.init();
        })
@@ -24,7 +24,7 @@ const SecondSection = () => {
                             </figure>
                             <div className="card-body items-center text-center">
                                 {/* <h2 className="card-title" style={{color:`#1D2433`}}>Paso 1</h2> */}
-                                <p style={{color:`#4A505C`}}>
+                                <p style={{color:`#4A505C`}} className="my-9">
                                 Recolectamos los materiales en desuso o desechados de grandes empresas y le damos una segunda vida.
                                 </p>
                             </div>
@@ -36,7 +36,7 @@ const SecondSection = () => {
                             </figure>
                             <div className="card-body items-center text-center">
                                 {/* <h2 className="card-title" style={{color:`#1D2433`}}>Paso 2</h2> */}
-                              <p style={{ color: `#4A505C` }}>Generamos oportunidades laborales de inclusión social a personas en situación de vulnerabilidad.</p>
+                              <p style={{ color: `#4A505C` }} className="my-9">Generamos oportunidades laborales de inclusión social a personas en situación de vulnerabilidad.</p>
                             </div>
                         </div>
                         {/* card 3 */}
@@ -46,7 +46,7 @@ const SecondSection = () => {
                             </figure>
                             <div className="card-body items-center text-center">
                                 {/* <h2 className="card-title" style={{color:`#1D2433`}}>Paso 3</h2> */}
-                              <p style={{ color: `#4A505C` }}>Creamos EcoProductos de alta calidad con diseños únicos y personalizados, que marcan tendencia.</p>
+                              <p style={{ color: `#4A505C` }} className="my-9">Creamos EcoProductos de alta calidad con diseños únicos y personalizados, que marcan tendencia.</p>
                             </div>
                         </div>
                         {/* 4 */}
@@ -56,7 +56,7 @@ const SecondSection = () => {
                           </figure>
                           <div className="card-body items-center text-center">
                               {/* <h2 className="card-title" style={{color:`#1D2433`}}>Paso 4</h2> */}
-                              <p style={{ color: `#4A505C` }} className="pb-20">Con cada compra se potencia el trabajo nacional y se colabora con diversas ONGs.</p>
+                              <p style={{ color: `#4A505C` }} className="">Con cada compra se potencia el trabajo nacional y se colabora con diversas ONGs.</p>
                           </div>
                       </div>
                     </div>
@@ -67,4 +67,4 @@ const SecondSection = () => {
     )
 }
 
-export default SecondSection
+export default SecondSectionTeam

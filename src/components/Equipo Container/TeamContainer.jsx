@@ -5,10 +5,11 @@ import { FifthSection } from './FifthSection'
 import FirstSection from './FirstSection'
 import { ForthSection } from './ForthSection'
 import NineSection from './NineSection'
-import SecondSection from './SecondSection'
+import SecondSectionTeam from './SecondSection'
 import SevenSection from './SevenSection'
 import TeenSection from './TeenSection'
-import { ThirdSection } from './ThirdSection'
+import { ThirdSectionTeam } from './ThirdSection'
+import ThirdSection from '../landingPageComponent/ThirdSection'
 
 const TeamContainer = () => {
   return (
@@ -17,13 +18,14 @@ const TeamContainer = () => {
     <Navbar/>
     <FirstSection/>
     <SevenSection/>
-    <EightSection/>
-    <ThirdSection/>
-    <SecondSection/>
+    <ThirdSectionTeam/>
+    <SecondSectionTeam/>
     <FifthSection/>
+    <ThirdSection/>
+    <EightSection/>
     <ForthSection/>
-    <TeenSection/>
     <NineSection/>
+    <TeenSection/>
     </div>
     </>
   )

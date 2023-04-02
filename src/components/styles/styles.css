@@ -186,8 +186,8 @@ flex-grow: 0;
 /* thumb img */
 
 .thumb {
+  margin: auto;
   width: 100%;
-  
   display:flex;
   flex-wrap: wrap;
   cursor: pointer;
@@ -196,7 +196,7 @@ flex-grow: 0;
 }
 
 .thumb img{
-  width: 80px;
+  width: 70px;
   /* height: 100%; */
   object-fit: contain;
   border: 1px solid #ddd;
@@ -208,7 +208,7 @@ flex-grow: 0;
 
 .active{
   opacity: 1  !important; 
-  border:  solid 2px orangered !important;
+  border:  solid 4px #F3998F !important;
 }
 
 .text-focus-in {

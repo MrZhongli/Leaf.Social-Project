@@ -1,4 +1,5 @@
 import paragua from '../../../assets/nosotros_section/materiales/Paraguas.jpg'
+import Paraguas_paragua from '../../../assets/nosotros_section/materiales/Paraguas_paragua.jpg'
 import velas from '../../../assets/nosotros_section/materiales/Vela_kitesurf.jpg'
 import arpillera from '../../../assets/nosotros_section/materiales/bolsa_plastillera.jpg'
 import neumaticos from '../../../assets/nosotros_section/materiales/neumaticos.jpg'
@@ -6,6 +7,13 @@ import Cinturones_de_seguridad from '../../../assets/nosotros_section/materiales
 import Vela_nautica_wind from '../../../assets/nosotros_section/materiales/Vela_nautica_wind.jpg'
 import Lona_de_banners from '../../../assets/nosotros_section/materiales/Lona_de_banners.jpg'
 import Reciclados_textiles from '../../../assets/nosotros_section/materiales/Reciclados_textiles.jpg'
+import recortes_goma from '../../../assets/nosotros_section/materiales/recortes_goma.jpg'
+import Jean from '../../../assets/nosotros_section/materiales/Jean.jpg'
+import Sachets_de_leche from '../../../assets/nosotros_section/materiales/Sachets_de_leche.jpg'
+import Papel_plantable from '../../../assets/nosotros_section/materiales/Papel_plantable.jpg'
+import Vela_kitesurf from '../../../assets/nosotros_section/materiales/Vela_kitesurf.jpg'
+import papel from '../../../assets/nosotros_section/materiales/papel.jpg'
+import Caucho from '../../../assets/nosotros_section/materiales/Caucho.jpg'
 
 const blogItems = [
     {
@@ -57,13 +65,8 @@ const Material = [
         // hoverImg:'',
     },
     {
-        name:"neumáticos",
+        name:"Caucho de neumáticos",
         imagen:{neumaticos},
-        // hoverImg:'',
-    },
-    {
-        name:"Velas",
-        imagen:{velas},
         // hoverImg:'',
     },
     {
@@ -82,14 +85,55 @@ const Material = [
         // hoverImg:'',
     },
     {
-        name:"Reciclados textiles",
+        name:"Paraguas",
+        imagen:{Paraguas_paragua},
+        // hoverImg:'',
+    },
+    {
+        name:"Textiles varios",
         imagen:{Reciclados_textiles},
         // hoverImg:'',
     },
     
     {
-        name:"Vela náutica wind",
+        name:"Vela náutica",
         imagen:{Vela_nautica_wind},
+        // hoverImg:'',
+    },
+    {
+        name:"Recortes y goma",
+        imagen:{recortes_goma},
+        // hoverImg:'',
+    },
+    {
+        name:"Jean/Denim",
+        imagen:{Jean},
+        // hoverImg:'',
+    },
+    {
+        name:"Sachets de leche",
+        imagen:{Sachets_de_leche},
+        // hoverImg:'',
+    },
+    {
+        name:"Papel plantable",
+        imagen:{Papel_plantable},
+        // hoverImg:'',
+    },
+    {
+        name:"Kitesurf",
+        imagen:{Vela_kitesurf},
+        // hoverImg:'',
+    },
+    {
+        name:"Papel",
+        imagen:{papel},
+        // hoverImg:'',
+    },
+    
+    {
+        name:"Caucho",
+        imagen:{Caucho},
         // hoverImg:'',
     },
     // {

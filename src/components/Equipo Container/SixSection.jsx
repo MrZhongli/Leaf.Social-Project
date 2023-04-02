@@ -12,11 +12,11 @@ import amigos from '../../assets/marcas/marcas_landpage/amigos-en-el-camino.png'
 
 const SixSection = () => {
   return (
-    <div className="hero min-h-screen bg-white"  >
+    <div className="hero  bg-white"  >
     <div className="hero-content mt-10 text-center">
         <div className="">
             <h1 className="text-5xl font-bold   text-center" style={{color:`#1D2433`}}>Juntos podemos fomentar el futuro que queremos</h1>
-            <p className="py-6" style={{ color: `#6D7280` }}>Algunas de las mejores marcas trabajan con nosotros</p>
+            <p className="py-6" style={{ color: `#6D7280` }}>ONGs con las que trabajamos</p>
           <div className='flex flex-row flex-wrap mt-20 justify-center'>
               <div className='max-sm:m-10 m-5'>
               <img src={techo} alt="techo" /> 

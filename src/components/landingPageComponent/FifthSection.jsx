@@ -11,21 +11,21 @@ const FifthSection = () => {
       Aos.init();
      })
     return (
-        <div className="hero min-h-screen bg-white">
-            <div className="hero-content flex-col lg:flex-row-reverse ">
-                <img src={rectangle} className="max-sm:hidden relative lg:left-20 md:left-52 max-sm:left-20" alt="sombra" />
-                <img src={Alpargauchas} className="max-sm:hidden absolute md:right-10 mt-56 max-sm:mb-96 max-sm:pb-96 md:mb-52 w-1/3" alt="Alpargauchas" data-aos="fade-left" />
-                <img src={Alpargauchas} className="max-sm:block hidden " alt="Alpargauchas" data-aos="fade-left" />
-                <div className='flex flex-col justify-start'>
-                    <h1 className="text-5xl font-bold text-black text-left">Productos solidarios</h1>
-                    <p className="py-6 text-justify mt-10 mb-10" style={{ color: `#6D7280` }}>Transformando descartes en productos innovadores.
-                        Gracias a ellos nuestros EcoProductos son: más resistentes, impermeables, con diseño
-                        únicos, ecofriendly, vegan friendly, más livianos y duraderos.</p>
-                    <a href='https://www.leafsocial.shop/' target="_blank" rel='noreferrer' className="btn bg-orange hover:bg-red-600 text-white mx-5 w-32">Ver más</a>
-                    {/* <Link to="/Productos" className="btn btn-ghost text-black">Ver más</Link> */}
-                </div>
+        <div className="hero  bg-white">
+        <div className="hero-content flex-col lg:flex-row-reverse ">
+            <img src={rectangle} className="max-sm:hidden relative lg:left-44 md:left-52 max-sm:left-20" alt="sombra" />
+            <img src={Alpargauchas} className="max-sm:hidden absolute md:right-10 mt-56 max-sm:mb-96 max-sm:pb-96 md:mb-52 w-1/3" alt="Alpargauchas" data-aos="fade-left" />
+            <img src={Alpargauchas} className="max-sm:block hidden " alt="Alpargauchas" data-aos="fade-left" />
+            <div className='flex flex-col justify-start'>
+                <h1 className="text-5xl font-bold text-black text-left">Productos solidarios</h1>
+                <p className="py-6 text-justify mt-10 mb-10" style={{ color: `#6D7280` }}>Transformando descartes en productos innovadores.
+                    Gracias a ellos nuestros EcoProductos son: más resistentes, impermeables, con diseño
+                    únicos, ecofriendly, vegan friendly, más livianos y duraderos.</p>
+                <a href='https://www.leafsocial.shop/' target="_blank" rel='noreferrer' className="btn bg-orange normal-case hover:bg-red-600 text-white  w-32">Ver más</a>
+                {/* <Link to="/Productos" className="btn btn-ghost text-black">Ver más</Link> */}
             </div>
         </div>
+    </div>
   )
 }
 

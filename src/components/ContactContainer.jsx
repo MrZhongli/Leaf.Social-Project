@@ -69,21 +69,31 @@ const ContactContainer = () => {
       <form ref={form} onSubmit={sendEmail} className="flex-col">
 
         <div className="md:hero lg:hero xl:hero h-screen  py-20 " style={{ backgroundColor: `#F1F3F9`, height:`844px` }}>
-          <div className='flex flex-col justify-center align-center m-4'>
+          <div className='flex flex-col justify-end align-center m-4 '>
             <div>
               <h1 className='text-black text-4xl mb-3 ' style={{color:`#1D2433`}}>Contactanos</h1>
-              <p className='md:w-96 lg:w-96 xl:w-96 text-left text-md font-light mb-5' style={{color:`#1D2433`}}>Si tiene alguna pregunta o comentario, no dude en comunicarte con nosotros. Siempre estamos disponible para ayudar</p>
+              <p className='md:w-96 lg:w-96 xl:w-96 text-center text-md font-light mb-5' style={{color:`#1D2433`}}>Si tiene alguna pregunta o comentario, no dude en comunicarte con nosotros. Siempre estamos disponible para ayudar</p>
             </div>
             <div className='flex flex-col align-center justify-center'>
               {/* input */}
               <InputForm
                 estado={Nombre}
                 setEstado={setNombre}
-                Label='Nombre y apellido'
+                Label='Nombre completo'
                 tipo="text"
                 placeholder="Escribe tu nombre"
                 name="name"
                 expresionRegular={expresiones.nombre}
+              />
+              {/* email */}
+              <InputForm
+                estado={Email}
+                setEstado={setEmail}
+                Label='Correo electrónico'
+                tipo="text"
+                placeholder="Escribe tu correo"
+                name="email"
+                expresionRegular={expresiones.correo}
               />
               {/* asunto */}
               <InputForm
@@ -95,30 +105,21 @@ const ContactContainer = () => {
                 name="asunto"
                 expresionRegular={expresiones.nombre}
               />
-              <InputForm
-                estado={Email}
-                setEstado={setEmail}
-                Label='Email'
-                tipo="text"
-                placeholder="Escribe tu correo"
-                name="email"
-                expresionRegular={expresiones.correo}
-              />
               {/* text message */}
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text text-stone-900">Escribenos tu consulta</span>
+                  <span className="label-text text-stone-900">Mensaje</span>
                 </label>
                 <textarea
                   type="text"
-                  placeholder="Escribe tu nombre"
-                  className="input input-bordered bg-white"
+                  placeholder="Escribe aquí"
+                  className=" input input-bordered  bg-white"
                   name="message" />
               </div>
             </div>
             {/* btn submit */}
-            <div className="form-control mt-6">
-              <input className=" mt-10 btn  bg-orange hover:bg-red-500 text-white" type="submit" value="Enviar" />
+            <div className="form-control mt-6 w-full flex items-end">
+              <input className=" mt-10 w-24 btn capitalize bg-orange hover:bg-red-500 text-white" type="submit" value="Enviar" />
             </div>
             {/* <button className=' mt-10 btn  bg-orange text-white'>Enviar</button> */}
             {

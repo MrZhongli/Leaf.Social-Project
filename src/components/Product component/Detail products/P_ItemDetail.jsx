@@ -26,13 +26,13 @@ const P_ItemDetail = ({props}) => {
   return (
     <div style={{backgroundColor:`#F9FAFB`}}>
       <Link to="/Productos">
-      <div className='btn-ghost absolute mt-32 max-sm:mx-10 mx-20  w-14 h-14 border-2  flex justify-center rounded-full z-10' >
+      <div className='btn-ghost fixed mt-32 max-sm:mx-10 mx-20 w-14 h-14 border-2 flex justify-center rounded-full z-10' >
           <Arrow_leaf className="mt-4 " />
       </div>
       </Link>
-      <div className="hero min-h-screen ">
-        <div className=" flex flex-col lg:flex-row m-10 ">
-          <div className='flex flex-col w-2/5 max-sm:w-full max-sm:mt-20 justify-center'>
+      <div className="hero  pb-10">
+        <div className=" flex flex-col lg:flex-row px-20 ">
+          <div className='flex flex-col md:w-2/5 max-sm:w-full max-sm:mt-20 justify-center md:mx-20 lg:mx-5 xl:mx-5 lg:my-32 md:my-32 xl:my-32'>
               <img src={props.img[Index]} className="rounded-lg w-full mt-20" />
               <div className="thumb my-5 max-sm:mx-0 mx-16 flex-row flex-wrap" ref={value}>
               {props.img.map((img, index) =>
@@ -42,54 +42,46 @@ const P_ItemDetail = ({props}) => {
             </div>
           </div>
           {/* left side */}
-          <div className="lg:mx-20 xl:mx-20 w-3/5 max-sm:w-full mt-20 max-sm:mt-5 slide-fwd-leftItem ">
-            <h1 className="text-5xl font-bold my-10 color_primary"  style={{color:`#1D2433`}}>{props.title}</h1>
+          <div className="lg:mx-5 xl:mx-5 w-4/5 max-sm:w-full mt-44 max-sm:mt-5 slide-fwd-leftItem  ">
+            <h1 className="text-5xl font-bold my-10 text-start"  style={{color:`#1D2433`}}>{props.title}</h1>
             {/* <p className="py-6 text-orange text-left orange text-6xl font-bold">$ 3420</p> */}
             <div className="flex-col justify-self-start justify-items-start" >
-              <div className="tabs ">
+              {/* <div className="tabs ">
                 <p style={{color:`#1D2433`}} className={ToggleState === 1 ? "tab tab-lifted text-xl font-bold tab_active" : "tab font-bold text-xl"}
                   onClick={() => toggleTab(1)}
                 >Descripción</p>
-                {/* <p style={{color:`#1D2433`}} className={ToggleState === 2 ? "tab tab-lifted text-xl font-bold tab_active" : "tab font-bold text-xl"}
+                <p style={{color:`#1D2433`}} className={ToggleState === 2 ? "tab tab-lifted text-xl font-bold tab_active" : "tab font-bold text-xl"}
                   onClick={() => toggleTab(2)}
-                >Detalles</p> */}
-              </div>
+                >Detalles</p>
+              </div> */}
             <div>
             <p className={ToggleState === 1 ? "py-6 text-left color_secondary " : "hidden"} style={{color:`#6D7280`}}>{props.principal_description}</p>
-            <ul className='flex '>
+            <ul className='flex relative right-5 '>
               <div>
               {props.img_popups.map((img)=>
-              <img src={img} alt='icon' className='w-16 h-14 '></img>
+              <img src={img} alt='icon' className='w-16 h-16'></img>
               )}
                 
               </div>
-              <div>
+              <div className=''>
               {props.text.map((text)=>
-              <li className='text-left my-4 p-2' style={{color:`#1D2433`}}>{text} </li>
+              <li className='text-left py-5 mx-2' style={{color:`#1D2433`}}>{text} </li>
               )}
               </div>
               
-              {/* <li className=' flex'><img  src={props.compensacion_img} alt="" className='w-5 h-5 mx-5 my-3' /> {props.compensacion_text} </li>
-              <li className=' flex '><img src={props.economia_circular_img} alt="" className='w-5 h-5 mx-5 my-4' /> {props.economia_circular_text} </li>
-              <li className=' flex '><img src={props.Industria_nacional_img} alt="" className='w-5 h-5 mx-5 my-4' /> {props.Industria_nacional_text} </li>
-              <li className=' flex '><img src={props.Industria_nacional_img} alt="" className='w-5 h-5 mx-5 my-4' /> {props.produccion_nacional_text} </li>
-              <li className=' flex '><img src={props.Hecho_en_talleres_img} alt="" className='w-5 h-5 mx-5 my-4' /> {props.Hecho_en_talleres_text} </li>
-              <li className=' flex '><img src={props.Vegan_frendly_img} alt="" className='w-5 h-5 mx-5 my-4' /> {props.Vegan_frendly_text} </li>
-              <li className=' flex '><img src={props.colabora_ong_img} alt="" className='w-5 h-5 mx-5 my-4' /> {props.colabora_ong_text} </li> */}
-            </ul>
+              </ul>
             {/* <p className={ToggleState === 2 ? "mt-6 text-left color_secondary " : "hidden"} style={{color:`#6D7280`}}>{props.detallesUno}</p>
             <p className={ToggleState === 2 ? "text-left color_secondary" : "hidden"} style={{color:`#6D7280`}}>{props.detallesDos}</p>
             <p className={ToggleState === 2 ? "text-left color_secondary" : "hidden"} style={{color:`#6D7280`}}>{props.detallesTres}</p> */}
             </div>
             </div>
             <div className="mt-10 flex justify-end">
-            <a href='https://www.leafsocial.shop/' target="_blank" className="btn bg-orange hover:bg-red-500 text-white ">conseguilas</a>
+            <a href='https://www.leafsocial.shop/' target="_blank" className="btn bg-orange normal-case hover:bg-red-500 text-white ">Conseguilas</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-
   )
 }
 

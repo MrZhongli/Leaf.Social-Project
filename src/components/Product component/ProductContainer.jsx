@@ -8,19 +8,19 @@ const ProductContainer = () => {
     
    useEffect(() => {
     setItem(Product)
-    // console.log(item)
    }, [])
    
 
   return (
     <div className='bg-white'>
-      <h2 className='font-bold text-5xl text-start md:mx-14 lg:mx-14 xl:mx-14  pt-20 text-black'>Categorias</h2>
-      <div className='flex flex-wrap justify-center w-full py-20'>
+      <h2 className='font-bold text-5xl text-start md:mx-14 lg:mx-14 xl:mx-28 pt-48 text-black'>Categorias</h2>
+      <div className='flex flex-wrap justify-center w-full py-32'>
     {
       item.map(p=>
         <ProductItems item={p} />
         )
     }
+    <p style={{color:`#4A505C`}}>¿Te gustaron nuestros productos y querés ser cliente mayorista? Comunicate con nosotros a <span className='text-red-500'> mayorista@leaf.social</span></p>
       </div>
     </div>
   )

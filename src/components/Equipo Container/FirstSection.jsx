@@ -8,9 +8,9 @@ import bg3 from '../../assets/nosotros_section/bg-main-3.jpg'
 const FirstSection = () => {
   return (
     <>
-      <div className='absolute top-1/3  flex flex-col sm:left-14 max-sm:left-2 ' >
-        <h1 className="text-5xl font-bold text-white text-left max-sm:text-4xl text-focus-in" >Trasformamos desperdicios en productos innovadores.</h1>
-        <p className="py-6 text-xl text-white  text-left max-sm:text-md text-focus-in">Transformamos los descartes industriales en ecoproductos que resuelven las necesidades de packaging y merchandasing de grandes empresas. Comunicando valores vinculados al cuidado y preservación del medio ambiente.</p>
+      <div className='absolute top-1/3  flex flex-col  ' >
+        <h1 className="text-5xl font-bold text-white text-center max-sm:text-4xl text-focus-in m-auto w-2/3" >Trasformamos desperdicios en productos innovadores.</h1>
+        <p className="py-6 text-xl text-white  text-center max-sm:text-md text-focus-in m-auto w-2/3 mt-5">Transformamos desperdicios en productos innovadores. Le damos una segunda vida, una segunda oportunidad a diversos materiales de excelente calidad, que al ser desechados son sumamente contaminantes y tardan más de 1.000 años en degradarse.</p>
       </div>
       <div className='bg-black'>
         <div className="carousel w-full ">

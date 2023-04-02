@@ -25,8 +25,7 @@ const SecondSection = () => {
 
     <div className='md:w-1/2'>
       <h1 className="text-5xl max-sm:text-4xl font-bold  max-sm:mx-4 mx-10  fade-up text-left mb-10" style={{color:`#1D2433`}}>Compromiso social y ambiental en cada paso</h1>
-      <p className="py-6 text-justify max-sm:mx-4 mx-10" style={{color:`#4A505C`}}>Amamos la moda, pero no queremos que nuestros productos se produzcan a costa de las personas o de nuestro planeta.
-      Desde el reciclado y la colaboración con ONGs estamos generando valor en nuestros productos</p>
+      <p className="py-6 text-justify max-sm:mx-4 mx-10" style={{color:`#4A505C`}}>Como amantes de la moda, no queremos que nuestros productos se produzcan a costa de nuestro planeta o de las personas. Es por eso que transformamos los descartes industriales en EcoProductos de la mano de grandes empresas, talleres sociales y ONGs para darle una segunda vida a materiales de gran calidad.</p>
     </div>
   </div>
 </div>  

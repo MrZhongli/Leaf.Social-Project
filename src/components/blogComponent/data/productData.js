@@ -64,6 +64,8 @@ import cartuchera_2 from '../../../assets/product_section/product/cartuchera/car
 import cartuchera_3 from '../../../assets/product_section/product/cartuchera/cartuchera_3.jpg'
 import cartuchera_4 from '../../../assets/product_section/product/cartuchera/cartuchera_4.jpg'
 
+// portanotebook
+import Portanotebook_negro from '../../../assets/product_section/product/portanotebook/Portanotebook_negro.png'
 
 // icon PopUps
 import compensacion from '../../../assets/product_section/popups/compensacion.png'
@@ -243,6 +245,24 @@ const Product = [
         text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
 
     },
+    // {
+    //     id:10,
+    //     category:'Portanotebook',
+    //     title:'Portanotebook',
+    //     img: [Portanotebook_negro,],
+    //     slug:'Cartuchera',
+    //     principal_description:`Producimos accesorios como cartucheras y neceseres únicos en el mercado, con diseño propio. 
+    //     Fabricamos nuestros modelos partir de materiales reciclados como silobolsa o bolsas de 
+    //     plastillera. Contamos con una variedad de diseños que se ajustan a la necesidad de cada uno. 
+         
+    //     La silobolsa es un material que se puede personalizar e intervenir con diversos dibujos y luego limpiar 
+    //     fácilmente para cambiar su diseño.  
+    //     Nuestras  cartucheras  y  neceseres  te  acompañan  todo  el  día,  son  ideales  para  guardar  todos  tus 
+    //     materiales y objetos personales`,
+    //     img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
+    //     text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
+
+    // },
 ]
 
 export {Product};

@@ -3,7 +3,7 @@ import ropa from '../../assets/nosotros_section/ropas.png'
 import agua from '../../assets/nosotros_section/barril_agua.png'
 import contaminacion from '../../assets/nosotros_section/contaminacion.png'
 
-export const ThirdSection = () => {
+export const ThirdSectionTeam = () => {
   return (
       <div className="lg:hero xl:hero md:hero min-h-screen bg-white">
           <div className="hero-content text-center flex flex-col ">
