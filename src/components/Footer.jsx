@@ -47,14 +47,14 @@ const Footer = () => {
               Input 
               ?
               <div className='mt-5'>
-                <p className='font-bold'>¡Listo! :)</p>
-                <p>Gracias por <span className='font-bold'>eligir ser parte</span></p>
-                <p>de esta comunidad.</p>
+                <p className='font-bold text-white'>¡Listo! :)</p>
+                <p className='text-white'>Gracias por <span className='text-white font-bold'>eligir ser parte</span></p>
+                <p className='text-white '>de esta comunidad.</p>
               </div>
               :
               <div className="relative right-2 mt-5">
               <input type="text" placeholder="Escribe tu correo"  className="input input-bordered md:w-full " />
-              <button className="btn bg-orange hover:bg-red-500 rounded-l my-5 duration-200 text-white normal-case md:w-full" onClick={handleClick}>Quiero sumarme</button>
+              <button className="btn bg-orange hover:bg-red-500 rounded-l my-5 duration-200 border-transparent text-white normal-case md:w-full" onClick={handleClick}>Quiero sumarme</button>
               </div>
           }
           </div>

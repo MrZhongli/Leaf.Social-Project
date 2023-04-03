@@ -76,7 +76,7 @@ const P_ItemDetail = ({props}) => {
             </div>
             </div>
             <div className="mt-10 flex justify-end">
-            <a href='https://www.leafsocial.shop/' target="_blank" className="btn bg-orange normal-case hover:bg-red-500 text-white ">Conseguilas</a>
+            <a href='https://www.leafsocial.shop/' target="_blank" className="btn bg-orange normal-case border-transparent hover:bg-red-500 text-white ">Conseguilas</a>
             </div>
           </div>
         </div>

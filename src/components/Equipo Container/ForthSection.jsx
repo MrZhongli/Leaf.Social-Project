@@ -39,7 +39,7 @@ export const ForthSection = () => {
                       <div className="  flex flex-col align-start mt-5">
                           <img src={cintia} className="rounded-box" alt="autor" />
                           <h1 className='font-bold text-lg text-left mt-7 text-black'  style={{color:`#1D2433`}}>
-                          Cintia Felding
+                          Cinthia Fehling
                           </h1>
                           <p className='font-medium text-lg mt-2 text-left' style={{color:`#4A505C`}}>
                           CMO (Chief Marketing Officer)
@@ -48,7 +48,7 @@ export const ForthSection = () => {
                       <div className="  flex flex-col align-start mt-5">
                           <img src={matias} className="rounded-box" alt="autor" />
                           <h1 className='font-bold text-lg text-left mt-7 text-black'  style={{color:`#1D2433`}}>
-                          Matias Fernandez
+                          Matías Fernández
                           </h1>
                           <p className='font-medium text-lg mt-2 text-left' style={{color:`#4A505C`}}>
                           COO (Chief Operating Officer)
@@ -57,7 +57,7 @@ export const ForthSection = () => {
                       <div className="  flex flex-col align-start mt-5">
                           <img src={lucrecia} className="rounded-box" alt="autor" />
                           <h1 className='font-bold text-lg text-left mt-7 text-black'  style={{color:`#1D2433`}}>
-                          Lucrecia Ugartemendia
+                          Lucrecia Ugartemendía
                           </h1>
                           <p className='font-medium text-lg mt-2 text-left' style={{color:`#4A505C`}}>
                           Product Manager

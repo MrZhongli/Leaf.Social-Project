@@ -21,7 +21,7 @@ const FifthSection = () => {
                 <p className="py-6 text-justify mt-10 mb-10" style={{ color: `#6D7280` }}>Transformando descartes en productos innovadores.
                     Gracias a ellos nuestros EcoProductos son: más resistentes, impermeables, con diseño
                     únicos, ecofriendly, vegan friendly, más livianos y duraderos.</p>
-                <a href='https://www.leafsocial.shop/' target="_blank" rel='noreferrer' className="btn bg-orange normal-case hover:bg-red-600 text-white  w-32">Ver más</a>
+                <Link to="/Productos" href='https://www.leafsocial.shop/' target="_blank" rel='noreferrer' className="btn bg-orange normal-case hover:bg-red-600 border-transparent text-white  w-32">Ver más</Link>
                 {/* <Link to="/Productos" className="btn btn-ghost text-black">Ver más</Link> */}
             </div>
         </div>

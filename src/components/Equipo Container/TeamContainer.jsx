@@ -9,7 +9,8 @@ import SecondSectionTeam from './SecondSection'
 import SevenSection from './SevenSection'
 import TeenSection from './TeenSection'
 import { ThirdSectionTeam } from './ThirdSection'
-import ThirdSection from '../landingPageComponent/ThirdSection'
+// import ThirdSection from '../landingPageComponent/ThirdSection'
+import ThirdSectionTeamSeccion from './ThirdSeccionTeamSeccion'
 
 const TeamContainer = () => {
   return (
@@ -21,7 +22,8 @@ const TeamContainer = () => {
     <ThirdSectionTeam/>
     <SecondSectionTeam/>
     <FifthSection/>
-    <ThirdSection/>
+    {/* <ThirdSection/> */}
+    <ThirdSectionTeamSeccion/>
     <EightSection/>
     <ForthSection/>
     <NineSection/>

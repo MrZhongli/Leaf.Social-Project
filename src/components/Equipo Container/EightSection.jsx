@@ -41,7 +41,7 @@ const EightSection = () => {
                       </div>
                   </div>
               </div>
-              <Link to="/Quienes_somos" className="btn bg-orange hover:bg-red-500 normal-case  text-white mt-20 m-auto w-36">Conocé más</Link>
+              {/* <Link to="/Quienes_somos" className="btn bg-orange hover:bg-red-500 normal-case border-transparent  text-white mt-20 m-auto w-36">Conocé más</Link> */}
           </div>
       </div>
   )

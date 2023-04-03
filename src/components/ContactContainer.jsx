@@ -71,7 +71,7 @@ const ContactContainer = () => {
         <div className="md:hero lg:hero xl:hero h-screen  py-20 " style={{ backgroundColor: `#F1F3F9`, height:`844px` }}>
           <div className='flex flex-col justify-end align-center m-4 '>
             <div>
-              <h1 className='text-black text-4xl mb-3 ' style={{color:`#1D2433`}}>Contactanos</h1>
+              <h1 className='text-black text-4xl mb-3 font-bold ' style={{color:`#1D2433`}}>Contactanos</h1>
               <p className='md:w-96 lg:w-96 xl:w-96 text-center text-md font-light mb-5' style={{color:`#1D2433`}}>Si tiene alguna pregunta o comentario, no dude en comunicarte con nosotros. Siempre estamos disponible para ayudar</p>
             </div>
             <div className='flex flex-col align-center justify-center'>
@@ -81,7 +81,7 @@ const ContactContainer = () => {
                 setEstado={setNombre}
                 Label='Nombre completo'
                 tipo="text"
-                placeholder="Escribe tu nombre"
+                placeholder=""
                 name="name"
                 expresionRegular={expresiones.nombre}
               />
@@ -91,7 +91,7 @@ const ContactContainer = () => {
                 setEstado={setEmail}
                 Label='Correo electrónico'
                 tipo="text"
-                placeholder="Escribe tu correo"
+                placeholder=""
                 name="email"
                 expresionRegular={expresiones.correo}
               />
@@ -101,7 +101,7 @@ const ContactContainer = () => {
                 setEstado={setAsunto}
                 Label='Asunto'
                 tipo="text"
-                placeholder="Escribe el asunto"
+                placeholder=""
                 name="asunto"
                 expresionRegular={expresiones.nombre}
               />
@@ -112,14 +112,14 @@ const ContactContainer = () => {
                 </label>
                 <textarea
                   type="text"
-                  placeholder="Escribe aquí"
+                  placeholder="Dejanos tu mensaje"
                   className=" input input-bordered  bg-white"
                   name="message" />
               </div>
             </div>
             {/* btn submit */}
             <div className="form-control mt-6 w-full flex items-end">
-              <input className=" mt-10 w-24 btn capitalize bg-orange hover:bg-red-500 text-white" type="submit" value="Enviar" />
+              <input className=" mt-10 w-24 btn capitalize bg-orange border-transparent hover:bg-red-500 text-white" type="submit" value="Enviar" />
             </div>
             {/* <button className=' mt-10 btn  bg-orange text-white'>Enviar</button> */}
             {
