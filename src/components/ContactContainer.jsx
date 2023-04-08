@@ -20,17 +20,7 @@ const ContactContainer = () => {
       Asunto.valido === 'true' &&
       Email.valido === 'true' 
     ){
-      // setFormularioValido(true)
-      // emailjs.sendForm(
-      //   'service_xo8dfke',
-      //   'template_qpii7sl',
-      //   form.current,
-      //   'F3848BbavDZHYILLD')
-      //   .then((result) => {
-      //     console.log(result.text);
-      //   }, (error) => {
-      //     console.log(error.text);
-      //   });
+      
       // datos de leaf
       setFormularioValido(true)
       emailjs.sendForm(
@@ -43,14 +33,18 @@ const ContactContainer = () => {
         }, (error) => {
           console.log(error.text);
         });
+        Nombre.campo=''
+        Asunto.campo=''
+        Email.campo=''
     e.target.reset()
-    }else if (
+    }
+    else if (
       Nombre.valido === 'null' ||
       Asunto.valido === 'null' ||
       Email.valido === 'null' 
     ){
       setFormularioValido(null)
-      console.log('No se ha llenado el formulario')
+      // console.log('No se ha llenado correctamente el formulario')
     }else{
       setFormularioValido(false)
     }
@@ -118,12 +112,13 @@ const ContactContainer = () => {
               </div>
             </div>
             {/* btn submit */}
-            <div className="form-control mt-6 w-full flex items-end">
-              <input className=" mt-10 w-24 btn capitalize bg-orange border-transparent hover:bg-red-500 text-white" type="submit" value="Enviar" />
+            <div className="form-control mt-6 w-full md:flex md:items-end">
+              <input className=" mt-10 md:w-24 btn capitalize bg-orange border-transparent hover:border-transparent hover:bg-red-500 text-white" type="submit" value="Enviar" />
             </div>
             {/* <button className=' mt-10 btn  bg-orange text-white'>Enviar</button> */}
             {
               FormularioValido === true &&
+              
               <div className="alert alert-success shadow-lg mt-20">
                 <div>
                   <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current flex-shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>

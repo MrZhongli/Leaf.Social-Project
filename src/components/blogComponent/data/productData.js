@@ -75,16 +75,25 @@ import DSC_6941_negra from '../../../assets/product_section/product/portanoteboo
 import cartera from '../../../assets/product_section/product/cartera/cartera.png'
 import cartera_1 from '../../../assets/product_section/product/cartera/DSC_8763.jpg'
 import cartera_2 from '../../../assets/product_section/product/cartera/LEAF-40-04cut-ret.jpg'
-import cartera_3 from '../../../assets/product_section/product/cartera/IMG_5854.png'
+import cartera_3 from '../../../assets/product_section/product/cartera/cartera_3.jpg'
 
 // Jardín Vertical
-import jardin from '../../../assets/product_section/product/jardin/jardin.jpg'
+import jardin from '../../../assets/product_section/product/jardin/Jardin.png'
+import jardin_2 from '../../../assets/product_section/product/jardin/jardin_2.jpg'
+import jardin_3 from '../../../assets/product_section/product/jardin/jardin_3.jpg'
+import jardin_4 from '../../../assets/product_section/product/jardin/jardin_4.jpg'
 
 // bolsas
-import bolsas from '../../../assets/product_section/product/bolsas/bolsas.jpg'
+import bolsas from '../../../assets/product_section/product/bolsas/bolsas.png'
+import bolsa_2 from '../../../assets/product_section/product/bolsas/bolsa_2.jpg'
+import bolsa_3 from '../../../assets/product_section/product/bolsas/bolsa_3.jpg'
+import bolsa_4 from '../../../assets/product_section/product/bolsas/bolsa_4.png'
 
 // luncheras
 import Luncheras from '../../../assets/product_section/product/luncheras/lunchera1.jpg'
+import Luncheras_2 from '../../../assets/product_section/product/luncheras/lunchera2.jpg'
+import Luncheras_3 from '../../../assets/product_section/product/luncheras/lunchera3.jpg'
+import Luncheras_4 from '../../../assets/product_section/product/luncheras/lunchera6.jpg'
 
 // icon PopUps
 import compensacion from '../../../assets/product_section/popups/compensacion.png'
@@ -284,7 +293,7 @@ const Product = [
         id:8,
         category: 'Jardín Vertical',
         title:'Jardin Vertical',
-        img: [jardin],
+        img: [jardin,jardin_2,jardin_3,jardin_4],
         slug:'Jardin_vertical',
         principal_description:`¡Del Campo Argentino a tu casa! Elaborado a partir de silobolsa reciclada, super amplia, más liviana,
         impermeable y de alta durabilidad. Este material se puede personalizar e intervenir con diversos
@@ -303,8 +312,8 @@ const Product = [
         id:10,
         category: 'Bolsas',
         title:'Bolsas',
-        img: [bolsas],
-        slug:'Jardin_vertical',
+        img: [bolsas,bolsa_2,bolsa_3,bolsa_4],
+        slug:'Bolsas',
         principal_description:`¡Del Campo Argentino a tu casa! Elaborado a partir de silobolsa reciclada, super amplia, más liviana,
         impermeable y de alta durabilidad. Este material se puede personalizar e intervenir con diversos
         dibujos y luego limpiar fácilmente para cambiar su diseño.
@@ -322,7 +331,7 @@ const Product = [
         id:11,
         category: 'Luncheras',
         title:'Luncheras',
-        img: [Luncheras],
+        img: [Luncheras, Luncheras_2,Luncheras_3,Luncheras_4],
         slug:'Luncheras',
         principal_description:`Disfrutá de tu comida caliente o fría en el trabajo, días de picnic, la escuela o cuando estás de
         viaje.

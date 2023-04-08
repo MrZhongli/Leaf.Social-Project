@@ -51,7 +51,7 @@ const ThirdSection = () => {
           </div>
         </div>
       </div>
-          <Link to="/Quienes_somos" className="btn bg-orange normal-case font-bold hover:bg-red-500 border-transparent  text-white mt-20">Conocé más</Link>
+          <Link to="/Quienes_somos" className="btn bg-orange normal-case font-bold hover:bg-red-500 hover:border-transparent border-transparent  text-white mt-20">Conocé más</Link>
     </div>
   </div>
   )

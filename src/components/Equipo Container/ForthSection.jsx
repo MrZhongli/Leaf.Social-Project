@@ -12,12 +12,12 @@ export const ForthSection = () => {
       <div className="md:hero lg:hero xl:hero min-h-screen bg-white ">
           <div className="hero-content text-center flex flex-col py-20 ">
               <div className="">
-                  <h1 className="text-5xl font-bold "  style={{color:`#1D2433`}}>Nuestro equipo</h1>
+                  <h1 className="text-5xl font-bold max-sm:text-4xl"  style={{color:`#1D2433`}}>Nuestro equipo</h1>
                   <p className="py-6"  style={{color:`#4A505C`}}>Juntos somos una gran fuerza y podemos fomentar el futuro que queremos para las nuevas generaciones.</p>
               </div>
               <div className='flex flex-wrap justify-center'>
                 
-                  <div className="flex flex-wrap  p-4 space-x-10 justify-center bg-white rounded-box">
+                  <div className="flex flex-wrap  p-4 md:space-x-10 justify-center bg-white rounded-box">
                       <div className="  flex flex-col align-start mt-5">
                           <img src={Santos} className="rounded-box " alt="autor" />
                       <h1 className='font-bold text-lg text-left mt-7 text-black'  style={{color:`#1D2433`}}>

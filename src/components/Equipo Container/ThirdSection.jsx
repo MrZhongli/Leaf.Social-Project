@@ -8,8 +8,8 @@ export const ThirdSectionTeam = () => {
       <div className="lg:hero xl:hero md:hero min-h-screen bg-white">
           <div className="hero-content text-center flex flex-col ">
               <div className="mt-20">
-                  <h1 className="text-5xl font-bold " style={{color:`#111827`}}>¿Por qué reciclamos?</h1>
-                  <p className="py-6" style={{ color: `#4A505C` }}>Reciclamos porque creemos en las segundas oportunidades, porque cada acción genera un
+                  <h1 className="text-5xl font-bold max-sm:text-4xl  max-sm:text-left" style={{color:`#111827`}}>¿Por qué reciclamos?</h1>
+                  <p className="py-6 max-sm:text-left" style={{ color: `#4A505C` }}>Reciclamos porque creemos en las segundas oportunidades, porque cada acción genera un
                       impacto sobre el medio ambiente y queremos demostrar que se pueden hacer las cosas de
                       otra manera</p>
                   {/* <button className="btn btn-primary">Get Started</button> */}

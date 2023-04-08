@@ -4,9 +4,9 @@ const MaterialItems = (props) => {
     const { name, imagen} = props.item
     const img = Object.values(imagen)
   return (
-      <div className=" ">
+      <div >
           <img src={img} alt={imagen} className=" glass_effect duration-100 rounded-none transition-1 hover:scale-105" />
-          <h1 className='font-bold text-lg text-left mt-7 text-white relative bottom-20 w-fit p-3' style={{ color: `#fff` }}>
+          <h1 className='font-bold text-lg text-left mt-7 max-sm:text-sm text-white relative bottom-20 w-fit p-3' style={{ color: `#fff` }}>
               {name}
           </h1>
       </div>

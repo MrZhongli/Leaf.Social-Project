@@ -16,34 +16,34 @@ const TeenSection = () => {
     <div className="hero min-h-screen bg-white"  >
     <div className="hero-content mt-10 text-center">
         <div className="">
-            <h1 className="text-5xl font-bold   text-center" style={{color:`#1D2433`}}>Reconocimientos & premios</h1>
+            <h1 className="text-5xl font-bold  max-sm:text-2xl text-center" style={{color:`#1D2433`}}>Reconocimientos & premios</h1>
             {/* <p className="py-6" style={{ color: `#6D7280` }}>Algunas de las mejores marcas trabajan con nosotros</p> */}
-          <div className='flex flex-row flex-wrap mt-20 justify-center'>
-              <div className='max-sm:m-10 m-5'>
+          <div className='flex flex-row flex-wrap py-20 justify-center max-sm:grid max-sm:grid-cols-2  '>
+              <div className=' m-5'>
               <img src={green} alt="techo" /> 
               </div>                      
-              <div className='max-sm:m-10 m-5'>
+              <div className=' m-5'>
               <img src={fecobaj} alt="Fecoba Joven" /> 
               </div>                      
               {/* <div className='max-sm:m-10 m-5'>
               <img src={ToyImg} alt="JCI TOYP" /> 
               </div>                       */}
-              <div className='max-sm:m-10 m-5'>
+              <div className=' m-5'>
               <img src={ibero} alt="Iberoamericana Juventud" /> 
               </div>                      
-              <div className='max-sm:m-10 m-5'>
+              <div className=' m-5'>
               <img src={trasnformers} alt="Mujeres-Transformadoras-Voces-Vitales" /> 
               </div>                      
-              <div className='max-sm:m-10 m-5'>
+              <div className=' m-5'>
               <img src={latamverde} alt="Mujeres-Transformadoras-Voces-Vitales" /> 
               </div>                      
-              <div className='max-sm:m-10 m-5 '>
+              <div className=' m-5 '>
               <img src={fecobaM} alt="fecoba mujeres" /> 
               </div>                      
-              <div className='max-sm:m-10 m-5'>
+              <div className=' m-5'>
               <img src={invest} alt="Investment Awards " /> 
               </div>                      
-              <div className='max-sm:m-10 m-5'>
+              <div className=' m-5'>
               <img src={Proesus} alt="Proesus " /> 
               </div>                      
           </div>

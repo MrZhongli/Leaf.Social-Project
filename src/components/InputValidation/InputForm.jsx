@@ -26,7 +26,7 @@ const InputForm = ({ estado, setEstado, Label, tipo, placeholder, name, classNam
       <Input
         type={tipo}
         placeholder={placeholder}
-        className={`input  bg-white `}
+        className={`input input-bordered bg-white `}
         name={name}
         value={estado.campo}
         onChange={onChangeInput}
@@ -39,7 +39,6 @@ const InputForm = ({ estado, setEstado, Label, tipo, placeholder, name, classNam
 }
 
 export default InputForm
-
 
 const Input = styled.input`
 width:100%;

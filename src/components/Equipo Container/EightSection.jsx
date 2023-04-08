@@ -9,7 +9,7 @@ const EightSection = () => {
     <div className="lg:hero md:hero xl:hero min-h-screen bg-white">
           <div className="text-center flex flex-col">
               <div className=' mt-20'>
-                  <h1 className="text-5xl max-sm:text-3xl font-bold my-20 " style={{color:`#111827`}}>Demostramos que el cambio es posible</h1>
+                  <h1 className="text-5xl max-sm:text-4xl font-bold my-20 " style={{color:`#111827`}}>Demostramos que el cambio es posible</h1>
                   {/* <p className="py-6" style={{ color: `#4A505C` }}>Somos una empresas de triple impacto basada en el reciclado de silobolsas del campo en desuso para crear accesorios ecológicos.</p> */}
               </div>
               <div className='flex flex-wrap justify-center'>

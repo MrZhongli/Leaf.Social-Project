@@ -144,3 +144,28 @@ const Material = [
 ]
 
 export {Material}
+
+const MaterialResponsive = [
+    {
+        name:"Silobolsa",
+        imagen:{paragua},
+        // hoverImg:'',
+    },
+    {
+        name:"Caucho de neumáticos",
+        imagen:{neumaticos},
+        // hoverImg:'',
+    },
+    {
+        name:"Banners publicitarios",
+        imagen:{Lona_de_banners},
+        // hoverImg:'',
+    },
+    {
+        name:"Cinturones de seguridad",
+        imagen:{Cinturones_de_seguridad},
+        // hoverImg:'',
+    },
+ ]
+
+ export {MaterialResponsive}

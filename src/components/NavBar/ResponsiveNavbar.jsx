@@ -23,7 +23,7 @@ export const ResponsiveNavbar = () => {
           </label>
 
         { Active ?
-        <ul className='fixed  gap-3 flex flex-col align-center items-start justify-center inset-0 left-2/3  bg-black/40 h-screen  duration-75 slide-left w-full '>
+        <ul className='fixed gap-3 flex flex-col align-center items-center justify-start py-32  inset-0 left-28 bg-black h-screen  duration-75 slide-left w-full '>
         <li>
             <Link to="/" className='btn  text-white btn-ghost '>inicio</Link>
         </li>

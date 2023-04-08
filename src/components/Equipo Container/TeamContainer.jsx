@@ -21,8 +21,7 @@ const TeamContainer = () => {
     <SevenSection/>
     <ThirdSectionTeam/>
     <SecondSectionTeam/>
-    <FifthSection/>
-    {/* <ThirdSection/> */}
+    <FifthSection className="hidden"/>
     <ThirdSectionTeamSeccion/>
     <EightSection/>
     <ForthSection/>

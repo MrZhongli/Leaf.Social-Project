@@ -1,7 +1,7 @@
 import React from 'react';
 import CountUpContainer from './CountUp/CountUpContainer';
 import FirstSection from './landingPageComponent/FirstSection';
-import SecondSectionLanding from './landingPageComponent/SecondSection';
+import SecondSection from './landingPageComponent/SecondSection';
 import ThirdSection from './landingPageComponent/ThirdSection';
 import Navbar from '../components/NavBar.jsx';
 import FifthSection from './landingPageComponent/FifthSection';
@@ -12,9 +12,9 @@ const LandingPage = () => {
   return (
     <>
     <div className='overflow-x-hidden'>
-    <Navbar/>
+    <Navbar />
     <FirstSection/>
-    <SecondSectionLanding/>
+    <SecondSection/>
     <ThirdSection/> 
     <CountUpContainer/>
     <FifthSection/>
