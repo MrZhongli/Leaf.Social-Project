@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import bg from '../../assets/nosotros_section/man-img.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import '../styles/styles.css'
 
 const SevenSection = () => {
     useEffect(() => {
