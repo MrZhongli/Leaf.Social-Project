@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <div className= 'navbar drop-shadow-xl fixed bg-white shadow-sm rounded-none  z-10' >
             <div className="flex-1">
-                <Link to='/' className="h-16 w-16 ">
+                <Link to='/' className="h-16 w-16 mx-4">
                     <img src={isotipo} alt="logo" />
                 </Link>
             </div>

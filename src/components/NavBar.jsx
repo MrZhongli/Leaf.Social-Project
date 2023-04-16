@@ -28,10 +28,8 @@ const Navbar = () => {
         <div className={NavBar ? 'navbar drop-shadow-xl fixed bg-white shadow-sm rounded-none  z-10 duration-75' : 'navbar  bg-transparent  rounded-none z-10 fixed duration-200'}>
             <div className="flex-1">
                 <Link to='/' className=" max-sm:hidden">
-                    {/* <Logo /> */}
-                <img src={isotipo} className={NavBar ? `h-16 mx-4 w-16 mx-4 block`:`hidden h-16 mx-4 w-16 mx-4`} alt="" />
-                <img src={isotipoBlanco} className={NavBar ? `h-16 mx-4 w-16 hidden`:`block h-16 mx-4 w-16 mx-4`} alt="" />
-                {/* <img src={isotipoBlanco} className='h-20 w-20' alt="" /> */}
+                <img src={isotipo} className={NavBar ? `h-16 mx-4 w-16  block`:`hidden h-16  w-16 mx-4`} alt="logo" />
+                <img src={isotipoBlanco} className={NavBar ? `h-16 mx-4 w-16 hidden`:`block h-16  w-16 mx-4`} alt="logo" />
                 </Link>
                 
                 {/* <Link to='/' className="btn btn-ghost"><img src={isotipo} alt="" /></Link> */}
