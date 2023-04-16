@@ -1,10 +1,8 @@
 import mochila from '../../../assets/product_section/mochila_1.png'
-import navy_red from '../../../assets/product_section/navy_red.png'
 import navy_b from '../../../assets/product_section/navy_b.png'
 import navy_black from '../../../assets/product_section/navy_black.png'
 
 import feelfree_fruit from '../../../assets/product_section/product/feelfree_fruit.png'
-import cuaderno from '../../../assets/product_section/product/cuaderno.png'
 import riñonera from '../../../assets/product_section/product/riñonera.png'
 import b_deportivo from '../../../assets/product_section/product/b_deportivo.png'
 import cartuchera from '../../../assets/product_section/product/cartuchera.png'
@@ -13,14 +11,13 @@ import zapatilla from '../../../assets/product_section/product/zapatillas.png'
 
 // alpargatas
 import alpargata from '../../../assets/product_section/alp_cherry.png'
-// import alp_blueberry from '../../../assets/product_section/alp_blueberry.png'
 import EveryDay_Blueberry_0 from '../../../assets/product_section/product/alpargata/EveryDay_Blueberry_0.png'
 import EveryDay_Lemon_0 from '../../../assets/product_section/product/alpargata/EveryDay_Lemon_0.jpg'
 import Free_Spring_Turquoise_II from '../../../assets/product_section/product/alpargata/Free_Spring_Turquoise_II.png'
 
 // mochila
 import mochila_amor_33 from '../../../assets/product_section/amor_33.png'
-import Mochila from '../../../assets/product_section/product/Mochila.png'
+import Mochila from '../../../assets/product_section/product/mochila/Mochila_main.png'
 import Mochila_elemental from '../../../assets/product_section/product/mochila/Mochila_elemental.jpg'
 import wall_11 from '../../../assets/product_section/wall_11.png'
 
@@ -29,23 +26,19 @@ import NavyChic_turquoise from '../../../assets/product_section/product/zapatill
 import Navy_Beige from '../../../assets/product_section/product/zapatillas/Navy_Beige.png'
 
 // anotadores
-import anotador from '../../../assets/product_section/product/feelfree_fruit_anotador.png'
+import anotador from '../../../assets/product_section/product/anotadores/Anotadores_Cuadernos_main.png'
 import DSC_8440 from '../../../assets/product_section/product/anotadores/DSC_8440-2.jpg'
 import agenda from '../../../assets/product_section/product/anotadores/Anotador-BORDEAUX-liso-contratapa.jpg'
-import Anotador_VERDE from '../../../assets/product_section/product/anotadores/Anotador-VERDE-cuadriculado-tapa.jpg'
+// import Anotador_VERDE from '../../../assets/product_section/product/anotadores/Anotador-VERDE-cuadriculado-tapa.jpg'
 
 // matero
-import matero from '../../../assets/product_section/product/matero.png'
+import matero from '../../../assets/product_section/product/materos/Bolso_Matero_main.png'
 import matero_2 from '../../../assets/product_section/product/materos/matero_2.jpg'
 import matero_22 from '../../../assets/product_section/product/materos/matero_22.jpg'
-import matero_23 from '../../../assets/product_section/product/materos/matero_23.jpg'
-import matero_24 from '../../../assets/product_section/product/materos/matero_41.jpg'
 
 // cuadernos
-import cuaderno_1 from '../../../assets/product_section/product/cuadernos/cuaderno_1.jpg'
 import cuaderno_2 from '../../../assets/product_section/product/cuadernos/cuaderno_2.jpg'
 import cuaderno_3 from '../../../assets/product_section/product/cuadernos/cuaderno_3.jpg'
-import cuaderno_4 from '../../../assets/product_section/product/cuadernos/cuaderno_4.jpg'
 
 // riñoneras
 import riñonera_1 from '../../../assets/product_section/product/riñonera/riñonera_1.jpg'
@@ -55,11 +48,9 @@ import riñonera_4 from '../../../assets/product_section/product/riñonera/riño
 
 // bolso deportivo
 import bolso_1 from '../../../assets/product_section/product/bolso_deportivo/bolso_1.jpg'
-import bolso_2 from '../../../assets/product_section/product/bolso_deportivo/bolso_2.png'
-import bolso_3 from '../../../assets/product_section/product/bolso_deportivo/bolso_3.jpg'
 
 // cartuchera
-import cartuchera_1 from '../../../assets/product_section/product/cartuchera/cartuchera_1.png'
+import cartuchera_1 from '../../../assets/product_section/product/cartuchera/Cartucheras_Neceseres_main.png'
 import cartuchera_2 from '../../../assets/product_section/product/cartuchera/cartuchera_2.png'
 import cartuchera_3 from '../../../assets/product_section/product/cartuchera/cartuchera_3.jpg'
 import cartuchera_4 from '../../../assets/product_section/product/cartuchera/cartuchera_4.jpg'
@@ -78,7 +69,7 @@ import cartera_2 from '../../../assets/product_section/product/cartera/LEAF-40-0
 import cartera_3 from '../../../assets/product_section/product/cartera/cartera_3.jpg'
 
 // Jardín Vertical
-import jardin from '../../../assets/product_section/product/jardin/Jardin.png'
+import jardin from '../../../assets/product_section/product/jardin/Jardin_vertical_main.png'
 import jardin_2 from '../../../assets/product_section/product/jardin/jardin_2.jpg'
 import jardin_3 from '../../../assets/product_section/product/jardin/jardin_3.jpg'
 import jardin_4 from '../../../assets/product_section/product/jardin/jardin_4.jpg'
@@ -90,7 +81,7 @@ import bolsa_3 from '../../../assets/product_section/product/bolsas/bolsa_3.jpg'
 import bolsa_4 from '../../../assets/product_section/product/bolsas/bolsa_4.png'
 
 // luncheras
-import Luncheras from '../../../assets/product_section/product/luncheras/lunchera1.jpg'
+import Luncheras from '../../../assets/product_section/product/luncheras/lunchera_main.png'
 import Luncheras_2 from '../../../assets/product_section/product/luncheras/lunchera2.jpg'
 import Luncheras_3 from '../../../assets/product_section/product/luncheras/lunchera3.jpg'
 import Luncheras_4 from '../../../assets/product_section/product/luncheras/lunchera6.jpg'
@@ -118,7 +109,9 @@ const Product = [
         en una caja reutilizable, que también podés usar como maceta para darle vida a tu hogar
         `,
         img_popups:[compensacion,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Compensación de la huella de carbono","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
+        text:["Compensación de la huella de carbono","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
+        linkTo:"https://www.shop-leaf.com/calzado/?mpage=2"
+    
     },
     {
         id:3,
@@ -142,6 +135,7 @@ const Product = [
         `,
         img_popups:[eco_friendly,compensacion,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
         text:["Eco friendly","Compensación de la huella de carbono","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
+        linkTo:"https://www.shop-leaf.com/calzado/?mpage=2"
     },
     {
         id:2,
@@ -156,13 +150,14 @@ const Product = [
         reciclada. 
         Contamos  con  una  variedad  de  diseños  que  se  ajustan  a  diferentes  necesidades.  ¡Elegí  qué mochila va mejor con vos!`,
         img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
-},
-{
-    id:10,
-    category:'Portanotebook',
-    title:'Portanotebook',
-    img: [Portanotebook_negro,Portanotebook_blanco,Portanotebook,portanotebook_horizontal,DSC_6941_negra],
+        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
+        linkTo:"https://www.shop-leaf.com/accesorios/mochilas/"
+    },
+    {
+        id:10,
+        category:'Portanotebook',
+        title:'Portanotebook',
+        img: [Portanotebook_negro,Portanotebook_blanco,Portanotebook,portanotebook_horizontal,DSC_6941_negra],
     slug:'Portanotebook',
     principal_description:`Producimos accesorios como cartucheras y neceseres únicos en el mercado, con diseño propio. 
     Fabricamos nuestros modelos partir de materiales reciclados como silobolsa o bolsas de 
@@ -173,8 +168,9 @@ const Product = [
     Nuestras  cartucheras  y  neceseres  te  acompañan  todo  el  día,  son  ideales  para  guardar  todos  tus 
     materiales y objetos personales`,
     img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-    text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
-
+    text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
+    linkTo:"https://www.shop-leaf.com/accesorios/portanotebooks/"
+    
 },
 {
     id:5,
@@ -184,21 +180,22 @@ const Product = [
     slug:'Bolsos',
     principal_description:`Tenemos  varios  modelos  que  se  adaptan  a  cada  una  de  tus  necesidades.  Bolsos  deportivos, 
     materos, entre otros.  
-     
+    
     Están elaborados con silobolsa reciclada. Esto los vuelve impermeables, resistentes y más duraderos. 
     Además, gracias a este material, la limpieza interna es mucho más sencilla.  
     La silobolsa es un material que se puede personalizar e intervenir con diversos dibujos y luego limpiar 
     fácilmente para cambiar su diseño. `,
     img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-    text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
-
+    text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
+    linkTo:"https://www.shop-leaf.com/accesorios/bolso-deportivo/"
+    
 },
-    {
-        id:4,
-        category: 'Anotadores y Cuadernos',
-        title:'Anotadores y Cuadernos',
-        img: [anotador,DSC_8440,cuaderno_3,agenda,cuaderno_2],
-        slug:'Anotadores_cuadernos',
+{
+    id:4,
+    category: 'Anotadores y Cuadernos',
+    title:'Anotadores y Cuadernos',
+    img: [anotador,DSC_8440,cuaderno_3,agenda,cuaderno_2],
+    slug:'Anotadores_cuadernos',
         principal_description:`Nuestros eco cuadernos y eco anotadores son ideales porque te acompañan al momento de trabajar 
         o estudiar.  
          
@@ -207,15 +204,16 @@ const Product = [
          
         Algunos de nuestros modelos de cuadernos incluyen agenda perpetua, por lo que el paso ¡lo marcas 
         vos!  
-         
+        
         Todos  los  modelos  son  sustentables  y  funcionales,  con  un anillado  metálico  reciclable  y  reutilizable 
         que garantizan una experiencia de escritura a 360 grados.  
-         
+        
         Se presentan en cuatro formatos y diseños: rayados, cuadriculados, lisos y punteados. 
         ¡Elegí el que más te guste y sé parte del cambio que el mundo necesita! `,
         img_popups:[eco_friendly,economia_circular,produccion_nacional,colabora_con_ongs],
         text:["Eco friendly","Economía circular","Producción nacional","Colabora con ongs"],
-    
+        linkTo:"https://www.shop-leaf.com/vuelta-al-cole/"
+        
     },
     
     // {
@@ -235,7 +233,7 @@ const Product = [
          
     //     Todos  los  modelos  son  sustentables  y  funcionales,  con  un anillado  metálico  reciclable  y  reutilizable 
     //     que garantizan una experiencia de escritura a 360 grados.  
-         
+    
     //     Se presentan en cuatro formatos y diseños: rayados, cuadriculados, lisos y punteados. 
     //     ¡Elegí el que más te guste y sé parte del cambio que el mundo necesita! `,
     //     img_popups:[eco_friendly,economia_circular,produccion_nacional,colabora_con_ongs],
@@ -245,7 +243,7 @@ const Product = [
         id:9,
         category:'Cartucheras_neceseres',
         title:'Cartucheras y Neceseres',
-        img: [cartuchera,cartuchera_1,cartuchera_2,cartuchera_3,cartuchera_4],
+        img: [cartuchera_1,cartuchera,cartuchera_2,cartuchera_3,cartuchera_4],
         slug:'Cartucheras_neceseres',
         principal_description:`Producimos accesorios como cartucheras y neceseres únicos en el mercado, con diseño propio. 
         Fabricamos nuestros modelos partir de materiales reciclados como silobolsa o bolsas de 
@@ -256,8 +254,9 @@ const Product = [
         Nuestras  cartucheras  y  neceseres  te  acompañan  todo  el  día,  son  ideales  para  guardar  todos  tus 
         materiales y objetos personales`,
         img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
-
+        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
+        linkTo:"https://www.shop-leaf.com/accesorios/neceser/"
+        
     },
     {
         id:6,
@@ -270,8 +269,9 @@ const Product = [
         Con su variedad de tamaños, nuestras carteras te acompañan todo el día y se adaptan a cada
         necesidad. ¡Elegí la tuya!`,
         img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
-
+        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
+        linkTo:"https://www.shop-leaf.com/accesorios/cartera/"
+        
     },
     {
         id:7,
@@ -286,8 +286,9 @@ const Product = [
         Modelos  atemporales,  impermeables  y  resistentes.  Podés  llevar  con  vos  lo  esencial  mientras  estás 
         cuidando el medio ambiente`,
         img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
-
+        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
+        linkTo:"https://www.shop-leaf.com/accesorios/rinoneras/"
+        
     },
     {
         id:8,
@@ -305,8 +306,9 @@ const Product = [
         pared. Todo esto sin dificultades de colocación, sin suciedad.
         ¡Plantá, regá y disfrutá! Un mundo de colores en tu casa.`,
         img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
-
+        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
+        linkTo:"https://www.shop-leaf.com/home-deco/"
+        
     },
     {
         id:10,
@@ -324,8 +326,9 @@ const Product = [
         pared. Todo esto sin dificultades de colocación, sin suciedad.
         ¡Plantá, regá y disfrutá! Un mundo de colores en tu casa.`,
         img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
-
+        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
+        linkTo:"https://www.shop-leaf.com/accesorios/ecobolsas/"
+        
     },
     {
         id:11,
@@ -341,8 +344,9 @@ const Product = [
         impermeables y de gran resistencia.
         ¡Disfrutá de tus comidas calientes o frías como recién hechas!`,
         img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
-
+        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
+        linkTo:"https://www.shop-leaf.com/accesorios/?mpage=5"
+        
     },
     // {
     //     id:8,

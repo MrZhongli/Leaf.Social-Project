@@ -21,7 +21,7 @@ const ThirdSectionTeamSeccion = () => {
             </figure>
             <div className="card-body items-center text-center">
             <h2 className="card-title text-black">Impacto ambiental</h2>
-              <p className='text-justify mt-2' style={{color:`#4A505C`}}>EcoProductos elaborados con diversos materiales reciclados. Sumando a nuestro catálogo cada vez más descartes a rescatar y reutilizar, concientizando sobre el cuidado del ambiente.</p>
+              <p className='text-center mt-2' style={{color:`#4A505C`}}>EcoProductos elaborados con diversos materiales reciclados. Sumando a nuestro catálogo cada vez más descartes a rescatar y reutilizar, concientizando sobre el cuidado del ambiente.</p>
             </div>
           </div>
           {/* card2 */}
@@ -31,7 +31,7 @@ const ThirdSectionTeamSeccion = () => {
             </figure> 
             <div className="card-body items-center text-center">
               <h2 className="card-title text-black">Impacto social</h2>
-                <p className='text-justify mt-2' style={{ color: `#4A505C` }}>Generamos oportunidades laborales y de inclusión social a personas con
+                <p className='text-center mt-2' style={{ color: `#4A505C` }}>Generamos oportunidades laborales y de inclusión social a personas con
                   discapacidad, mujeres en situación de vulnerabilidad, así como de reinserción social para
                   personas que fueron liberadas luego de haber cumplido su condena.</p>
             </div>
@@ -42,8 +42,8 @@ const ThirdSectionTeamSeccion = () => {
               <img src={TshitImg} alt="Producto con proposito"/>
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title text-black">Productos solidarios</h2>
-                <p className='text-justify mt-2' style={{ color: `#4A505C` }}>Con cada compra estás ayudando a que los otros dos impactos sean
+              <h2 className="card-title text-black">Impacto económico</h2>
+                <p className='text-center mt-2' style={{ color: `#4A505C` }}>Con cada compra estás ayudando a que los otros dos impactos sean
                   sostenibles en el tiempo, colaborando con el proceso de producción y con diversas ONGs
                   para que cumplan su misión.</p>
             </div>

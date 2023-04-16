@@ -20,46 +20,46 @@ export const ForthSection = () => {
                   <div className="flex flex-wrap  p-4 md:space-x-10 justify-center bg-white rounded-box">
                       <div className="  flex flex-col align-start mt-5">
                           <img src={Santos} className="rounded-box " alt="autor" />
-                      <h1 className='font-bold text-lg text-left mt-7 text-black'  style={{color:`#1D2433`}}>
+                      <h1 className='font-bold text-lg text-center mt-7 text-black'  style={{color:`#1D2433`}}>
                       Santo Parsons
                           </h1>
-                          <p className='font-medium text-lg mt-2 text-left' style={{color:`#4A505C`}} >
+                          <p className='font-medium text-lg mb-4 text-center' style={{color:`#4A505C`}} >
                           Chairman & Co-founder
                           </p>
                       </div>
                       <div className="  flex flex-col align-start mt-5">
                           <img src={antonio} className="rounded-box" alt="autor" />
-                          <h1 className='font-bold text-lg text-left mt-7 text-black' style={{color:`#1D2433`}}>
+                          <h1 className='font-bold text-lg text-center mt-7 text-black' style={{color:`#1D2433`}}>
                           Antonio Parsons
                           </h1>
-                          <p className='font-medium text-lg mt-2 text-left' style={{color:`#4A505C`}}>
+                          <p className='font-medium text-lg mb-4 text-center' style={{color:`#4A505C`}}>
                           Executive Director
                           </p>
                       </div>
                       <div className="  flex flex-col align-start mt-5">
                           <img src={cintia} className="rounded-box" alt="autor" />
-                          <h1 className='font-bold text-lg text-left mt-7 text-black'  style={{color:`#1D2433`}}>
+                          <h1 className='font-bold text-lg text-center mt-7 text-black'  style={{color:`#1D2433`}}>
                           Cinthia Fehling
                           </h1>
-                          <p className='font-medium text-lg mt-2 text-left' style={{color:`#4A505C`}}>
+                          <p className='font-medium text-lg mb-4 text-center' style={{color:`#4A505C`}}>
                           CMO (Chief Marketing Officer)
                           </p>
                       </div>
                       <div className="  flex flex-col align-start mt-5">
                           <img src={matias} className="rounded-box" alt="autor" />
-                          <h1 className='font-bold text-lg text-left mt-7 text-black'  style={{color:`#1D2433`}}>
+                          <h1 className='font-bold text-lg text-center mt-7 text-black'  style={{color:`#1D2433`}}>
                           Matías Fernández
                           </h1>
-                          <p className='font-medium text-lg mt-2 text-left' style={{color:`#4A505C`}}>
+                          <p className='font-medium text-lg mb-4 text-center' style={{color:`#4A505C`}}>
                           COO (Chief Operating Officer)
                           </p>
                       </div>
                       <div className="  flex flex-col align-start mt-5">
                           <img src={lucrecia} className="rounded-box" alt="autor" />
-                          <h1 className='font-bold text-lg text-left mt-7 text-black'  style={{color:`#1D2433`}}>
+                          <h1 className='font-bold text-lg text-center mt-7 text-black'  style={{color:`#1D2433`}}>
                           Lucrecia Ugartemendía
                           </h1>
-                          <p className='font-medium text-lg mt-2 text-left' style={{color:`#4A505C`}}>
+                          <p className='font-medium text-lg mb-4 text-center' style={{color:`#4A505C`}}>
                           Product Manager
                           </p>
                       </div>

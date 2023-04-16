@@ -11,8 +11,8 @@ const NineSection = () => {
       <div className="md:hero lg:hero xl:hero min-h-screen py-20" style={{ backgroundColor: `#f6f7fb` }}>
           <div className="text-center flex flex-col ">
               <div>
-                  <h1 className="text-5xl font-bold max-sm:text-4xl" style={{ color: `#1D2433` }}>Conectando talentos con oportunidades</h1>
-                  <p className="py-6 " style={{ color: `#4A505C` }}>Generamos nuevas oportunidades</p>
+                  <h1 className="text-5xl font-bold max-sm:text-4xl mb-20" style={{ color: `#1D2433` }}>Conectando talentos con oportunidades</h1>
+                  {/* <p className="py-6 " style={{ color: `#4A505C` }}>Generamos nuevas oportunidades</p> */}
               </div>
               <div className='flex flex-wrap justify-center max-sm:m-2'>
                   <div className='flex flex-col text-start'>

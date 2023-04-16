@@ -27,7 +27,7 @@ export const FifthSection = () => {
                   <h1 className="text-5xl max-sm:text-4xl font-bold text-black" style={{color:`#1D2433`}}>Materiales que reciclamos</h1>
                   <p className="py-6" style={{color:`#4A505C`}}>Recolectamos una amplia cantidad de distintos tipos de materiales que luego transformamos en productos.</p>
               </div>
-                  <div className="max-sm:hidden  flex flex-wrap justify-center space-x-4 bg-white rounded-box">
+                  <div className="max-sm:hidden  md:grid md:grid-cols-3 justify-center w-full pt-32 mx-8 bg-white rounded-box">
                       {
                         item.map(p=>
                             <MaterialItems item={p}/>

@@ -21,10 +21,10 @@ const TeamContainer = () => {
     <SevenSection/>
     <ThirdSectionTeam/>
     <SecondSectionTeam/>
-    <FifthSection className="hidden"/>
+    <FifthSection/>
     <ThirdSectionTeamSeccion/>
-    <EightSection/>
     <ForthSection/>
+    <EightSection/>
     <NineSection/>
     <TeenSection/>
     </div>

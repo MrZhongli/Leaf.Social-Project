@@ -12,7 +12,7 @@ const SecondSectionTeam = () => {
         Aos.init();
        })
   return (
-        <div className="hero bg-white  ">
+        <div className="hero" style={{backgroundColor:`#F9FAFB`}}>
             <div className="text-center mt-20">
                 <div className="flex flex-col">
                     <h1 className="text-5xl font-bold " style={{color:`#111827`}}>Cómo lo hacemos</h1>
@@ -50,13 +50,13 @@ const SecondSectionTeam = () => {
                             </div>
                         </div>
                         {/* 4 */}
-                      <div className="card w-72 bg-white mx-5 my-1" data-aos="fade-up">
+                      <div className="card w-72 bg-white my-5 mx-5" data-aos="fade-up">
                           <figure className="px-10 pt-10">
                               <img src={number4} alt="Producto con proposito" />
                           </figure>
                           <div className="card-body items-center text-center">
                               {/* <h2 className="card-title" style={{color:`#1D2433`}}>Paso 4</h2> */}
-                              <p style={{ color: `#4A505C` }} className="">Con cada compra se potencia el trabajo nacional y se colabora con diversas ONGs.</p>
+                              <p style={{ color: `#4A505C` }} className="my-9">Con cada compra se potencia el trabajo nacional y se colabora con diversas ONGs.</p>
                           </div>
                       </div>
                     </div>

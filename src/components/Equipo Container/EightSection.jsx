@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 
 const EightSection = () => {
   return (
-    <div className="lg:hero md:hero xl:hero min-h-screen bg-white">
+    <div className="lg:hero md:hero xl:hero min-h-screen" style={{backgroundColor:`#F9FAFB`}}>
           <div className="text-center flex flex-col">
               <div className=' mt-20'>
-                  <h1 className="text-5xl max-sm:text-4xl font-bold my-20 " style={{color:`#111827`}}>Demostramos que el cambio es posible</h1>
+                  <h1 className="text-5xl max-sm:text-4xl font-bold my-20 mx-10" style={{color:`#111827`}}>Demostramos que el cambio es posible</h1>
                   {/* <p className="py-6" style={{ color: `#4A505C` }}>Somos una empresas de triple impacto basada en el reciclado de silobolsas del campo en desuso para crear accesorios ecológicos.</p> */}
               </div>
               <div className='flex flex-wrap justify-center'>
@@ -19,7 +19,7 @@ const EightSection = () => {
                           {/* <h2 className="font-bold text-center text-black ">
                             LEAF
                           </h2> */}
-                          <p className='text-center' style={{ color: `#4A505C` }}>Marcamos la diferencia mostrando como diversos materiales de alta calidad, que son desechados, tienen la posibilidad de transformarse en un gran EcoProducto</p>
+                          <p className='text-center' style={{ color: `#4A505C` }}>Marcamos la diferencia mostrando cómo diversos materiales de alta calidad, que son desechados, tienen la posibilidad de transformarse en un gran EcoProducto</p>
                       </div>
                   </div>
                   <div className="card w-72  mx-5 bg-white">
@@ -28,7 +28,7 @@ const EightSection = () => {
                           {/* <h2 className="font-bold text-center text-black ">
                             REZET
                           </h2> */}
-                          <p className='text-center' style={{ color: `#4A505C` }}>Resolviendo necesidades de descarte, packaging y mercahndising de las mismas, a la vez que, de esta manera, se comunican valores vinculados.</p>
+                          <p className='text-center' style={{ color: `#4A505C` }}>Involucramos a las marcas y empresas a ser parte del cambio, resolviendo necesidades de descarte, packaging y mercahndising de las mismas, a la vez que, de esta manera, se comunican valores vinculados.</p>
                       </div>
                   </div>
                   <div className="card w-72 mx-5 bg-white">

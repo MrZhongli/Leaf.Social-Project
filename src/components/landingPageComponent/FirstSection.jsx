@@ -4,6 +4,9 @@ import bg2 from '../../assets/landing/background-home2.jpg'
 import bg3 from '../../assets/landing/background-home3.jpg'
 import '../styles/styles.css'
 
+import bg1res from '../../assets/landing/responsive/home_1.png'
+import bg2res from '../../assets/landing/responsive/home_2.png'
+import bg3res from '../../assets/landing/responsive/home_3.png'
 
 const FirstSection = () => {
   return (
@@ -14,11 +17,19 @@ const FirstSection = () => {
       </div>
       <div className='bg-black'>
         <div className="carousel w-full ">
-          <div id="slide1" className="carousel-item relative w-full  ">
+          <div id="slide1" className="max-sm:hidden carousel-item relative w-full  ">
             <img alt="fondo zapatillas" src={bg} className=" bg-hero w-full" style={{height:`100vh`}} />
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide3" className="btn btn-circle btn-ghost ">❮</a>
               <a href="#slide2" className="btn btn-circle btn-ghost  ">❯</a>
+            </div>
+          </div>
+          {/* responsive */}
+          <div id="slide_1" className="max-sm:block hidden carousel-item relative w-full  ">
+            <img alt="fondo zapatillas" src={bg1res} className=" bg-hero w-full" style={{height:`100vh`}} />
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide_3" className="btn btn-circle btn-ghost ">❮</a>
+              <a href="#slide_2" className="btn btn-circle btn-ghost  ">❯</a>
             </div>
           </div>
           <div id="slide2" className="carousel-item relative w-full">
@@ -28,11 +39,27 @@ const FirstSection = () => {
               <a href="#slide3" className="btn btn-circle btn-ghost">❯</a>
             </div>
           </div>
+          {/* responsive */}
+          <div id="slide_2" className="max-sm:block hidden carousel-item relative w-full  ">
+            <img alt="fondo zapatillas" src={bg2res} className=" bg-hero w-full" style={{height:`100vh`}} />
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide_1" className="btn btn-circle btn-ghost ">❮</a>
+              <a href="#slide_3" className="btn btn-circle btn-ghost  ">❯</a>
+            </div>
+          </div>
           <div id="slide3" className="carousel-item relative w-full">
             <img alt="fondo zapatillas" src={bg3} className="w-full bg-hero" style={{height:`100vh`}} />
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide2" className="btn btn-circle btn-ghost">❮</a>
               <a href="#slide1" className="btn btn-circle btn-ghost">❯</a>
+            </div>
+          </div>
+          {/* responsive */}
+          <div id="slide_3" className="max-sm:block hidden carousel-item relative w-full  ">
+            <img alt="fondo zapatillas" src={bg3res} className=" bg-hero w-full" style={{height:`100vh`}} />
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide_2" className="btn btn-circle btn-ghost ">❮</a>
+              <a href="#slide_1" className="btn btn-circle btn-ghost  ">❯</a>
             </div>
           </div>
         </div>

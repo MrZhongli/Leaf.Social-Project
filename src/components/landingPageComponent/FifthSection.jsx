@@ -18,7 +18,7 @@ const FifthSection = () => {
             <img src={Alpargauchas} className="max-sm:block hidden " alt="Alpargauchas" data-aos="fade-left" />
             <div className='flex flex-col justify-start'>
                 <h1 className="text-5xl font-bold text-black text-left max-sm:text-center max-sm:text-4xl">Productos solidarios</h1>
-                <p className="py-6 text-justify mt-10 mb-10 max-sm:m-5" style={{ color: `#6D7280` }}>Transformando descartes en productos innovadores.
+                <p className="py-6 text-justify mt-10 mb-10 max-sm:m-5 max-sm:text-center" style={{ color: `#6D7280` }}>Transformando descartes en productos innovadores.
                     Gracias a ellos nuestros EcoProductos son: más resistentes, impermeables, con diseño
                     únicos, ecofriendly, vegan friendly, más livianos y duraderos.</p>
                 <Link to="/Productos" href='https://www.leafsocial.shop/' target="_blank" rel='noreferrer' className="btn bg-orange normal-case hover:bg-red-600 border-transparent hover:border-transparent text-white max-sm:m-auto w-32">Ver más</Link>

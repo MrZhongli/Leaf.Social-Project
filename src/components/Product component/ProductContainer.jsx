@@ -19,7 +19,7 @@ const ProductContainer = () => {
 
   return (
     <div className='bg-white'>
-      <h2 className='font-bold text-5xl text-start md:mx-14 lg:mx-14 xl:mx-28 pt-48 text-black'>Categorias</h2>
+      <h2 className='font-bold text-5xl text-start md:mx-14 lg:mx-14 xl:mx-28 pt-48 text-black max-sm:text-center'>Categorías</h2>
       <div className=' md:grid md:grid-cols-3 justify-center w-full pt-32'>
     {
       item.map(p=>
@@ -35,7 +35,7 @@ const ProductContainer = () => {
           )
         }
       </div> */}
-    <p style={{color:`#4A505C`}} className='text-left mx-10 py-20'>¿Te gustaron nuestros productos y querés ser cliente mayorista? Comunicate con nosotros a <span className='text-red-500'> mayorista@leaf.social</span></p>
+    <p style={{color:`#4A505C`}} className='text-center mx-10 py-20'>¿Te gustaron nuestros productos y querés ser cliente mayorista? Comunicate con nosotros a <span className='text-red-500'> mayorista@leaf.social</span></p>
     </div>
   )
 }

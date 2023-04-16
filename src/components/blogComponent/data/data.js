@@ -80,7 +80,7 @@ const Material = [
         // hoverImg:'',
     },
     {
-        name:"bolsa plastillera",
+        name:"Bolsa plastillera",
         imagen:{arpillera},
         // hoverImg:'',
     },

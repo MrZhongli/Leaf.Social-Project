@@ -26,7 +26,7 @@ const P_ItemDetail = ({props}) => {
   return (
     <div style={{backgroundColor:`#F9FAFB`}}>
       <Link to="/Productos">
-      <div className='btn-ghost fixed mt-32 max-sm:mx-10 mx-20 w-14 h-14 border-2 flex justify-center rounded-full z-10' >
+      <div className='btn-ghost fixed mt-28 max-sm:mx-10 mx-20 w-14 h-14 border-2 flex justify-center rounded-full z-10' >
           <Arrow_leaf className="mt-4 " />
       </div>
       </Link>
@@ -46,7 +46,10 @@ const P_ItemDetail = ({props}) => {
             <h1 className="text-5xl font-bold my-10 text-start max-sm:text-3xl max-sm:text-center"  style={{color:`#1D2433`}}>{props.title}</h1>
             <div className="flex-col justify-self-start justify-items-start" >
             <div>
-            <p className='py-6 max-sm:mx-5 text-left color_secondary ' style={{color:`#6D7280`}}>{props.principal_description}</p>
+            <p className='py-6 max-sm:mx-5 text-justify max-sm:text-center color_secondary ' style={{color:`#6D7280`}}>{props.principal_description}</p>
+            <div className="mt-10 flex justify-end">
+            <a href={props.linkTo} target="_blank" className="btn bg-orange normal-case border-transparent hover:border-transparent hover:bg-red-500 text-white relative bottom-10 ">Conseguilas</a>
+            </div>
             <ul className='flex relative right-5 '>
               <div>
               {props.img_popups.map((img)=>
@@ -61,9 +64,7 @@ const P_ItemDetail = ({props}) => {
               </ul>
             </div>
             </div>
-            <div className="mt-10 flex justify-end">
-            <a href='https://www.leafsocial.shop/' target="_blank" className="btn bg-orange normal-case border-transparent hover:border-transparent hover:bg-red-500 text-white ">Conseguilas</a>
-            </div>
+            
           </div>
         </div>
       </div>

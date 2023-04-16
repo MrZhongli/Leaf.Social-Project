@@ -7,13 +7,17 @@ import { Link } from 'react-router-dom';
 import Logo from '../../assets/Others/Logo';
 import { ResponsiveNavbar } from './ResponsiveNavbar';
 import '../styles/styles.css'
+import isotipo from '../../assets/Others/isotipo_negro.svg';
+
 
 const Navbar = () => {
    
     return (
         <div className= 'navbar drop-shadow-xl fixed bg-white shadow-sm rounded-none  z-10' >
             <div className="flex-1">
-                <Link to='/' className="btn btn-ghost  "><Logo /></Link>
+                <Link to='/' className="h-16 w-16 ">
+                    <img src={isotipo} alt="logo" />
+                </Link>
             </div>
             <div className="flex-none  ">
                 <ul className="max-sm:hidden menu menu-horizontal mx-20">

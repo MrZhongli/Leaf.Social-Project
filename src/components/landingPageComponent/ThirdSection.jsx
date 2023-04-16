@@ -12,8 +12,8 @@ const ThirdSection = () => {
     <div className="  text-center mt-20">
       <div className="flex flex-col">
         <h1 className="text-6xl font-bold text-black max-sm:text-5xl max-sm:mx-1">Triple Impacto</h1>
-          <p className=" text-center mt-10  " style={{ color: `#4A505C` }}>Somos una empresa de triple impacto que crea productos solidarios hechos </p>
-          <p className=" text-center mb-10" style={{ color: `#4A505C` }}> con materiales
+          <p className=" text-center mt-10 max-sm:mx-10  " style={{ color: `#4A505C` }}>Somos una empresa de triple impacto que crea productos solidarios hechos </p>
+          <p className=" text-center mb-10 max-sm:mx-10" style={{ color: `#4A505C` }}> con materiales
             reciclados, potenciando la inclusión social en Argentina. </p>
           
         <div className='flex  w-screen flex-wrap justify-center'>
@@ -45,7 +45,7 @@ const ThirdSection = () => {
               <img src={TshitImg} alt="Producto con proposito"/>
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title text-black">Productos solidarios</h2>
+              <h2 className="card-title text-black">Impacto económico</h2>
                 <p className='text-center mt-2' style={{ color: `#4A505C` }}>Con cada compra estás ayudando a que los otros dos impactos sean
                   sostenibles en el tiempo, colaborando con el proceso de producción y con diversas ONGs
                   para que cumplan su misión.</p>

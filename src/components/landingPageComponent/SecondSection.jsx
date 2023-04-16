@@ -19,13 +19,13 @@ const SecondSection = () => {
   <div className="md:hero-content xl:hero-content lg:hero-content flex-col lg:flex-row" >
      {/* <img src={Tshirt} alt="t-shirt" className=' relative max-sm:py-10' /> */}
      <LazyLoad 
-     className=' relative max-sm:py-10'>
+     className=' relative max-sm:py-10 max-sm:mx-10'>
       <img src={Tshirt} alt="camisa" data-aos = "fade-right" />
     </LazyLoad>
 
     <div className='md:w-1/2'>
-      <h1 className="text-5xl max-sm:text-4xl font-bold  max-sm:mx-4 mx-10  fade-up text-left mb-10" style={{color:`#1D2433`}}>Compromiso social y ambiental en cada paso</h1>
-      <p className="py-6 text-justify max-sm:mx-4 mx-10" style={{color:`#4A505C`}}>Como amantes de la moda, no queremos que nuestros productos se produzcan a costa de nuestro planeta o de las personas. Es por eso que transformamos los descartes industriales en EcoProductos de la mano de grandes empresas, talleres sociales y ONGs para darle una segunda vida a materiales de gran calidad.</p>
+      <h1 className="text-5xl max-sm:text-4xl font-bold  max-sm:text-center max-sm:mx-10  mx-10  fade-up text-left mb-10" style={{color:`#1D2433`}}>Compromiso social y ambiental en cada paso</h1>
+      <p className="py-6 text-justify max-sm:mx-10 mx-10 max-sm:text-center" style={{color:`#4A505C`}}>Como amantes de la moda, no queremos que nuestros productos se produzcan a costa de nuestro planeta o de las personas. Es por eso que transformamos los descartes industriales en EcoProductos de la mano de grandes empresas, talleres sociales y ONGs para darle una segunda vida a materiales de gran calidad.</p>
     </div>
   </div>
 </div>  

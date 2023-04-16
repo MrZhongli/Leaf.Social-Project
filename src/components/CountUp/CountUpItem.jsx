@@ -12,7 +12,7 @@ const CountUpItem = (props) => {
     <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit ={()=> setCounterOn(false)} >    
           <div className='text-black  flex justify-center align-items-center'>
               <h1>
-                  {counterOn && <CountUp className=" orange text-5xl"start={0} end={props.number} duration={1.5} delay={0} />}
+                  {counterOn && <CountUp className="font-bold orange text-5xl"start={0} end={props.number} duration={1.5} delay={0} />}
               </h1>
           </div>
     </ScrollTrigger>
