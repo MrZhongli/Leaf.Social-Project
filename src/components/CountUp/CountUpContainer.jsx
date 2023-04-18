@@ -3,7 +3,7 @@ import CountUpItem from './CountUpItem'
 import recicleImg from '../../assets/Others/isotipo_negro.svg'
 import recycle_count from '../../assets/landing/counterIcon/Silobolsa_Icon.svg'
 import Neumatic_Icon from '../../assets/landing/counterIcon/Neumatic_Icon.svg'
-import plastillera_Icon from '../../assets/landing/counterIcon/plastillera_Icon.svg'
+import plastillera_Icon from '../../assets/Others/Plastillera_coral_icon.svg'
 import otros_Icon from '../../assets/landing/counterIcon/otros_Icon.svg'
 
 const CountUpContainer = () => {
@@ -30,10 +30,10 @@ const CountUpContainer = () => {
                 </div>
                 <div className='flex flex-col '>
                     <figure className="px-2 mb-8 flex justify-center ">
-                        <img src={plastillera_Icon} alt="recycle" />
+                        <img src={plastillera_Icon} className='h-24' alt="recycle" />
                     </figure>
                     <CountUpItem number={3186} />
-                    <p style={{color:`#4A505C`}} className="mt-10">Kg de bolsas plastilleras</p>
+                    <p style={{color:`#4A505C`}} className="mt-10 ">Kg de bolsas plastilleras</p>
                 </div>
                 <div className='flex flex-col  '>
                     <figure className="px-2 mb-8 flex justify-center m">

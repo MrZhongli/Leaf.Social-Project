@@ -1,7 +1,7 @@
 import React from 'react'
 import GearImg from '../../assets/users.png'
 import TshitImg from '../../assets/Tshirt.png'
-import saveEarth from '../../assets/save-earth.png'
+import saveEarth from '../../assets/Others/Impacto_económico_icon.svg'
 // import LeafCard from '../../assets/Others/Leaf-card-img'
 import '../styles/styles.css'
 
@@ -17,7 +17,7 @@ const ThirdSectionTeamSeccion = () => {
           <div className="card w-96 max-sm:w-72 bg-white shadow-xl my-5 mx-5 ">
             <figure className="px-10 pt-10">
               {/* <LeafCard/> */}
-              <img src={saveEarth} alt="impacto social"/>
+              <img src={saveEarth} className="h-16 w-16" alt="impacto social"/>
             </figure>
             <div className="card-body items-center text-center">
             <h2 className="card-title text-black">Impacto ambiental</h2>

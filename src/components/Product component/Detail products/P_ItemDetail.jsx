@@ -30,11 +30,11 @@ const P_ItemDetail = ({props}) => {
           <Arrow_leaf className="mt-4 " />
       </div>
       </Link>
-      <div className="hero  pb-10">
+      <div className="hero pb-10">
         <div className=" flex flex-col lg:flex-row md:px-20 ">
           <div className='flex flex-col md:w-2/5  max-sm:mt-20 justify-center md:mx-20 lg:mx-5 xl:mx-5 lg:my-32 md:my-32 xl:my-32'>
-              <img alt="imagen producto" src={props.img[Index]} className="rounded-lg max-sm:w-72  p-5 max-sm:p-0 h-82" />
-              <div className="thumb  max-sm:mx-0 mx-16 flex-row flex-wrap" ref={value}>
+              <img alt="imagen producto" src={props.img[Index]} className="m-auto rounded-lg max-sm:w-72  p-5 max-sm:p-0 h-82" />
+              <div className="thumb m-auto max-sm:mx-0 mx-16 flex-row flex-wrap" ref={value}>
               {props.img.map((img, index) =>
                 <img src={img} alt="productos" key={index}
                   onClick={() => handleTap(index)} />
