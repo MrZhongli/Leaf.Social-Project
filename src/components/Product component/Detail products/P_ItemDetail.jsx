@@ -48,7 +48,7 @@ const P_ItemDetail = ({props}) => {
             <div>
             <p className='py-6 max-sm:mx-5 text-justify max-sm:text-center color_secondary ' style={{color:`#6D7280`}}>{props.principal_description}</p>
             <div className="mt-10 flex justify-end">
-            <a href={props.linkTo} target="_blank" className="btn bg-orange normal-case border-transparent hover:border-transparent hover:bg-red-500 text-white relative bottom-10 ">Conseguilas</a>
+            <a href={props.linkTo} target="_blank" className="btn bg-orange normal-case border-transparent hover:border-transparent hover:bg-red-500 text-white relative bottom-10 ">Comprar</a>
             </div>
             <ul className='flex relative right-5 '>
               <div>

@@ -1,7 +1,9 @@
 import React from 'react'
-import GearImg from '../../assets/users.png'
-import TshitImg from '../../assets/Tshirt.png'
-import saveEarth from '../../assets/Others/Impacto_económico_icon.svg'
+// import GearImg from '../../assets/users.png'
+// import TshitImg from '../../assets/Tshirt.png'
+import TshitImg  from '../../assets/Others/Impacto_económico_icon.svg'
+import Impacto_social from '../../assets/Others/Impacto_social.svg'
+import impacto_ambiental from '../../assets/Others/Impacto_ambiental.svg'
 // import LeafCard from '../../assets/Others/Leaf-card-img'
 import '../styles/styles.css'
 import { Link } from 'react-router-dom'
@@ -20,7 +22,7 @@ const ThirdSection = () => {
           <div className="card w-96 max-sm:w-72 bg-white shadow-xl my-5 mx-5 ">
             <figure className="px-10 pt-10">
               {/* <LeafCard/> */}
-              <img src={saveEarth} className='w-16 h-16' alt="impacto social"/>
+              <img src={impacto_ambiental} className='w-20 h-20' alt="impacto social"/>
             </figure>
             <div className="card-body items-center text-center">
             <h2 className="card-title text-black">Impacto ambiental</h2>
@@ -30,7 +32,7 @@ const ThirdSection = () => {
           {/* card2 */}
           <div className="card w-96 max-sm:w-72 bg-white shadow-xl my-5 mx-5">
             <figure className="px-10 pt-10">
-              <img src={GearImg} alt="impacto social"/>
+              <img src={Impacto_social} className='w-20 h-20' alt="impacto social"/>
             </figure> 
             <div className="card-body items-center text-center">
               <h2 className="card-title text-black">Impacto social</h2>
@@ -42,7 +44,7 @@ const ThirdSection = () => {
           {/* card 3 */}
           <div className="card w-96 max-sm:w-72 bg-white shadow-xl my-5 mx-5 ">
             <figure className="px-10 pt-10">
-              <img src={TshitImg} alt="Producto con proposito"/>
+              <img src={TshitImg} className='w-20 h-20' alt="Producto con proposito"/>
             </figure>
             <div className="card-body items-center text-center">
               <h2 className="card-title text-black">Impacto económico</h2>

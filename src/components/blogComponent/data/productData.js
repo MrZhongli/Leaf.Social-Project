@@ -16,7 +16,7 @@ import EveryDay_Lemon_0 from '../../../assets/product_section/product/alpargata/
 import Free_Spring_Turquoise_II from '../../../assets/product_section/product/alpargata/Free_Spring_Turquoise_II.png'
 
 // mochila
-import mochila_amor_33 from '../../../assets/product_section/amor_33.png'
+import mochila_amor_33 from '../../../assets/product_section/amor_33.jpg'
 import Mochila from '../../../assets/product_section/product/mochila/Mochila_main.png'
 import Mochila_elemental from '../../../assets/product_section/product/mochila/Mochila_elemental.jpg'
 import wall_11 from '../../../assets/product_section/wall_11.png'
@@ -58,7 +58,7 @@ import cartuchera_4 from '../../../assets/product_section/product/cartuchera/car
 // portanotebook
 import Portanotebook_negro from '../../../assets/product_section/product/portanotebook/Portanotebook_neutro.png'
 import Portanotebook_blanco from '../../../assets/product_section/product/portanotebook/Portanotebook_blanco.png'
-import Portanotebook from '../../../assets/product_section/product/portanotebook/Portanotebook_negro.png'
+import Portanotebook from '../../../assets/product_section/product/portanotebook/Portanotebook_negro.jpg'
 import portanotebook_horizontal from '../../../assets/product_section/product/portanotebook/portanotebook_horizontal.jpg'
 import DSC_6941_negra from '../../../assets/product_section/product/portanotebook/DSC_6941_negra.jpg'
 
@@ -96,30 +96,30 @@ import eco_friendly from '../../../assets/product_section/popups/eco_friendly.pn
 
 const Product = [
     {
-        id:1,
+        id: 1,
         category: 'Alpargatas',
-        title:'Alpargatas',
-        img:[feelfree_fruit ,alpargata,EveryDay_Blueberry_0,EveryDay_Lemon_0,Free_Spring_Turquoise_II],
-        slug:'Alpargatas',
-        principal_description:`Desarrollamos alpargatas de excelente calidad y muy cómodas. Nuestros modelos están 
+        title: 'Alpargatas',
+        img: [feelfree_fruit, alpargata, EveryDay_Blueberry_0, EveryDay_Lemon_0, Free_Spring_Turquoise_II],
+        slug: 'Alpargatas',
+        principal_description: `Desarrollamos alpargatas de excelente calidad y muy cómodas. Nuestros modelos están 
         confeccionados en diferentes telas y son perfectos para acompañarte en cada ocasión. Nuestro  calzado  cumple 
         con  un  doble  compromiso:  social  y  ambiental.  Las  alpargatas  Leaf  son confeccionadas  en  talleres  sociales
         de  diversos  puntos  del  país.  Además,  por  cada  compra  no  sólo estás ayudando a diferentes ONGs, sino que también 
         plantamos árboles para compensar la huella de carbono. ¡El planeta te lo va a agradecer! Cada par de alpargatas Leaf viene 
         en una caja reutilizable, que también podés usar como maceta para darle vida a tu hogar
         `,
-        img_popups:[compensacion,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Compensación de la huella de carbono","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
-        linkTo:"https://www.shop-leaf.com/calzado/?mpage=2"
-    
+        img_popups: [compensacion, economia_circular, produccion_nacional, hecho_en_talleres_sociales, colabora_con_ongs],
+        text: ["Compensación de la huella de carbono", "Economía circular", "Producción nacional", "Hecho en talleres sociales", "Colabora con ongs"],
+        linkTo: "https://www.shop-leaf.com/calzado/?mpage=2"
+
     },
     {
-        id:3,
+        id: 3,
         category: 'Zapatillas',
-        title:'Zapatillas',
-        img: [zapatilla,navy_b,navy_black,NavyChic_turquoise,Navy_Beige],
-        slug:'Zapatillas',
-        principal_description:`Primer calzado ecológico con múltiple impacto socioambiental. Prestamos atención a cada detalle, creando productos tanto cómodos como elegantes. 
+        title: 'Zapatillas',
+        img: [zapatilla, navy_b, navy_black, NavyChic_turquoise, Navy_Beige],
+        slug: 'Zapatillas',
+        principal_description: `Primer calzado ecológico con múltiple impacto socioambiental. Prestamos atención a cada detalle, creando productos tanto cómodos como elegantes. 
  
         Las  zapatillas  Leaf  son  elaboradas  con  materiales  sustentables  y  reciclados.  Nuestras  suelas  están 
         hechas con caucho reciclado de neumáticos. Además, reutilizamos telas de diversas procedencias.  
@@ -133,70 +133,70 @@ const Product = [
         materiales  para  el  desarrollo  de  nuestras  creaciones.  El  cuidado  del  medio  ambiente  es  nuestra 
         prioridad.  
         `,
-        img_popups:[eco_friendly,compensacion,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Eco friendly","Compensación de la huella de carbono","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
-        linkTo:"https://www.shop-leaf.com/calzado/?mpage=2"
+        img_popups: [eco_friendly, compensacion, economia_circular, produccion_nacional, hecho_en_talleres_sociales, colabora_con_ongs],
+        text: ["Eco friendly", "Compensación de la huella de carbono", "Economía circular", "Producción nacional", "Hecho en talleres sociales", "Colabora con ongs"],
+        linkTo: "https://www.shop-leaf.com/calzado/?mpage=2"
     },
     {
-        id:2,
+        id: 2,
         category: 'Mochilas',
-        title:'Mochilas',
-        img:[Mochila,mochila, mochila_amor_33,wall_11,Mochila_elemental],
-        slug:'Mochilas',
-        principal_description:`¡Mochilas  llenas  de  ventajas!  Realizamos  modelos  únicos  en  el  mercado  y  con  diseño  propio. 
+        title: 'Mochilas',
+        img: [Mochila,mochila_amor_33, mochila,  wall_11, Mochila_elemental],
+        slug: 'Mochilas',
+        principal_description: `¡Mochilas  llenas  de  ventajas!  Realizamos  modelos  únicos  en  el  mercado  y  con  diseño  propio. 
         Nuestras mochilas están hechas a partir de descartes de otras industrias, como silobolsa reciclada y  cinturones  de  seguridad. 
         La  silobolsa  hace  que  sean  impermeables,  de  alta  calidad  y  tengan mayor  durabilidad. Además,  pueden  personalizarse 
         con marcadores  indelebles y luego limpiar fácilmente  para  cambiar  su  diseño.  También tenemos modelos elaborados con plastillera 
         reciclada. 
         Contamos  con  una  variedad  de  diseños  que  se  ajustan  a  diferentes  necesidades.  ¡Elegí  qué mochila va mejor con vos!`,
-        img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
-        linkTo:"https://www.shop-leaf.com/accesorios/mochilas/"
+        img_popups: [eco_friendly, economia_circular, produccion_nacional, hecho_en_talleres_sociales, colabora_con_ongs],
+        text: ["Eco friendly", "Economía circular", "Producción nacional", "Hecho en talleres sociales", "Colabora con ongs"],
+        linkTo: "https://www.shop-leaf.com/accesorios/mochilas/"
     },
     {
-        id:10,
-        category:'Portanotebook',
-        title:'Portanotebook',
-        img: [Portanotebook_negro,Portanotebook_blanco,Portanotebook,portanotebook_horizontal,DSC_6941_negra],
-    slug:'Portanotebook',
-    principal_description:`Producimos accesorios como cartucheras y neceseres únicos en el mercado, con diseño propio. 
-    Fabricamos nuestros modelos partir de materiales reciclados como silobolsa o bolsas de 
-    plastillera. Contamos con una variedad de diseños que se ajustan a la necesidad de cada uno. 
-     
-    La silobolsa es un material que se puede personalizar e intervenir con diversos dibujos y luego limpiar 
-    fácilmente para cambiar su diseño.  
-    Nuestras  cartucheras  y  neceseres  te  acompañan  todo  el  día,  son  ideales  para  guardar  todos  tus 
-    materiales y objetos personales`,
-    img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-    text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
-    linkTo:"https://www.shop-leaf.com/accesorios/portanotebooks/"
-    
-},
-{
-    id:5,
-    category: 'Bolso',
-    title:'Bolsos',
-    img: [matero,matero_2,matero_22,b_deportivo,bolso_1],
-    slug:'Bolsos',
-    principal_description:`Tenemos  varios  modelos  que  se  adaptan  a  cada  una  de  tus  necesidades.  Bolsos  deportivos, 
+        id: 10,
+        category: 'Portanotebook',
+        title: 'Portanotebooks',
+        img: [Portanotebook_negro, Portanotebook_blanco, Portanotebook, portanotebook_horizontal, DSC_6941_negra],
+        slug: 'Portanotebook',
+        principal_description: `Nuestras fundas portanotebooks están hechas a partir de silobolsa reciclada. También tenemos
+        modelos confeccionados en plastillera y banners publicitarios. Son impermeables, de alta
+        durabilidad y resistencia.
+        Además, no sólo protegen tu computadora de las inclemencias del clima, ¡también se adaptan
+        perfectamente a cualquier look!
+        La silobolsa es un material que se puede personalizar e intervenir con diversos dibujos y luego limpiar
+        fácilmente para cambiar su diseño.
+        Cada modelo de portanotebook es único. ¡Elegí el que mejor vaya con vos!`,
+        img_popups: [eco_friendly, economia_circular, produccion_nacional, hecho_en_talleres_sociales, colabora_con_ongs],
+        text: ["Eco friendly", "Economía circular", "Producción nacional", "Hecho en talleres sociales", "Colabora con ongs"],
+        linkTo: "https://www.shop-leaf.com/accesorios/portanotebooks/"
+
+    },
+    {
+        id: 5,
+        category: 'Bolso',
+        title: 'Bolsos',
+        img: [matero, matero_2, matero_22, b_deportivo, bolso_1],
+        slug: 'Bolsos',
+        principal_description: `Tenemos  varios  modelos  que  se  adaptan  a  cada  una  de  tus  necesidades.  Bolsos  deportivos, 
     materos, entre otros.  
     
     Están elaborados con silobolsa reciclada. Esto los vuelve impermeables, resistentes y más duraderos. 
     Además, gracias a este material, la limpieza interna es mucho más sencilla.  
     La silobolsa es un material que se puede personalizar e intervenir con diversos dibujos y luego limpiar 
     fácilmente para cambiar su diseño. `,
-    img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-    text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
-    linkTo:"https://www.shop-leaf.com/accesorios/bolso-deportivo/"
-    
-},
-{
-    id:4,
-    category: 'Anotadores y Cuadernos',
-    title:'Anotadores y Cuadernos',
-    img: [anotador,DSC_8440,cuaderno_3,agenda,cuaderno_2],
-    slug:'Anotadores_cuadernos',
-        principal_description:`Nuestros eco cuadernos y eco anotadores son ideales porque te acompañan al momento de trabajar 
+        img_popups: [eco_friendly, economia_circular, produccion_nacional, hecho_en_talleres_sociales, colabora_con_ongs],
+        text: ["Eco friendly", "Economía circular", "Producción nacional", "Hecho en talleres sociales", "Colabora con ongs"],
+        linkTo: "https://www.shop-leaf.com/accesorios/bolso-deportivo/"
+
+    },
+    {
+        id: 4,
+        category: 'Anotadores y Cuadernos',
+        title: 'Anotadores y Cuadernos',
+        img: [anotador, DSC_8440, cuaderno_3, agenda, cuaderno_2],
+        slug: 'Anotadores_cuadernos',
+        principal_description: `Nuestros eco cuadernos y eco anotadores son ideales porque te acompañan al momento de trabajar 
         o estudiar.  
          
         Hechos  a  mano,  con  hojas  de  caña  de  azúcar  de  80  gramos  y  tapa  semi  dura  de  papel  kraft  FSC 
@@ -210,42 +210,18 @@ const Product = [
         
         Se presentan en cuatro formatos y diseños: rayados, cuadriculados, lisos y punteados. 
         ¡Elegí el que más te guste y sé parte del cambio que el mundo necesita! `,
-        img_popups:[eco_friendly,economia_circular,produccion_nacional,colabora_con_ongs],
-        text:["Eco friendly","Economía circular","Producción nacional","Colabora con ongs"],
-        linkTo:"https://www.shop-leaf.com/vuelta-al-cole/"
-        
+        img_popups: [eco_friendly, economia_circular, produccion_nacional, colabora_con_ongs],
+        text: ["Eco friendly", "Economía circular", "Producción nacional", "Colabora con ongs"],
+        linkTo: "https://www.shop-leaf.com/libreria/"
+
     },
-    
-    // {
-    //     id:6,
-    //     category: 'cuaderno',
-    //     title:'Cuaderno',
-    //     img: [cuaderno,cuaderno_1,cuaderno_2,cuaderno_3,cuaderno_4],
-    //     slug:'Cuadernos',
-    //     principal_description:`Nuestros eco cuadernos y eco anotadores son ideales porque te acompañan al momento de trabajar 
-    //     o estudiar.  
-         
-    //     Hechos  a  mano,  con  hojas  de  caña  de  azúcar  de  80  gramos  y  tapa  semi  dura  de  papel  kraft  FSC 
-    //     impresas con tintas de soja, compostable.  
-         
-    //     Algunos de nuestros modelos de cuadernos incluyen agenda perpetua, por lo que el paso ¡lo marcas 
-    //     vos!  
-         
-    //     Todos  los  modelos  son  sustentables  y  funcionales,  con  un anillado  metálico  reciclable  y  reutilizable 
-    //     que garantizan una experiencia de escritura a 360 grados.  
-    
-    //     Se presentan en cuatro formatos y diseños: rayados, cuadriculados, lisos y punteados. 
-    //     ¡Elegí el que más te guste y sé parte del cambio que el mundo necesita! `,
-    //     img_popups:[eco_friendly,economia_circular,produccion_nacional,colabora_con_ongs],
-    //     text:["Eco friendly","Economía circular","Producción nacional","Colabora con ongs"],
-    // },
     {
-        id:9,
-        category:'Cartucheras_neceseres',
-        title:'Cartucheras y Neceseres',
-        img: [cartuchera_1,cartuchera,cartuchera_2,cartuchera_3,cartuchera_4],
-        slug:'Cartucheras_neceseres',
-        principal_description:`Producimos accesorios como cartucheras y neceseres únicos en el mercado, con diseño propio. 
+        id: 9,
+        category: 'Cartucheras_neceseres',
+        title: 'Cartucheras y Neceseres',
+        img: [cartuchera_1, cartuchera, cartuchera_2, cartuchera_3, cartuchera_4],
+        slug: 'Cartucheras_neceseres',
+        principal_description: `Producimos accesorios como cartucheras y neceseres únicos en el mercado, con diseño propio. 
         Fabricamos nuestros modelos partir de materiales reciclados como silobolsa o bolsas de 
         plastillera. Contamos con una variedad de diseños que se ajustan a la necesidad de cada uno. 
          
@@ -253,50 +229,50 @@ const Product = [
         fácilmente para cambiar su diseño.  
         Nuestras  cartucheras  y  neceseres  te  acompañan  todo  el  día,  son  ideales  para  guardar  todos  tus 
         materiales y objetos personales`,
-        img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
-        linkTo:"https://www.shop-leaf.com/accesorios/neceser/"
-        
+        img_popups: [eco_friendly, economia_circular, produccion_nacional, hecho_en_talleres_sociales, colabora_con_ongs],
+        text: ["Eco friendly", "Economía circular", "Producción nacional", "Hecho en talleres sociales", "Colabora con ongs"],
+        linkTo: "https://www.shop-leaf.com/accesorios/neceser/"
+
     },
     {
-        id:6,
+        id: 6,
         category: 'Cartera',
-        title:'Carteras',
-        img: [cartera,cartera_1,cartera_2,cartera_3],
-        slug:'Carteras',
-        principal_description:`Carteras elaboradas a partir de silobolsa reciclada. Además de ecológicas, son amplias en su interior,
+        title: 'Carteras',
+        img: [cartera, cartera_1, cartera_2, cartera_3],
+        slug: 'Carteras',
+        principal_description: `Carteras elaboradas a partir de silobolsa reciclada. Además de ecológicas, son amplias en su interior,
         livianas, impermeables y de alta durabilidad.
         Con su variedad de tamaños, nuestras carteras te acompañan todo el día y se adaptan a cada
         necesidad. ¡Elegí la tuya!`,
-        img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
-        linkTo:"https://www.shop-leaf.com/accesorios/cartera/"
-        
+        img_popups: [eco_friendly, economia_circular, produccion_nacional, hecho_en_talleres_sociales, colabora_con_ongs],
+        text: ["Eco friendly", "Economía circular", "Producción nacional", "Hecho en talleres sociales", "Colabora con ongs"],
+        linkTo: "https://www.shop-leaf.com/accesorios/cartera/"
+
     },
     {
-        id:7,
+        id: 7,
         category: 'Riñonera',
-        title:'Riñoneras',
-        img: [riñonera,riñonera_1,riñonera_2,riñonera_3,riñonera_4],
-        slug:'Riñoneras',
-        principal_description:`¡Riñoneras  llena  de  ventajas!  Elaboradas  a  partir  de  silobolsa  reciclada  con  cinto  realizado  de 
+        title: 'Riñoneras',
+        img: [riñonera, riñonera_1, riñonera_2, riñonera_3, riñonera_4],
+        slug: 'Riñoneras',
+        principal_description: `¡Riñoneras  llena  de  ventajas!  Elaboradas  a  partir  de  silobolsa  reciclada  con  cinto  realizado  de 
         cinturones de seguridad reciclados. Son livianas, impermeables y de alta durabilidad. 
         La silobolsa es un material que se puede personalizar e intervenir con diversos dibujos y luego limpiar 
         fácilmente para cambiar su diseño.  
         Modelos  atemporales,  impermeables  y  resistentes.  Podés  llevar  con  vos  lo  esencial  mientras  estás 
         cuidando el medio ambiente`,
-        img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
-        linkTo:"https://www.shop-leaf.com/accesorios/rinoneras/"
-        
+        img_popups: [eco_friendly, economia_circular, produccion_nacional, hecho_en_talleres_sociales, colabora_con_ongs],
+        text: ["Eco friendly", "Economía circular", "Producción nacional", "Hecho en talleres sociales", "Colabora con ongs"],
+        linkTo: "https://www.shop-leaf.com/accesorios/rinoneras/"
+
     },
     {
-        id:8,
+        id: 8,
         category: 'Jardín Vertical',
-        title:'Jardin Vertical',
-        img: [jardin,jardin_2,jardin_3,jardin_4],
-        slug:'Jardin_vertical',
-        principal_description:`¡Del Campo Argentino a tu casa! Elaborado a partir de silobolsa reciclada, super amplia, más liviana,
+        title: 'Jardín Vertical',
+        img: [jardin, jardin_2, jardin_3, jardin_4],
+        slug: 'Jardin_vertical',
+        principal_description: `¡Del Campo Argentino a tu casa! Elaborado a partir de silobolsa reciclada, super amplia, más liviana,
         impermeable y de alta durabilidad. Este material se puede personalizar e intervenir con diversos
         dibujos y luego limpiar fácilmente para cambiar su diseño.
         Al ser de color blanco intercepta y refleja toda la luz disponible, quedando ésta a disposición de las
@@ -305,68 +281,45 @@ const Product = [
         Por su tamaño de formato modular, podrás decorar un sector del lateral de tu balcón, o toda una
         pared. Todo esto sin dificultades de colocación, sin suciedad.
         ¡Plantá, regá y disfrutá! Un mundo de colores en tu casa.`,
-        img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
-        linkTo:"https://www.shop-leaf.com/home-deco/"
-        
+        img_popups: [eco_friendly, economia_circular, produccion_nacional, hecho_en_talleres_sociales, colabora_con_ongs],
+        text: ["Eco friendly", "Economía circular", "Producción nacional", "Hecho en talleres sociales", "Colabora con ongs"],
+        linkTo: "https://www.shop-leaf.com/home-deco/"
+
     },
     {
-        id:10,
+        id: 10,
         category: 'Bolsas',
-        title:'Bolsas',
-        img: [bolsas,bolsa_2,bolsa_3,bolsa_4],
-        slug:'Bolsas',
-        principal_description:`¡Del Campo Argentino a tu casa! Elaborado a partir de silobolsa reciclada, super amplia, más liviana,
-        impermeable y de alta durabilidad. Este material se puede personalizar e intervenir con diversos
-        dibujos y luego limpiar fácilmente para cambiar su diseño.
-        Al ser de color blanco intercepta y refleja toda la luz disponible, quedando ésta a disposición de las
-        plantas para fotosíntesis. Tiene un exclusivo sistema de drenaje interno, que no mancha las paredes,
-        y una descarga lateral única para los excesos en el riego.
-        Por su tamaño de formato modular, podrás decorar un sector del lateral de tu balcón, o toda una
-        pared. Todo esto sin dificultades de colocación, sin suciedad.
-        ¡Plantá, regá y disfrutá! Un mundo de colores en tu casa.`,
-        img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
-        linkTo:"https://www.shop-leaf.com/accesorios/ecobolsas/"
-        
+        title: 'Bolsas',
+        img: [bolsas, bolsa_2, bolsa_3, bolsa_4],
+        slug: 'Bolsas',
+        principal_description: `¡Bolsas de todos los tamaños y para cada necesidad! Elaborados a partir de silobolsa y banners
+        reciclados. Son productos livianos, impermeables y de alta durabilidad.
+        Ideales para hacer las compras o trasladar lo que necesites.
+        La silobolsa es un material que se puede personalizar e intervenir con diversos dibujos hechos con
+        marcadores indelebles y luego limpiar fácilmente para cambiar su diseño.`,
+        img_popups: [eco_friendly, economia_circular, produccion_nacional, hecho_en_talleres_sociales, colabora_con_ongs],
+        text: ["Eco friendly", "Economía circular", "Producción nacional", "Hecho en talleres sociales", "Colabora con ongs"],
+        linkTo: "https://www.shop-leaf.com/accesorios/ecobolsas/"
+
     },
     {
-        id:11,
+        id: 11,
         category: 'Luncheras',
-        title:'Luncheras',
-        img: [Luncheras, Luncheras_2,Luncheras_3,Luncheras_4],
-        slug:'Luncheras',
-        principal_description:`Disfrutá de tu comida caliente o fría en el trabajo, días de picnic, la escuela o cuando estás de
+        title: 'Luncheras',
+        img: [Luncheras, Luncheras_2, Luncheras_3, Luncheras_4],
+        slug: 'Luncheras',
+        principal_description: `Disfrutá de tu comida caliente o fría en el trabajo, días de picnic, la escuela o cuando estás de
         viaje.
         Nuestras luncheras mantienen tanto el frío como el calor por hasta 8hs. Tus alimentos frescos por
         más tiempo gracias a su interior aluminizado que además ¡es antigolpes!
         Modelos hechos con diferentes materiales, como tela bagun y silobolsa reciclada, todos ellos
         impermeables y de gran resistencia.
         ¡Disfrutá de tus comidas calientes o frías como recién hechas!`,
-        img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-        text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"],
-        linkTo:"https://www.shop-leaf.com/accesorios/?mpage=5"
-        
-    },
-    // {
-    //     id:8,
-    //     category: 'Bolso Deportivo',
-    //     title:'Bolso Deportivo',
-    //     img: [bolso_2,bolso_3],
-    //     slug:'Bolsos_deportivos',
-    //     principal_description:`Tenemos  varios  modelos  que  se  adaptan  a  cada  una  de  tus  necesidades.  Bolsos  deportivos, 
-    //     materos, entre otros.  
-         
-    //     Están elaborados con silobolsa reciclada. Esto los vuelve impermeables, resistentes y más duraderos. 
-    //     Además, gracias a este material, la limpieza interna es mucho más sencilla.  
-    //     La silobolsa es un material que se puede personalizar e intervenir con diversos dibujos y luego limpiar 
-    //     fácilmente para cambiar su diseño. `,
-    //     img_popups:[eco_friendly,economia_circular,produccion_nacional,hecho_en_talleres_sociales,colabora_con_ongs],
-    //     text:["Eco friendly","Economía circular","Producción nacional","Hecho en talleres sociales","Colabora con ongs"]
+        img_popups: [eco_friendly, economia_circular, produccion_nacional, hecho_en_talleres_sociales, colabora_con_ongs],
+        text: ["Eco friendly", "Economía circular", "Producción nacional", "Hecho en talleres sociales", "Colabora con ongs"],
+        linkTo: "https://www.shop-leaf.com/accesorios/?mpage=5"
 
-    // },
-    
-    
+    },
 ]
 
 export {Product};

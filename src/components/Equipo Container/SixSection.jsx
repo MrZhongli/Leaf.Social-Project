@@ -19,31 +19,37 @@ const SixSection = () => {
             <p className="py-6" style={{ color: `#6D7280` }}>ONGs con las que trabajamos</p>
           <div className='flex flex-row flex-wrap max-sm:grid max-sm:grid-cols-2  mt-20 justify-center'>
               <div className='m-5'>
-              <img src={techo} alt="techo" /> 
+              
+               <a href="https://www.techo.org.ar/"><img src={techo} alt="techo" /></a>
               </div>                      
               <div className='m-5'>
-              <img src={potrero} alt="el potrero" /> 
+              <a href="https://www.elpotrero.org/"><img src={potrero} alt="el potrero" /> </a>
               </div>                      
               <div className='m-5'>
-              <img src={cac} alt="Acosiacion Civil Comprometidas" /> 
+              <a href="https://www.instagram.com/comprometidasac/"><img src={cac} alt="Acosiacion Civil Comprometidas" /></a>
               </div>                      
               <div className='m-5'>
-              <img src={idel} alt="idel" /> 
+                <a href="https://idel.org.ar/"><img src={idel} alt="idel" /> </a>
               </div>                      
               <div className='m-5'>
-              <img src={mediapila} alt="mediapila" /> 
+              <a href="https://www.mediapila.org.ar/"><img src={mediapila} alt="mediapila" /></a>
               </div>                      
               <div className='m-5'>
-              <img src={hampatu} alt="Hampatu" /> 
+              <a href="http://fundacionhampatu.org/">
+              <img src={hampatu} alt="Hampatu" /> </a>
               </div>                      
               <div className='m-5 '>
+              <a href="https://www.instagram.com/justiciarestaurativaar/">
               <img src={jr} alt="justicia restaurativa" /> 
+              </a>
               </div>                      
               <div className='m-5'>
-              <img src={barca} alt="La barca " /> 
+              <a href="http://labarca.org.ar/inicio/">
+              <img src={barca} alt="La barca " /> </a>
               </div>                      
               <div className='m-5'>
-              <img src={amigos} alt="Amigos en el camino " /> 
+              <a href="https://www.instagram.com/amigosenelcamino/">
+              <img src={amigos} alt="Amigos en el camino " /> </a>
               </div>                      
           </div>
         </div>
